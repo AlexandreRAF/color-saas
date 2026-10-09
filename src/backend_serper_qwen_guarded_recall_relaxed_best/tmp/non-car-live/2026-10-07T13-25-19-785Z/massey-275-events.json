@@ -1,0 +1,3158 @@
+[
+  {
+    "timestamp": "2026-10-07T13:26:47.019Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "run_start",
+    "vehicle": {
+      "automobileType": "tractor",
+      "brand": "Massey Ferguson",
+      "manufacturingYear": 1980,
+      "model": "275",
+      "predominantColor": "vermelho",
+      "country": "Brazil"
+    },
+    "targetTimeMs": 60000,
+    "maxTimeMs": 100000,
+    "deadlineMode": "soft_target_hard_maximum",
+    "deadlines": {
+      "search": 11000,
+      "fetch": 12000,
+      "extraction": 17000,
+      "recovery": 35000,
+      "nameClarification": 35000,
+      "review": 60000,
+      "repair": 68000,
+      "matching": 82000,
+      "verificationSearch": 88000,
+      "verification": 98000
+    },
+    "maxSearches": 10,
+    "maxPages": 24,
+    "maxBrowserUses": 20
+  },
+  {
+    "timestamp": "2026-10-07T13:26:47.020Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_start",
+    "queries": [
+      "Massey Ferguson 275 1980 cores vermelho",
+      "Massey Ferguson 275 1980 tractor paint code red",
+      "Massey Ferguson 275 código tinta original vermelho",
+      "Massey Ferguson standard factory paint all tractor equipment",
+      "Massey Ferguson 275 1980 cores pintura original equipamento agrícola",
+      "Massey Ferguson 275 capô cabine painéis pintados cor"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.073Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://paintguide.masseyferguson.com/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.074Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.scribd.com/document/643062335/Paint-Color-Numbers-pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.075Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.076Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/groups/1573627479606242/posts/3695212844114351/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.077Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://forums.yesterdaystractors.com/threads/need-paint-color-for-tractor.363799/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.077Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.stevenstractor.com/home/massey-ferguson-red-gallon-paint.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.078Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.tractorbynet.com/forums/threads/confusion-over-correct-paint-color-mf-50.303684/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.078Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://vintagetractorspares.co.uk/products/massey-ferguson-red-enamel-paint",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.079Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.apukonline.com/731479-2-litre-tractol-super-red-paint-for-massey-ferguson-168-245-265-835-5455-tractor.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.079Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://masseycollectors.com/About/Paint-Codes",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.093Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson 275 1980 tractor paint code red",
+    "received": 10,
+    "indexed": 10,
+    "relevant": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.188Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.tiktok.com/@jedi.mquinas/video/7525035400109493509?lang=pt",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.189Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DJwhxkwtnP4/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.189Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=HMqUxfb-cdk",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.190Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://lista.mercadolivre.com.br/tractores-massey-ferguson-275",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.190Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.masseyferguson.com/pt_br.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.190Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.olx.com.br/anuncios/tratores-massey-ferguson-275",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.191Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/joaomonsao/videos/-cl%C3%A1ssico-robusto-e-pronto-pro-trabalhoapresentamos-este-massey-ferguson-275-ano/25124261710500899/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.191Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DOWdZgBjgY8/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.203Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.tratoresecolheitadeiras.com.br/venda/trator/massey%20ferguson/mf%20275/modelo/1713?cor=vermelho",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.203Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.218Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson 275 1980 cores vermelho",
+    "received": 10,
+    "indexed": 20,
+    "relevant": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.218Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.tratoresecolheitadeiras.com.br/venda/trator/massey%20ferguson/mf%20275/modelo/1713?cor=vermelho",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.218Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.224Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadolivre.com.br/tinta-agricola-vermelho-massey-ferguson-tratores-kit-12und/up/MLBU2192161994",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.224Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.225Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.225Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.226Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://shopee.com.br/Tinta-Esmalte-Sintetico-Automotivo-Vermelho-Massey-Ferguson-900ml-i.310273438.12915171519",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.226Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.tractortem.com.br/produtos/sem-categoria/tinta-vermelho-massey-ferguson-900ml/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.227Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.maxitintas.com.br/tinta-esmalte-sintetica-vermelho-ferguson/p",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.228Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/C0R2_phxj9f/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.228Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://grupochiquinho.com.br/esmalte-sintetico-vermelho-massey-ferguson-900ml-riural-20895",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.244Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson 275 código tinta original vermelho",
+    "received": 10,
+    "indexed": 29,
+    "relevant": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.245Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.tiktok.com/@tratormaison/video/7296155008158993669",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.246Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/joaomonsao/videos/trator-agr%C3%ADcola-massey-ferguson-275-ano-1984-dire%C3%A7%C3%A3o-hidr%C3%A1ulica-comando-duplo-ca/1496690644901827/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.246Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=debeAX0xyHo",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.246Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.maquinalista.com/indice/tratores-agricolas/massey-ferguson/275/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.246Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/groups/maquinaseimplementosagricolas/posts/28173962625530869/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.246Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://lista.mercadolivre.com.br/tratores-usados-massey-ferguson-275-com-lamina",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.252Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.262Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson 275 1980 cores pintura original equipamento agrícola",
+    "received": 10,
+    "indexed": 36,
+    "relevant": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.262Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.263Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.masseyferguson.com/en_us.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.263Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.263Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=vUTQXSix7Pc",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.264Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.hmgpaint.com/news/511/acrythane-sc601-helps-massey-ferguson-vintage-tractor-restoration-shine",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.264Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.264Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.ebay.com/b/Massey-Ferguson-Heavy-Equipment-Paint/259101/bn_7116077679",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.264Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://en.wikipedia.org/wiki/Massey_Ferguson",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.264Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.masseyferguson.com/en_us/discover-mf/news/news/winterizing-your-tractor.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.265Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.fergusonclub.com/mf35-paint-colours/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.283Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson standard factory paint all tractor equipment",
+    "received": 10,
+    "indexed": 45,
+    "relevant": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.712Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_catalog_discovery",
+    "records": 0,
+    "namedEvidenceRows": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.713Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_start",
+    "queries": [
+      "Massey Ferguson 275 1980 nomes cores originais códigos tinta catálogo Brasil vermelho"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.893Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.tratoresecolheitadeiras.com.br/venda/trator/massey%20ferguson/mf%20275/modelo/1713?cor=vermelho",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:26:48.916Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.tratoresecolheitadeiras.com.br/venda/trator/massey%20ferguson/mf%20275/modelo/1713?cor=vermelho",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.023Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadolivre.com.br/capo-do-motor-massey-ferguson-mf-275--mf-290-modelos-antigo/up/MLBU3801480715",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.024Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://pt.ebay.com/b/Massey-Ferguson-Hoods/259091/bn_7115080195",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.024Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=kawi_L_gsx0",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.025Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/MScabines/posts/cabine-ms-para-trator-massey-ferguson-275-advanced-mscabines-agronegocio-agronom/1411290550664057/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.025Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/p/DOPJcZiEmiD/?__d=11",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.026Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://realtrator.com.br/pecas-para-tratores/capo-do-motor-massey-ferguson-275-290-292-p",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.026Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=q6YZxW7NY4o",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.027Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.tiktok.com/@viananalida/video/7348497622191164677",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.076Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson 275 capô cabine painéis pintados cor",
+    "received": 10,
+    "indexed": 53,
+    "relevant": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.077Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_complete",
+    "queries": 6,
+    "indexedSources": 53
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.191Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.274Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.285Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.288Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.740Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.masseyferguson.com/pt_br/ownership/parts-services/parts/parts-books.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.741Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=u6aDQU8omsI",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.741Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/doc/125496116/CATALOGO-DE-PECAS-DO-MF-275",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.742Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.docsity.com/pt/docs/catalogo-massey-275-ano-97/7082222/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.747Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.slideshare.net/slideshow/mf275-14278747/14278747",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.747Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.784Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson 275 1980 nomes cores originais códigos tinta catálogo Brasil vermelho",
+    "received": 10,
+    "indexed": 59,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.785Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.slideshare.net/slideshow/mf275-14278747/14278747",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.785Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:49.786Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 59
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.057Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.tratoresecolheitadeiras.com.br/venda/trator/massey%20ferguson/mf%20275/modelo/1713?cor=vermelho",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1140.9289209999988
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.132Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.tratoresecolheitadeiras.com.br/venda/trator/massey%20ferguson/mf%20275/modelo/1713?cor=vermelho",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1215.9273260000045,
+    "firstContentMs": 1140.9289209999988
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.136Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.tratoresecolheitadeiras.com.br/venda/trator/massey%20ferguson/mf%20275/modelo/1713?cor=vermelho",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.374Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1086.8625119999924
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.422Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1134.7952820000064,
+    "firstContentMs": 1086.8625119999924
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.425Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.494Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1208.927966999996
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.545Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1260.1120280000032,
+    "firstContentMs": 1208.927966999996
+  },
+  {
+    "timestamp": "2026-10-07T13:26:50.547Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:26:53.628Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:26:53.651Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 7848
+  },
+  {
+    "timestamp": "2026-10-07T13:26:54.286Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 635.7048829999985
+  },
+  {
+    "timestamp": "2026-10-07T13:26:54.332Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 681.1463320000039,
+    "firstContentMs": 635.7048829999985
+  },
+  {
+    "timestamp": "2026-10-07T13:26:54.333Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:26:54.748Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.slideshare.net/slideshow/mf275-14278747/14278747",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:54.751Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "sparse_discovery_extended",
+    "untilMs": 32000,
+    "coverage": {
+      "domains": 0,
+      "palettes": 0,
+      "candidates": 0,
+      "needsExpansion": true
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:26:54.751Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "discovery_coverage",
+    "domains": 0,
+    "palettes": 0,
+    "candidates": 0,
+    "needsExpansion": true
+  },
+  {
+    "timestamp": "2026-10-07T13:26:54.788Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "research_plan"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:54.791Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "timeoutMs": 12000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:56.838Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "durationMs": 2047.0579140000045
+  },
+  {
+    "timestamp": "2026-10-07T13:26:57.797Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "durationMs": 3006.0127219999995,
+    "firstContentMs": 2047.0579140000045
+  },
+  {
+    "timestamp": "2026-10-07T13:26:57.797Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "research_plan",
+    "durationMs": 3010.321062999996
+  },
+  {
+    "timestamp": "2026-10-07T13:26:57.801Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_start",
+    "queries": [
+      "Massey Ferguson MF 275 trator 1979 1980 1981 cores originais tinta vermelho cinza código catálogo Brasil"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:26:57.801Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "name_research_complete",
+    "queries": 0,
+    "leads": 0,
+    "unresolved": []
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.061Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/596317087/Num-series-Trator",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.083Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson MF 275 trator 1979 1980 1981 cores originais tinta vermelho cinza código catálogo Brasil",
+    "received": 10,
+    "indexed": 62,
+    "relevant": 7
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.083Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.083Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.slideshare.net/slideshow/1-catlogo-de-peas-trator-massey-ferguson-275pdf/256148939",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.083Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.084Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.slideshare.net/slideshow/1-catlogo-de-peas-trator-massey-ferguson-275pdf/256148939",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.086Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 62
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.102Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://paintguide.masseyferguson.com/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.102Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.102Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.102Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_pool_reused",
+    "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+    "pending": true
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.102Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_pool_reused",
+    "url": "https://www.slideshare.net/slideshow/1-catlogo-de-peas-trator-massey-ferguson-275pdf/256148939",
+    "pending": true
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.103Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://paintguide.masseyferguson.com/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.103Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.103Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.461Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.487Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.624Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": true,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:26:59.654Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:00.450Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:00.455Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 967.9654509999964
+  },
+  {
+    "timestamp": "2026-10-07T13:27:00.473Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:00.495Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://paintguide.masseyferguson.com/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:00.503Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1015.4366799999989,
+    "firstContentMs": 967.9654509999964
+  },
+  {
+    "timestamp": "2026-10-07T13:27:00.505Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:00.519Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://paintguide.masseyferguson.com/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:00.975Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1320.9588240000012
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.039Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1384.7843920000014,
+    "firstContentMs": 1320.9588240000012
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.041Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.215Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 742.244286000001
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.460Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://paintguide.masseyferguson.com/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 940.5489220000018
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.628Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://paintguide.masseyferguson.com/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1108.6410410000099,
+    "firstContentMs": 940.5489220000018
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.629Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://paintguide.masseyferguson.com/",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.952Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1478.5083909999958,
+    "firstContentMs": 742.244286000001
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.968Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+    "candidates": 4,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.969Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Ferguson (Stoneleigh) Grey",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.969Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "MF Charcoal Grey",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.978Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 22,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:01.988Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Silver Mist",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 48,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:04.083Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.slideshare.net/slideshow/1-catlogo-de-peas-trator-massey-ferguson-275pdf/256148939",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": true,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:04.096Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_start",
+    "queries": [
+      "Massey Ferguson 275 1980 agricultural OEM paint color code vermelho",
+      "Massey Ferguson original equipment paint colours catalogue"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.245Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://encycolorpedia.pt/be0032",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.246Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/WCtratores/videos/massey-ferguson-275-4x2-75cv/1362746718946478/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.246Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://es.pinterest.com/pin/634655772526497826/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.247Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadolivre.com.br/kit-faixa-adesivo-trator-massey-ferguson-275-antigo/up/MLBU1744166445",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.298Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson 275 1980 agricultural OEM paint color code vermelho",
+    "received": 10,
+    "indexed": 66,
+    "relevant": 7
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.299Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.299Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.299Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.300Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://agrilineproducts.com/massey-ferguson/100-series/135/paints-thinners",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.300Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://farmspares.ie/product/massey-ferguson-paint/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.300Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_source_rejected",
+    "url": "https://masseytractorparts.com/collections/paint",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.319Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_sources",
+    "query": "Massey Ferguson original equipment paint colours catalogue",
+    "received": 10,
+    "indexed": 72,
+    "relevant": 7
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.319Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "search_complete",
+    "queries": 2,
+    "indexedSources": 72
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.335Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "discovery_recovery",
+    "before": {
+      "domains": 1,
+      "palettes": 1,
+      "candidates": 4,
+      "needsExpansion": true
+    },
+    "replacementPages": 8
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.335Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.335Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://encycolorpedia.pt/be0032",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.335Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://encycolorpedia.pt/be0032",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.336Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.337Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.337Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.337Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.440Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://encycolorpedia.pt/be0032",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.466Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://encycolorpedia.pt/be0032",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.740Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.772Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.777Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:05.888Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:06.715Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:06.752Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:07.022Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:07.026Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1248.7938439999998
+  },
+  {
+    "timestamp": "2026-10-07T13:27:07.192Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1420.4994420000003
+  },
+  {
+    "timestamp": "2026-10-07T13:27:07.277Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:07.299Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1527.9152599999943,
+    "firstContentMs": 1420.4994420000003
+  },
+  {
+    "timestamp": "2026-10-07T13:27:07.300Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:07.727Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://encycolorpedia.pt/be0032",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2261.112896000006
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.011Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://encycolorpedia.pt/be0032",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2544.982189000002,
+    "firstContentMs": 2261.112896000006
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.012Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.038Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://encycolorpedia.pt/be0032",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.040Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_skipped",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.049Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey-Ferguson Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 22,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.254Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2477.3046780000004,
+    "firstContentMs": 1248.7938439999998
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.256Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.264Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.copalparafusos.com.br/35805",
+    "candidates": 1,
+    "segments": 2,
+    "requests": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.287Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.397Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1096.3301939999947
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.577Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1276.1952719999972,
+    "firstContentMs": 1096.3301939999947
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.577Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 7921
+  },
+  {
+    "timestamp": "2026-10-07T13:27:08.580Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:09.150Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1138.3414000000048
+  },
+  {
+    "timestamp": "2026-10-07T13:27:09.353Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 775.9393740000087
+  },
+  {
+    "timestamp": "2026-10-07T13:27:09.560Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1304.8038329999981
+  },
+  {
+    "timestamp": "2026-10-07T13:27:09.950Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1693.9490230000083,
+    "firstContentMs": 1304.8038329999981
+  },
+  {
+    "timestamp": "2026-10-07T13:27:09.951Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 6548
+  },
+  {
+    "timestamp": "2026-10-07T13:27:09.981Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+    "candidates": 2,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:09.984Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Harris Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.536Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2523.914380999995,
+    "firstContentMs": 1138.3414000000048
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.555Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+    "candidates": 7,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.555Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Super Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 1,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.555Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Flint Grey Metallic M-1025",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.555Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Flint Grey Non Metallic M-1026",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.555Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Silver Mist M-1037",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.555Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Stoneleigh Grey M-1031",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.555Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Industial Yellow",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:10.999Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2422.10239,
+    "firstContentMs": 775.9393740000087
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.019Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+    "candidates": 7,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.019Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Industrial Yellow",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.019Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Silver Mist",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 2,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.019Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Ferguson Tractor Grey",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.020Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Flint Grey",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.020Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Gold Belly Tractor Grey",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.020Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Stoneleigh Grey",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.020Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "Massey Ferguson Tractor Charcoal",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.512Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1561.5960300000006
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.916Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1965.1819410000026,
+    "firstContentMs": 1561.5960300000006
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.917Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 4582
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.939Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:11.940Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "PAINT FOR TRACTOR MASSEY-FERGUSON - RED",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:13.533Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1616.0536659999925
+  },
+  {
+    "timestamp": "2026-10-07T13:27:13.891Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1973.8580079999956,
+    "firstContentMs": 1616.0536659999925
+  },
+  {
+    "timestamp": "2026-10-07T13:27:13.894Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_complete",
+    "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.112Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.tractortem.com.br/produtos/sem-categoria/tinta-vermelho-massey-ferguson-900ml/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.113Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.tractortem.com.br/produtos/sem-categoria/tinta-vermelho-massey-ferguson-900ml/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.652Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.tractortem.com.br/produtos/sem-categoria/tinta-vermelho-massey-ferguson-900ml/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.709Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "manufacturer_paint_recovered",
+    "leads": 2,
+    "source": "existing_search"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.761Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "inventory_budget",
+    "candidates": 20,
+    "spentUsd": 0.008138999999999999,
+    "pendingUsd": 0,
+    "omissionReserveUsd": 0.006500000000000001,
+    "availableUsd": 0.056861
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.769Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_candidate_checked",
+    "name": "vermelho massey ferguson",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 22,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.769Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "catalog_review_groups",
+    "candidates": 20,
+    "groups": 20
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.776Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.778Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.787Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "research_review_batch_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.788Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.790Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "research_review_batch_2"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.791Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.793Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "research_review_batch_3"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.794Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.795Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_2"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:14.796Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:15.580Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 789.3515230000048
+  },
+  {
+    "timestamp": "2026-10-07T13:27:15.765Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 987.7029560000083
+  },
+  {
+    "timestamp": "2026-10-07T13:27:15.821Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1032.6409339999955
+  },
+  {
+    "timestamp": "2026-10-07T13:27:15.833Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1038.9003680000023
+  },
+  {
+    "timestamp": "2026-10-07T13:27:15.962Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1165.8521990000008
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.097Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1306.6960620000027,
+    "firstContentMs": 789.3515230000048
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.098Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_2",
+    "durationMs": 1308.4222719999962
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.191Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1394.9964600000094,
+    "firstContentMs": 1165.8521990000008
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.192Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_2",
+    "durationMs": 1396.448053
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.201Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_color_candidates_loaded",
+    "batch": 1,
+    "colors": [
+      {
+        "index": 0,
+        "color": "vermelho massey ferguson",
+        "db_candidates": 22
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.202Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_matcher_local",
+    "batch": 1,
+    "colors": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.205Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_color_matching_complete",
+    "batch": 1,
+    "colors": 1,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.671Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1882.5360789999977,
+    "firstContentMs": 1032.6409339999955
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.671Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_1",
+    "durationMs": 1884.5310749999917
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.840Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2061.983554000006,
+    "firstContentMs": 987.7029560000083
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.840Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_1",
+    "durationMs": 2064.1187840000057
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.856Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "research_review_batch_4"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.856Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "research_review_batch_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.938Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_color_candidates_loaded",
+    "batch": 2,
+    "colors": [
+      {
+        "index": 0,
+        "color": "Massey Ferguson Red",
+        "db_candidates": 22
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.939Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_matcher_local",
+    "batch": 2,
+    "colors": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:16.941Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_color_matching_complete",
+    "batch": 2,
+    "colors": 1,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.639Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "research_review_batch_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 782.935798999999
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.740Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 883.8996059999918,
+    "firstContentMs": 782.935798999999
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.741Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_4",
+    "durationMs": 885.7917280000111
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.797Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 3003.413934000011,
+    "firstContentMs": 1038.9003680000023
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.798Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_3",
+    "durationMs": 3005.5065130000003
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.805Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "completion_review",
+    "attempted": 0,
+    "recovered": 0,
+    "remaining": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.812Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "final_verification_omissions_ready_1_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.815Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.818Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_color_candidates_loaded",
+    "batch": 3,
+    "colors": [
+      {
+        "index": 0,
+        "color": "Massey Ferguson Harris Red",
+        "db_candidates": 0
+      },
+      {
+        "index": 1,
+        "color": "Massey Ferguson Super Red",
+        "db_candidates": 1
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.818Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_matcher_local",
+    "batch": 3,
+    "colors": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:27:17.819Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "database_color_matching_complete",
+    "batch": 3,
+    "colors": 2,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:27:18.581Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 765.9568730000028
+  },
+  {
+    "timestamp": "2026-10-07T13:27:18.905Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1090.4466220000031,
+    "firstContentMs": 765.9568730000028
+  },
+  {
+    "timestamp": "2026-10-07T13:27:18.906Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "final_verification_omissions_ready_1_1",
+    "durationMs": 1094.9543879999983
+  },
+  {
+    "timestamp": "2026-10-07T13:27:18.906Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "omission_flag_unsupported",
+    "candidate": "PAINT FOR TRACTOR MASSEY-FERGUSON - RED",
+    "issue": "vehicle"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:18.907Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "omission_review_complete",
+    "total": 16,
+    "checked": 16,
+    "flagged": 0,
+    "recovered": 0,
+    "incomplete": 0,
+    "repairFailures": 0,
+    "unsupportedFlags": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:18.916Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "initial_response_ready",
+    "colors": 4,
+    "durationMs": 31917
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.470Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.scribd.com/document/834684600/Tractor-Machinery-June-2024",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.471Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://picclick.co.uk/Business-Office-Industrial/Agriculture-Farming/Equipment-Parts-Accessories/Antique-Vintage-Equipment-Parts/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.471Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.scribd.com/document/834684600/Tractor-Machinery-June-2024",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.471Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://picclick.co.uk/Business-Office-Industrial/Agriculture-Farming/Equipment-Parts-Accessories/Antique-Vintage-Equipment-Parts/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.612Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.mercadolivre.com.br/kit-de-adesivos-trator-massey-ferguson-mf-275-advanced-275a-cor-padro/p/MLB24158303",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.612Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://lista.mercadolivre.com.br/tinta-para-trator-massey",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.612Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.mercadolivre.com.br/kit-de-adesivos-trator-massey-ferguson-mf-275-advanced-275a-cor-padro/p/MLB24158303",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.612Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://lista.mercadolivre.com.br/tinta-para-trator-massey",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.969Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.jensales.com/Massey-Ferguson-275-Tractor-Data_p_84437.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:20.969Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.ebay.com/b/Massey-Ferguson-Red-Vintage-Manufacture-Diecast-Farm-Vehicles/741/bn_113317116",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:21.022Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.jensales.com/Massey-Ferguson-275-Tractor-Data_p_84437.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:21.022Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.ebay.com/b/Massey-Ferguson-Red-Vintage-Manufacture-Diecast-Farm-Vehicles/741/bn_113317116",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:21.766Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.mercadolivre.com.br/kit-de-adesivos-trator-massey-ferguson-mf-275-advanced-275a-cor-padro/p/MLB24158303",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:21.979Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://picclick.co.uk/Business-Office-Industrial/Agriculture-Farming/Equipment-Parts-Accessories/Antique-Vintage-Equipment-Parts/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:22.270Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.magazineluiza.com.br/busca/spray+automotivo+vermelho+massey/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:22.270Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.magazineluiza.com.br/busca/spray+automotivo+vermelho+massey/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:22.463Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_queued",
+    "url": "https://www.stationaryengineparts.com/sitemap.php",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:22.463Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_start",
+    "url": "https://www.stationaryengineparts.com/sitemap.php",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:22.995Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://lista.mercadolivre.com.br/tinta-para-trator-massey",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:23.353Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.ebay.com/b/Massey-Ferguson-Red-Vintage-Manufacture-Diecast-Farm-Vehicles/741/bn_113317116",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "Failed to fetch https://www.ebay.com/b/Massey-Ferguson-Red-Vintage-Manufacture-Diecast-Farm-Vehicles/741/bn_113317116: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:24.323Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.stationaryengineparts.com/sitemap.php",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:24.323Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Massey Ferguson Harris Red",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:27:25.472Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.scribd.com/document/834684600/Tractor-Machinery-June-2024",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:25.476Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "verification_search_budget_exhausted",
+    "primaryLimit": 6,
+    "followupLimit": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:27:25.572Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Massey Ferguson Super Red",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:27:25.642Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "final_verification_V3"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:25.642Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "final_verification_V3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:25.646Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.magazineluiza.com.br/busca/spray+automotivo+vermelho+massey/",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "Failed to fetch https://www.magazineluiza.com.br/busca/spray+automotivo+vermelho+massey/: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:25.647Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Vermelho Massey Ferguson",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:27:25.970Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "page_fetch_complete",
+    "url": "https://www.jensales.com/Massey-Ferguson-275-Tractor-Data_p_84437.html",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:26.140Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Massey Ferguson Red",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:27:26.313Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_start",
+    "stage": "final_verification_V1"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:26.314Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_start",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:26.411Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "final_verification_V3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 768.6283469999908
+  },
+  {
+    "timestamp": "2026-10-07T13:27:27.050Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_first_content",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 736.2873039999977
+  },
+  {
+    "timestamp": "2026-10-07T13:27:27.242Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "final_verification_V3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1599.9429299999902,
+    "firstContentMs": 768.6283469999908
+  },
+  {
+    "timestamp": "2026-10-07T13:27:27.243Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "final_verification_V3",
+    "durationMs": 1601.5582100000029
+  },
+  {
+    "timestamp": "2026-10-07T13:27:28.286Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_route_complete",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1972.014593999993,
+    "firstContentMs": 736.2873039999977
+  },
+  {
+    "timestamp": "2026-10-07T13:27:28.287Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "model_request_complete",
+    "stage": "final_verification_V1",
+    "durationMs": 1973.6006409999973
+  },
+  {
+    "timestamp": "2026-10-07T13:27:28.287Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "warning",
+    "stage": "verification_citation",
+    "message": "Vermelho Massey Ferguson: 1 unsupported checks ignored"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:28.287Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "verification_complete",
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 4,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 4,
+    "queries": 5,
+    "pagesFetched": 4,
+    "searchesSkipped": 2,
+    "pagesReviewed": 6,
+    "catalogRecordsReviewed": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:27:28.288Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "warning",
+    "stage": "verification",
+    "message": "Some final color data remains unverified or conflicting; see each color verification field"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:28.342Z",
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "event": "run_complete",
+    "durationMs": 41289,
+    "colors": 4,
+    "pages": 21,
+    "modelCalls": {
+      "main": 7,
+      "pageAnalysis": 17,
+      "databaseMatcher": 3,
+      "verification": 3
+    },
+    "timing": {
+      "totalMs": 41289,
+      "processingMs": 41289,
+      "capacityWaitMs": 0,
+      "modelRequestMs": 45893,
+      "targetTimeMs": 60000,
+      "deadlineMode": "soft",
+      "overTargetMs": 0,
+      "maxTimeMs": 100000
+    }
+  }
+]

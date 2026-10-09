@@ -1,0 +1,595 @@
+{
+  "formatVersion": 3,
+  "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+  "modelRequests": {
+    "total": 29,
+    "byStage": {
+      "pageAnalysis": 14,
+      "main": 1,
+      "candidateReview": 6,
+      "databaseMatcher": 2,
+      "verification": 6
+    }
+  },
+  "pagePool": {
+    "hits": 1,
+    "inFlightHits": 1,
+    "prefetchScheduled": 1,
+    "prefetchUsed": 1,
+    "retries": 0,
+    "prefetchStarted": 1,
+    "uniqueUrls": 23
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 17,
+    "httpAttempts": 17,
+    "remaining": 3,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 10,
+      "verification": 7
+    }
+  },
+  "serperCost": {
+    "requests": 17,
+    "successfulResponses": 17,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 17,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.017
+  },
+  "totalEstimatedCostUsd": 0.032728,
+  "totalUpperBoundUsd": 0.032728,
+  "totalAdmissionEstimateUsd": 0.032727,
+  "usage": {
+    "inputTokens": 192123,
+    "outputTokens": 4119,
+    "totalTokens": 196242,
+    "estimatedCostUsd": 0.015728,
+    "upperBoundUsd": 0.015728,
+    "admissionEstimateUsd": 0.015727,
+    "knownCostUsd": 0.015728,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 26,
+        "inputTokens": 181962,
+        "cachedInputTokens": 0,
+        "outputTokens": 3373,
+        "totalTokens": 185335,
+        "estimatedCostUsd": 0.012705,
+        "knownCostUsd": 0.012705
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 3,
+        "inputTokens": 10161,
+        "cachedInputTokens": 1142,
+        "outputTokens": 746,
+        "totalTokens": 10907,
+        "estimatedCostUsd": 0.003023,
+        "knownCostUsd": 0.003023
+      }
+    ]
+  },
+  "timeMs": 53583,
+  "browserUses": {
+    "total": 17,
+    "failed": 0,
+    "serper": 17,
+    "brave": 0,
+    "nameClarification": 0,
+    "finalVerification": 7,
+    "uniqueQueries": 17,
+    "engines": {
+      "serper": 17
+    }
+  },
+  "pageFetchAttempts": 23,
+  "pagesFetched": 18,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 5,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 53583,
+    "processingMs": 53583,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 60722,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "excavator",
+    "make": "Caterpillar",
+    "model": "320",
+    "year": 2020,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Caterpillar Yellow High-Gloss Urethane Paint",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Yellow Paint High",
+      "paintFinish": [
+        "brilhante"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "paintFinish"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Hiway Yellow Paint High",
+      "paintFinish": [
+        "brilhante"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "paintFinish"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Yellow Paint High Gloss Fast Drying",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Yellow Paint High Gloss 3.5 Voc",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Yellow Urethane Paint High",
+      "paintFinish": [
+        "brilhante"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "paintFinish"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Yellow Paint High Gloss Water Reducible 3.4 Voc",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Amarela Caterpillar",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "identityType": "manufacturer_paint_lead",
+      "codes": [
+        "05460",
+        "06461"
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "unverified",
+        "confirmed": [],
+        "conflicting": [],
+        "unknown": [
+          "name",
+          "vehicle",
+          "year",
+          "codes"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Amarelo Caterpillar",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "identityType": "manufacturer_paint_lead",
+      "codes": [
+        "05460",
+        "06461"
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "codes"
+        ],
+        "catalogs": [
+          "lazzumix"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Amarelo Caterpillar 81",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "identityType": "manufacturer_paint_lead",
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://brasilautoshop.com.br/marcas/farben/tinta-esmalte-sintetico-amarelo-caterpillar-81-linha-agricola-industrial-rodoviario-3-6l-farben-113001.html"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "unverified",
+        "confirmed": [],
+        "conflicting": [],
+        "unknown": [
+          "name",
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 10,
+      "completed": 10,
+      "incomplete": 0
+    },
+    "identityArtifacts": [
+      {
+        "name": "Tinta Amarela Brasilux Moderno Caterpillar Ano 95",
+        "sources": [
+          "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95"
+        ],
+        "reason": "retail_product_title"
+      }
+    ],
+    "omissionReview": {
+      "total": 24,
+      "checked": 24,
+      "flagged": 1,
+      "recovered": 1,
+      "incomplete": 0,
+      "repairFailures": 0
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "Caterpillar Yellow High-gloss Urethane Paint",
+        "Yellow Paint High",
+        "Hiway Yellow Paint High",
+        "Yellow Paint High Gloss Fast Drying",
+        "Yellow Paint High Gloss 3.5 VOC",
+        "Yellow Urethane Paint High",
+        "Yellow Paint High Gloss Water Reducible 3.4 VOC",
+        "AMARELO CATERPILLAR 81"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": false,
+      "attempted": 0,
+      "recovered": 0
+    },
+    "discoveryCoverage": {
+      "domains": 4,
+      "palettes": 4,
+      "candidates": 33,
+      "needsExpansion": false,
+      "recoveryAttempted": true,
+      "replacementPages": 8,
+      "missingPagesBeforeRecovery": 15
+    },
+    "reviewCoverage": {
+      "total": 33,
+      "reviewed": 33,
+      "unreviewed": 0
+    },
+    "warnings": [
+      {
+        "stage": "extraction",
+        "count": 6
+      },
+      {
+        "stage": "discovery_coverage",
+        "count": 1
+      },
+      {
+        "stage": "extraction_recovery",
+        "count": 6,
+        "code": "AI_BUDGET_LIMIT",
+        "targetUsd": 0.065
+      },
+      {
+        "stage": "extraction_recovery",
+        "count": 1
+      },
+      {
+        "stage": "verification_citation",
+        "count": 1
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 10,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 10,
+    "queries": 7,
+    "pagesFetched": 5,
+    "searchesSkipped": 8,
+    "pagesReviewed": 7,
+    "catalogRecordsReviewed": 2
+  },
+  "paletteScope": {
+    "modelCandidates": 0,
+    "manufacturerLeads": 10
+  },
+  "completion": {
+    "status": "partial",
+    "issues": [
+      "no_model_linked_colors"
+    ]
+  },
+  "billing": {
+    "status": "complete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.015727,
+    "upperBoundUsd": 0.032728,
+    "knownCostUsd": 0.032728
+  },
+  "fetchedPages": [
+    {
+      "url": "https://blog.superbid.net/escavadeira-hidraulica-caterpillar-320/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.olssonparts.com/com/en/spare-parts/cab-and-body/paint/?code=ee4b7b48489149718f45b5c8191ee9dd",
+      "status": "error",
+      "error": "Failed to fetch https://www.olssonparts.com/com/en/spare-parts/cab-and-body/paint/?code=ee4b7b48489149718f45b5c8191ee9dd: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+      "status": "ok"
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/caterpillar-320",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+      "status": "ok",
+      "prefetched": true
+    },
+    {
+      "url": "https://parts.cat.com/pt/catcorp/category/workshop-supplies-paints",
+      "status": "error",
+      "error": "Failed to fetch https://parts.cat.com/pt/catcorp/category/workshop-supplies-paints: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+      "status": "ok"
+    },
+    {
+      "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.ubuy.com.br/en/product/RPAEITY-caterpillar-458-9587-standard-performance-cat-yellow-topcoat-paint-aerosol-12oz-each",
+      "status": "error",
+      "error": "Failed to fetch https://www.ubuy.com.br/en/product/RPAEITY-caterpillar-458-9587-standard-performance-cat-yellow-topcoat-paint-aerosol-12oz-each: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p",
+      "status": "ok"
+    },
+    {
+      "url": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR",
+      "status": "ok"
+    },
+    {
+      "url": "https://brasilautoshop.com.br/marcas/farben/tinta-esmalte-sintetico-amarelo-caterpillar-81-linha-agricola-industrial-rodoviario-3-6l-farben-113001.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://portalelo.com.br/materia/474",
+      "status": "ok"
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/tinta-caterpillar-original",
+      "status": "ok"
+    },
+    {
+      "url": "https://maza.com.br/produtos",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.pjf.mg.gov.br/secretarias/selicon/editais/resultados/2020/dezembro/arquivos/resul_pe165_20.pdf",
+      "status": "error",
+      "error": "Failed to fetch https://www.pjf.mg.gov.br/secretarias/selicon/editais/resultados/2020/dezembro/arquivos/resul_pe165_20.pdf: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.scribd.com/document/180522522/Pinturas-Cat",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://blog.randalsrl.com/?bjg=31.524240.2.60",
+      "status": "ok"
+    },
+    {
+      "url": "https://escavadeirinha.com.br/product/28005-116-cat-320-escavadeira-de-controle-de-radio-com-acessorios-de-cacamba-garra-e-martelo/",
+      "status": "ok"
+    }
+  ]
+}

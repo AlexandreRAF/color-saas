@@ -1,0 +1,4103 @@
+[
+  {
+    "timestamp": "2026-10-07T13:27:28.360Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "run_start",
+    "vehicle": {
+      "automobileType": "excavator",
+      "brand": "Caterpillar",
+      "manufacturingYear": 2020,
+      "model": "320",
+      "predominantColor": "amarelo",
+      "country": "Brazil"
+    },
+    "targetTimeMs": 60000,
+    "maxTimeMs": 100000,
+    "deadlineMode": "soft_target_hard_maximum",
+    "deadlines": {
+      "search": 11000,
+      "fetch": 12000,
+      "extraction": 17000,
+      "recovery": 35000,
+      "nameClarification": 35000,
+      "review": 60000,
+      "repair": 68000,
+      "matching": 82000,
+      "verificationSearch": 88000,
+      "verification": 98000
+    },
+    "maxSearches": 10,
+    "maxPages": 24,
+    "maxBrowserUses": 20
+  },
+  {
+    "timestamp": "2026-10-07T13:27:28.360Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_start",
+    "queries": [
+      "Caterpillar 320 2020 cores amarelo",
+      "Caterpillar 320 2020 excavator paint code yellow",
+      "Caterpillar 320 código tinta original amarelo",
+      "Caterpillar standard factory paint all excavator equipment",
+      "Caterpillar 320 2020 cores pintura original máquina construção",
+      "Caterpillar 320 cabine capô peças pintadas cor"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.401Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/rawsoconstructors/videos/our-cat-352-fresh-out-the-paint-booth-looks-insane-in-the-sunlightcaterpillar-ex/2514830442370992/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.401Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.caterpillar.com/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.402Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.cat.com/en_US/products/new/equipment/excavators.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.402Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/CatConstructionAU/videos/how-do-cat-machines-got-their-signature-yellow-colour-take-a-look-at-this-behind/744153314421587/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.403Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.caterpillar.com/en/company/about-caterpillar/history/archive/the-evolving-look-of-cat-machines.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.403Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/caterpillarinc/posts/we-havent-always-been-yellowintroducing-cat-limited-edition-machines-in-centenni/1036647101832990/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.404Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.macallister.com/parts-service/parts-solutions/paint/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.404Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=s9yUUE5wBFA",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.405Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://wheelercat.com/wp-content/uploads/2025/03/Cat-Performance-Handbook-Edition-50-June-2022.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.405Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://serwis-kop.pl/en/blog/post/construction-machine-paint-jcb-cat-how-to-guide",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.418Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar standard factory paint all excavator equipment",
+    "received": 10,
+    "indexed": 10,
+    "relevant": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.457Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.457Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://parts.cat.com/pt/catcorp/category/workshop-supplies-paints",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.457Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://lista.mercadolivre.com.br/tinta-caterpillar-original",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.458Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.458Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.459Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/sotreqcat/videos/existem-v%C3%A1rios-tipos-de-amarelo-mas-o-nosso-%C3%A9-%C3%BAnico-o-amarelo-cat-%C3%A9-patenteado-p/658185790471532/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.459Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://brasilautoshop.com.br/marcas/farben/tinta-esmalte-sintetico-amarelo-caterpillar-81-linha-agricola-industrial-rodoviario-3-6l-farben-113001.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.460Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DHEZaZyxLJK/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.460Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.bigcorestintas.com.br/14914-spray-color-premium-industrial-amarelo-caterpillar-400ml-farben/p",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.461Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.bondtintas.com.br/p-tinta-pu-amarelo-caterpillar-675ml-sw",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.486Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar 320 código tinta original amarelo",
+    "received": 10,
+    "indexed": 20,
+    "relevant": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.500Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/C6EujRWMwf6/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.501Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.olx.com.br/anuncios/escavadeiras-caterpillar-320",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.501Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=eNBaWwcIW8w",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.502Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.cat.com/pt_BR/support/caterpillar-service-center/cat-320-320GC-323-maintenance-and-service.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.503Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20180731-48579-37167",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.503Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadomaquinas.com.br/anuncios/escavadeira/caterpillar/320",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.504Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.maquinalista.com/indice/escavadeiras/caterpillar/320/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.504Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/sotreqcat/videos/a-nova-escavadeira-cat-320-gx-al%C3%A9m-de-diminuir-os-riscos-de-acidentes-tamb%C3%A9m-pod/1658648484481721/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.505Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadolivre.com.br/chaveiro-de-microescavadeira-cat-caterpillar-320-1160-cor-amarela/p/MLB27184430",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.518Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://blog.superbid.net/escavadeira-hidraulica-caterpillar-320/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.529Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar 320 2020 cores pintura original máquina construção",
+    "received": 10,
+    "indexed": 30,
+    "relevant": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.529Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://blog.superbid.net/escavadeira-hidraulica-caterpillar-320/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.655Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/61571600529915/videos/2020-premium-caterpillar-320gc-excavator-original-paint-used-for-earthmoving-onl/1424092146521817/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.655Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/61567536997681/posts/the-original-high-spec-cat-320-with-factory-paint-powered-by-a-c71-engine-its-go/122195919116584566/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.656Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.ebay.com/b/CAT-Yellow-Diecast-Excavators/180274/bn_113757370",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.656Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=RLc5xBxcdtc",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.657Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://dk.pinterest.com/pin/960322320545704860/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.657Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.scribd.com/doc/42702959/Amarelo-Caterpillar",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.674Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://www.olssonparts.com/com/en/spare-parts/cab-and-body/paint/?code=ee4b7b48489149718f45b5c8191ee9dd",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.674Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.703Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar 320 2020 excavator paint code yellow",
+    "received": 10,
+    "indexed": 38,
+    "relevant": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.703Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://www.olssonparts.com/com/en/spare-parts/cab-and-body/paint/?code=ee4b7b48489149718f45b5c8191ee9dd",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.703Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.787Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.curipecas.com.br/produto/tampa-do-capo-escavadeira-hidraulica-caterpillar-cod-5283580-seminovo-151720",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.788Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadolivre.com.br/fechadura-capo-lateral-caterpillar-320c320d/up/MLBU1740796020",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.788Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://br.ebay.com/b/Cat-320-Excavator-In-Construction-Equipment-Parts/97126/bn_7022384444",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.789Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/sotreqcat/videos/escavadeira-320-gc/2891547024396881/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.789Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20211004-7bcc2-13f10",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.790Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=IX655cx9eC8",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.790Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://engepecas.com.br/pecas/caterpillar-320.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:29.816Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar 320 cabine capô peças pintadas cor",
+    "received": 10,
+    "indexed": 45,
+    "relevant": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.195Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.210Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.213Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.215Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DIMlWJEPeLV/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.216Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.tratoresecolheitadeiras.com.br/venda/escavadeira/caterpillar/320d/modelo/9752?%3Bfiltro=trator-case-case-2470&%3Bmod=1585&cor=amarelo",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.216Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/sotreqcat/posts/existem-v%C3%A1rios-tipos-de-amarelo-mas-o-nosso-%C3%A9-%C3%BAnico-o-amarelo-cat-%C3%A9-patenteado-p/1063576985795192/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.216Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.caminhoesecarretas.com.br/venda/escavadeira/caterpillar/320gc/modelo/25063?cor=amarelo&horas=10200",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.216Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.maxitintas.com.br/linha-automotiva/Caterpillar/Amarelo/amarelo?O=OrderByPriceDESC&PS=12&map=c%2CspecificationFilter_30%2CspecificationFilter_18%2Cft",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.216Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DJFeC5iSb2N/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.224Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://lista.mercadolivre.com.br/caterpillar-320",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.238Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar 320 2020 cores amarelo",
+    "received": 10,
+    "indexed": 52,
+    "relevant": 4
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.238Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://lista.mercadolivre.com.br/caterpillar-320",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.240Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_complete",
+    "queries": 6,
+    "indexedSources": 52
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.241Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.243Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_catalog_discovery",
+    "records": 0,
+    "namedEvidenceRows": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:27:30.243Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_start",
+    "queries": [
+      "Caterpillar 320 2020 nomes cores originais códigos tinta catálogo Brasil amarelo"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.310Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.310Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=bNg_bR0XU28",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.310Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://krmecanicakr.com.br/blog/escavadeira-cat-320d-320e-320f-diferencas-pecas",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.311Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.311Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://brasilmineral.com.br/noticias/nova-linha-de-escavadeiras-de-20-t",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.359Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar 320 2020 nomes cores originais códigos tinta catálogo Brasil amarelo",
+    "received": 10,
+    "indexed": 57,
+    "relevant": 4
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.359Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 57
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.369Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1158.4151270000002
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.431Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1220.637379000007,
+    "firstContentMs": 1158.4151270000002
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.852Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1638.9778030000161
+  },
+  {
+    "timestamp": "2026-10-07T13:27:31.909Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1695.5546770000074,
+    "firstContentMs": 1638.9778030000161
+  },
+  {
+    "timestamp": "2026-10-07T13:27:32.096Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1854.7325950000086
+  },
+  {
+    "timestamp": "2026-10-07T13:27:32.154Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1912.6209779999917,
+    "firstContentMs": 1854.7325950000086
+  },
+  {
+    "timestamp": "2026-10-07T13:27:32.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://s7d2.scene7.com/is/content/Caterpillar/CM20190206-39522-19411",
+    "candidates": 0,
+    "segments": 3,
+    "requests": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:27:32.697Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://lista.mercadolivre.com.br/caterpillar-320",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:32.719Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://lista.mercadolivre.com.br/caterpillar-320",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:33.213Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://blog.superbid.net/escavadeira-hidraulica-caterpillar-320/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:33.240Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://blog.superbid.net/escavadeira-hidraulica-caterpillar-320/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:33.635Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://www.olssonparts.com/com/en/spare-parts/cab-and-body/paint/?code=ee4b7b48489149718f45b5c8191ee9dd",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "Failed to fetch https://www.olssonparts.com/com/en/spare-parts/cab-and-body/paint/?code=ee4b7b48489149718f45b5c8191ee9dd: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:33.710Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://lista.mercadolivre.com.br/caterpillar-320",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 990.4599969999981
+  },
+  {
+    "timestamp": "2026-10-07T13:27:33.711Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://lista.mercadolivre.com.br/caterpillar-320",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 991.287634999986,
+    "firstContentMs": 990.4599969999981
+  },
+  {
+    "timestamp": "2026-10-07T13:27:33.712Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://lista.mercadolivre.com.br/caterpillar-320",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:34.436Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://blog.superbid.net/escavadeira-hidraulica-caterpillar-320/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1196.0913880000007
+  },
+  {
+    "timestamp": "2026-10-07T13:27:34.569Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://blog.superbid.net/escavadeira-hidraulica-caterpillar-320/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1329.1723270000075,
+    "firstContentMs": 1196.0913880000007
+  },
+  {
+    "timestamp": "2026-10-07T13:27:34.573Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://blog.superbid.net/escavadeira-hidraulica-caterpillar-320/",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:34.575Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "sparse_discovery_extended",
+    "untilMs": 32000,
+    "coverage": {
+      "domains": 0,
+      "palettes": 0,
+      "candidates": 0,
+      "needsExpansion": true
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:27:34.575Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "discovery_coverage",
+    "domains": 0,
+    "palettes": 0,
+    "candidates": 0,
+    "needsExpansion": true
+  },
+  {
+    "timestamp": "2026-10-07T13:27:34.608Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "research_plan"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:34.610Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "timeoutMs": 12000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:37.114Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "durationMs": 2503.683703000017
+  },
+  {
+    "timestamp": "2026-10-07T13:27:38.051Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "durationMs": 3441.271664,
+    "firstContentMs": 2503.683703000017
+  },
+  {
+    "timestamp": "2026-10-07T13:27:38.052Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "research_plan",
+    "durationMs": 3445.0359400000016
+  },
+  {
+    "timestamp": "2026-10-07T13:27:38.058Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_start",
+    "queries": [
+      "Caterpillar 320 excavator 2020 factory paint color name paint code parts catalog Corporate Yellow"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:27:38.058Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "name_research_complete",
+    "queries": 0,
+    "leads": 0,
+    "unresolved": []
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.104Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://parts.cat.com/en/catcorp/equipment/excavator/320-13",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.104Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=-XG0jkhwi48",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.105Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.slideshare.net/slideshow/manualpartescat320pdfpdf/251873563",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.105Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.154Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar 320 excavator 2020 factory paint color name paint code parts catalog Corporate Yellow",
+    "received": 10,
+    "indexed": 62,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.154Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.154Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.156Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 62
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.167Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://parts.cat.com/pt/catcorp/category/workshop-supplies-paints",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.167Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.167Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_pool_reused",
+    "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+    "pending": true
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.167Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://parts.cat.com/pt/catcorp/category/workshop-supplies-paints",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:39.167Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:40.385Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": true,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:40.409Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:40.848Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://parts.cat.com/pt/catcorp/category/workshop-supplies-paints",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "Failed to fetch https://parts.cat.com/pt/catcorp/category/workshop-supplies-paints: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:41.414Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:41.439Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:41.439Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:41.444Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:41.447Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:41.566Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1157.3506479999924
+  },
+  {
+    "timestamp": "2026-10-07T13:27:41.622Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1213.0121369999833,
+    "firstContentMs": 1157.3506479999924
+  },
+  {
+    "timestamp": "2026-10-07T13:27:41.624Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://www.mantracgroup.com/media/qfll4stn/320gx-hydraulic-excavator.pdf",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:42.472Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1032.5584999999846
+  },
+  {
+    "timestamp": "2026-10-07T13:27:42.592Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1152.273205000005,
+    "firstContentMs": 1032.5584999999846
+  },
+  {
+    "timestamp": "2026-10-07T13:27:42.593Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:42.624Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:43.292Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1852.5851120000007
+  },
+  {
+    "timestamp": "2026-10-07T13:27:43.347Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1907.4231609999842,
+    "firstContentMs": 1852.5851120000007
+  },
+  {
+    "timestamp": "2026-10-07T13:27:44.289Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1695.8140950000088
+  },
+  {
+    "timestamp": "2026-10-07T13:27:44.340Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1747.4805829999968,
+    "firstContentMs": 1695.8140950000088
+  },
+  {
+    "timestamp": "2026-10-07T13:27:44.342Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:46.157Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1815.1479899999977
+  },
+  {
+    "timestamp": "2026-10-07T13:27:46.203Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1861.6264910000027,
+    "firstContentMs": 1815.1479899999977
+  },
+  {
+    "timestamp": "2026-10-07T13:27:46.204Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:48.063Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1858.5188690000214
+  },
+  {
+    "timestamp": "2026-10-07T13:27:48.132Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1927.388490000012,
+    "firstContentMs": 1858.5188690000214
+  },
+  {
+    "timestamp": "2026-10-07T13:27:48.139Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://satel.com.br/wp-content/uploads/2025/11/Prospecto-CAT-320.pdf",
+    "candidates": 0,
+    "segments": 5,
+    "requests": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:27:48.150Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_start",
+    "queries": [
+      "Caterpillar 320 2020 construction OEM paint color code amarelo",
+      "Caterpillar original equipment paint colours catalogue"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.300Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=qlHfKrDdmDc",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.300Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/doc/42702959/Amarelo-Caterpillar",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.350Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar 320 2020 construction OEM paint color code amarelo",
+    "received": 10,
+    "indexed": 64,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.413Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://parts.cat.com/en/catcorp/category/workshop-supplies-paints",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.413Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.413Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.414Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.ubuy.com.br/en/product/RPAEITY-caterpillar-458-9587-standard-performance-cat-yellow-topcoat-paint-aerosol-12oz-each",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.414Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.scribd.com/document/180522522/Pinturas-Cat",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.415Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/miningshorts/videos/caterpillar-machines-werent-always-yellow-did-you-know-that-heres-a-breakdown-of/2115841115884816/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.415Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_source_rejected",
+    "url": "https://www.ebay.com/itm/177374936106",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.434Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_sources",
+    "query": "Caterpillar original equipment paint colours catalogue",
+    "received": 10,
+    "indexed": 71,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.434Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "search_complete",
+    "queries": 2,
+    "indexedSources": 71
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.448Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "discovery_recovery",
+    "before": {
+      "domains": 0,
+      "palettes": 0,
+      "candidates": 0,
+      "needsExpansion": true
+    },
+    "replacementPages": 8
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.448Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.448Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.448Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.449Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.449Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://www.ubuy.com.br/en/product/RPAEITY-caterpillar-458-9587-standard-performance-cat-yellow-topcoat-paint-aerosol-12oz-each",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.449Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.449Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.449Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.449Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.450Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.450Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.450Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.450Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://www.ubuy.com.br/en/product/RPAEITY-caterpillar-458-9587-standard-performance-cat-yellow-topcoat-paint-aerosol-12oz-each",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.450Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.450Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.450Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.591Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.612Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.695Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.699Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.700Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.702Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.814Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.828Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:49.828Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:50.046Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:50.083Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:50.269Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:50.476Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:27:50.738Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1125.9675920000009
+  },
+  {
+    "timestamp": "2026-10-07T13:27:51.076Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1463.754191999993,
+    "firstContentMs": 1125.9675920000009
+  },
+  {
+    "timestamp": "2026-10-07T13:27:51.077Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 6766
+  },
+  {
+    "timestamp": "2026-10-07T13:27:51.083Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://loja.dispetral.com.br/pecas/tintas/tinta-amarelo-caterpillar-moderno-ano-95",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:27:51.084Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:52.090Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://www.ubuy.com.br/en/product/RPAEITY-caterpillar-458-9587-standard-performance-cat-yellow-topcoat-paint-aerosol-12oz-each",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "Failed to fetch https://www.ubuy.com.br/en/product/RPAEITY-caterpillar-458-9587-standard-performance-cat-yellow-topcoat-paint-aerosol-12oz-each: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:52.206Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1129.0153930000088
+  },
+  {
+    "timestamp": "2026-10-07T13:27:52.722Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1645.2219360000163,
+    "firstContentMs": 1129.0153930000088
+  },
+  {
+    "timestamp": "2026-10-07T13:27:52.723Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 5120
+  },
+  {
+    "timestamp": "2026-10-07T13:27:52.741Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:52.741Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Caterpillar Yellow Primer Paint",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:52.741Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Caterpillar Yellow High-gloss Urethane Paint",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:27:53.664Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 941.0778850000061
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.021Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 7297.708551999996,
+    "firstContentMs": 941.0778850000061
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.157Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction",
+    "message": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664: 1 incomplete passes; Insufficient stage time to start another model attempt"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.157Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "candidates": 30,
+    "segments": 3,
+    "requests": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction",
+    "message": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512: 1 incomplete passes; Insufficient stage time to start another model attempt"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction",
+    "message": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow: 1 incomplete passes; Insufficient stage time to start another model attempt"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction",
+    "message": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR: 1 incomplete passes; Insufficient stage time to start another model attempt"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction",
+    "message": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p: 1 incomplete passes; Insufficient stage time to start another model attempt"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.158Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.161Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Yellow Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.161Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Hiway Yellow Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Mojave Brown Paint Medium",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "White Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Black Paint Medium",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Black Paint Flat",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Black Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Bright Red Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Bright Beige Paint Medium",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Dawn Gray Paint Medium",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Green Paint High Gloss for Barber-Greene Equipment",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Medium Gray Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Dark Gray Paint Medium",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Slate Gray Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Matterhorn White Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Charcoal Gray Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Yellow Primer Paint",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Black Muffler Paint",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Yellow Paint High Gloss Fast Drying",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Yellow Paint High Gloss 3.5 VOC",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "White Paint High Gloss 3.5 VOC",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Black Paint Medium Gloss 3.5 VOC",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Yellow Urethane Paint High",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Yellow Paint High Gloss Water Reducible 3.4 VOC",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Yellow Paint High Gloss Water Reducible 2.8 VOC",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Mojave Brown Paint Medium Gloss Water Reducible 3.4 VOC",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Black Paint High Gloss Water Reducible 3.4 VOC",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.162Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Black Paint Medium Gloss Water Reducible 2.8 VOC",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.164Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction",
+    "message": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf: 15 incomplete passes; Insufficient stage time to start another model attempt"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.164Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_complete",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "candidates": 0,
+    "segments": 15,
+    "requests": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.199Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "discovery_coverage",
+    "message": "Independent paint-source coverage remains insufficient after recovery"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.236Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "recover_P8_3"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.239Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "recover_P9_5"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.241Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P8_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.241Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P9_5",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.241Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P8_3",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.241Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P9_5",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.241Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P8_3",
+    "provider": "openrouter",
+    "model": "openai/gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.241Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P9_5",
+    "provider": "openrouter",
+    "model": "openai/gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.242Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P8_3",
+    "provider": "openai",
+    "model": "gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.242Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P9_5",
+    "provider": "openai",
+    "model": "gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.242Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P8_3",
+    "provider": "openrouter",
+    "model": "openai/gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.242Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P9_5",
+    "provider": "openrouter",
+    "model": "openai/gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.242Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "recover_P8_3",
+    "durationMs": 6.539990999997826
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.242Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "recover_P9_5",
+    "durationMs": 3.6637960000080056
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.243Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "recover_P11_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.243Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction_recovery",
+    "message": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664: All model routes failed: openrouter:qwen/qwen3.5-flash-02-23: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds",
+    "details": {
+      "code": "AI_BUDGET_LIMIT",
+      "targetUsd": 0.065
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.243Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_recovery_budget_exhausted",
+    "url": "https://caterpillar.scene7.com/is/content/Caterpillar/C10508664",
+    "remainingSegments": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.244Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "recover_P14_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.244Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction_recovery",
+    "message": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf: All model routes failed: openrouter:qwen/qwen3.5-flash-02-23: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds",
+    "details": {
+      "code": "AI_BUDGET_LIMIT",
+      "targetUsd": 0.065
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.244Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_recovery_budget_exhausted",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "remainingSegments": 15
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.244Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P11_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.245Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P14_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.245Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P11_1",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.245Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P14_1",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.246Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P11_1",
+    "provider": "openrouter",
+    "model": "openai/gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.246Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P14_1",
+    "provider": "openrouter",
+    "model": "openai/gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.246Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P11_1",
+    "provider": "openai",
+    "model": "gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.246Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P14_1",
+    "provider": "openai",
+    "model": "gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.246Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P11_1",
+    "provider": "openrouter",
+    "model": "openai/gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.247Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P14_1",
+    "provider": "openrouter",
+    "model": "openai/gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.247Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "recover_P11_1",
+    "durationMs": 4.451849000004586
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.247Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "recover_P14_1",
+    "durationMs": 3.2581129999889527
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.247Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "recover_P13_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.247Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction_recovery",
+    "message": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow: All model routes failed: openrouter:qwen/qwen3.5-flash-02-23: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds",
+    "details": {
+      "code": "AI_BUDGET_LIMIT",
+      "targetUsd": 0.065
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.247Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_recovery_budget_exhausted",
+    "url": "https://www.myperfectcolor.com/paint/384007-caterpillar-tractor-yellow",
+    "remainingSegments": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.248Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "recover_P15_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.248Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction_recovery",
+    "message": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512: All model routes failed: openrouter:qwen/qwen3.5-flash-02-23: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds",
+    "details": {
+      "code": "AI_BUDGET_LIMIT",
+      "targetUsd": 0.065
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.248Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_recovery_budget_exhausted",
+    "url": "https://shop.deere.com/us/product/TY25512%3A-Caterpillar-Yellow-Paint-(All-Make)%2C-340-gram-(12-Oz)-Aerosol/p/TY25512",
+    "remainingSegments": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.248Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P13_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.248Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P15_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.249Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P13_1",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.249Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P15_1",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.249Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P13_1",
+    "provider": "openrouter",
+    "model": "openai/gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.249Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P15_1",
+    "provider": "openrouter",
+    "model": "openai/gpt-6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.249Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P13_1",
+    "provider": "openai",
+    "model": "gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P15_1",
+    "provider": "openai",
+    "model": "gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P13_1",
+    "provider": "openrouter",
+    "model": "openai/gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_skipped",
+    "stage": "recover_P15_1",
+    "provider": "openrouter",
+    "model": "openai/gpt-5.6-luna",
+    "kind": "recovery",
+    "reason": "AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "recover_P13_1",
+    "durationMs": 3.08629999999539
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "recover_P15_1",
+    "durationMs": 2.299658999982057
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction_recovery",
+    "message": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p: All model routes failed: openrouter:qwen/qwen3.5-flash-02-23: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds",
+    "details": {
+      "code": "AI_BUDGET_LIMIT",
+      "targetUsd": 0.065
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_recovery_budget_exhausted",
+    "url": "https://www.maxitintas.com.br/tinta-pu-amarelo-caterpillar/p",
+    "remainingSegments": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction_recovery",
+    "message": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR: All model routes failed: openrouter:qwen/qwen3.5-flash-02-23: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds; openrouter:openai/gpt-5.6-luna: AI cost target reached; cannot admit recovery without using reserved mandatory-stage funds",
+    "details": {
+      "code": "AI_BUDGET_LIMIT",
+      "targetUsd": 0.065
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_recovery_budget_exhausted",
+    "url": "https://www.distribuidoragranderio.com.br/Tinta-Esm-Sintetico-Amarelo-Caterpillar-900ml-80-CATERPILLAR",
+    "remainingSegments": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.250Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "extraction_recovery",
+    "message": "Some source segments remain unextracted after the bounded recovery pass"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.462Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://brasilautoshop.com.br/marcas/farben/tinta-esmalte-sintetico-amarelo-caterpillar-81-linha-agricola-industrial-rodoviario-3-6l-farben-113001.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.462Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://brasilautoshop.com.br/marcas/farben/tinta-esmalte-sintetico-amarelo-caterpillar-81-linha-agricola-industrial-rodoviario-3-6l-farben-113001.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.572Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://brasilautoshop.com.br/marcas/farben/tinta-esmalte-sintetico-amarelo-caterpillar-81-linha-agricola-industrial-rodoviario-3-6l-farben-113001.html",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.622Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "manufacturer_paint_recovered",
+    "leads": 3,
+    "source": "existing_search"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.700Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "inventory_budget",
+    "candidates": 33,
+    "spentUsd": 0.010789999999999998,
+    "pendingUsd": 0,
+    "omissionReserveUsd": 0.006500000000000001,
+    "availableUsd": 0.05421000000000001
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.714Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Amarela Caterpillar",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 34,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.719Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "Amarelo Caterpillar",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 34,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.719Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_candidate_checked",
+    "name": "AMARELO CATERPILLAR 81",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.719Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "catalog_review_groups",
+    "candidates": 33,
+    "groups": 33
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.726Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "research_review_batch_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.733Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.735Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.736Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.738Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "research_review_batch_2"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.739Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.741Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "research_review_batch_3"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.743Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.753Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_2"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:00.754Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:01.585Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 846.368289999984
+  },
+  {
+    "timestamp": "2026-10-07T13:28:01.671Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 928.598845999979
+  },
+  {
+    "timestamp": "2026-10-07T13:28:01.901Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1162.4007259999926,
+    "firstContentMs": 846.368289999984
+  },
+  {
+    "timestamp": "2026-10-07T13:28:01.902Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_2",
+    "durationMs": 1164.3090680000023
+  },
+  {
+    "timestamp": "2026-10-07T13:28:02.030Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1294.9944139999861
+  },
+  {
+    "timestamp": "2026-10-07T13:28:02.180Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1444.2388060000085
+  },
+  {
+    "timestamp": "2026-10-07T13:28:02.305Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1551.3792919999978
+  },
+  {
+    "timestamp": "2026-10-07T13:28:02.919Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2175.980822999991,
+    "firstContentMs": 928.598845999979
+  },
+  {
+    "timestamp": "2026-10-07T13:28:02.919Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_3",
+    "durationMs": 2178.3312879999867
+  },
+  {
+    "timestamp": "2026-10-07T13:28:03.107Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_color_candidates_loaded",
+    "batch": 1,
+    "colors": [
+      {
+        "index": 0,
+        "color": "Amarelo Caterpillar",
+        "db_candidates": 34
+      },
+      {
+        "index": 1,
+        "color": "AMARELO CATERPILLAR 81",
+        "db_candidates": 0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:28:03.108Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_local",
+    "batch": 1,
+    "colors": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:28:03.108Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2354.7776920000033,
+    "firstContentMs": 1551.3792919999978
+  },
+  {
+    "timestamp": "2026-10-07T13:28:03.109Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_2",
+    "durationMs": 2356.365951999993
+  },
+  {
+    "timestamp": "2026-10-07T13:28:03.149Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_request_start",
+    "batch": 1,
+    "model": "gpt-6-luna",
+    "colors": 1,
+    "candidates": 10
+  },
+  {
+    "timestamp": "2026-10-07T13:28:03.150Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "batch": 1,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:03.281Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2545.262923000002,
+    "firstContentMs": 1444.2388060000085
+  },
+  {
+    "timestamp": "2026-10-07T13:28:03.281Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_1",
+    "durationMs": 2548.8629889999866
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.817Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://portalelo.com.br/materia/474",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.817Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://lista.mercadolivre.com.br/tinta-caterpillar-original",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.817Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://portalelo.com.br/materia/474",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.817Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://lista.mercadolivre.com.br/tinta-caterpillar-original",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.918Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "batch": 1,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "durationMs": 1767.8660819999932
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.986Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_usage",
+    "batch": 1,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "serviceTier": "fast",
+    "usage": {
+      "input_tokens": 1997,
+      "input_tokens_details": {
+        "cache_write_tokens": 1994,
+        "cached_tokens": 0
+      },
+      "output_tokens": 173,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 2170,
+      "cached_input_tokens": 0
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.988Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "batch": 1,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "durationMs": 1837.9953490000044,
+    "firstContentMs": 1767.8660819999932
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.989Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_request_complete",
+    "batch": 1,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "selectedRows": 2,
+    "serviceTier": "fast",
+    "usage": {
+      "input_tokens": 1997,
+      "input_tokens_details": {
+        "cache_write_tokens": 1994,
+        "cached_tokens": 0
+      },
+      "output_tokens": 173,
+      "output_tokens_details": {
+        "reasoning_tokens": 144
+      },
+      "total_tokens": 2170,
+      "cached_input_tokens": 0
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:04.991Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_color_matching_complete",
+    "batch": 1,
+    "colors": 2,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.027Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 5291.922298999998,
+    "firstContentMs": 1294.9944139999861
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.028Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_1",
+    "durationMs": 5301.990992000006
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.039Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "final_verification_omissions_ready_1_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.042Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.048Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "completion_review",
+    "attempted": 0,
+    "recovered": 0,
+    "remaining": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.051Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_color_candidates_loaded",
+    "batch": 2,
+    "colors": [
+      {
+        "index": 0,
+        "color": "Caterpillar Yellow High-gloss Urethane Paint",
+        "db_candidates": 0
+      },
+      {
+        "index": 1,
+        "color": "Yellow Paint High",
+        "db_candidates": 0
+      },
+      {
+        "index": 2,
+        "color": "Hiway Yellow Paint High",
+        "db_candidates": 0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.053Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_local",
+    "batch": 2,
+    "colors": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.054Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_color_matching_complete",
+    "batch": 2,
+    "colors": 3,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.055Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_color_candidates_loaded",
+    "batch": 3,
+    "colors": [
+      {
+        "index": 0,
+        "color": "Yellow Paint High Gloss Fast Drying",
+        "db_candidates": 0
+      },
+      {
+        "index": 1,
+        "color": "Yellow Paint High Gloss 3.5 VOC",
+        "db_candidates": 0
+      },
+      {
+        "index": 2,
+        "color": "Yellow Urethane Paint High",
+        "db_candidates": 0
+      },
+      {
+        "index": 3,
+        "color": "Yellow Paint High Gloss Water Reducible 3.4 VOC",
+        "db_candidates": 0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.056Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_local",
+    "batch": 3,
+    "colors": 4
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.056Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_color_matching_complete",
+    "batch": 3,
+    "colors": 4,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.071Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://portalelo.com.br/materia/474",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.895Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 853.3560880000005
+  },
+  {
+    "timestamp": "2026-10-07T13:28:06.937Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://lista.mercadolivre.com.br/tinta-caterpillar-original",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:28:07.182Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1140.052716999984,
+    "firstContentMs": 853.3560880000005
+  },
+  {
+    "timestamp": "2026-10-07T13:28:07.182Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "final_verification_omissions_ready_1_1",
+    "durationMs": 1144.2564890000212
+  },
+  {
+    "timestamp": "2026-10-07T13:28:07.200Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "research_review_batch_retry_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:07.202Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "research_review_batch_retry_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:08.211Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "research_review_batch_retry_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1009.0569840000244
+  },
+  {
+    "timestamp": "2026-10-07T13:28:08.845Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_retry_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1642.4153159999987,
+    "firstContentMs": 1009.0569840000244
+  },
+  {
+    "timestamp": "2026-10-07T13:28:08.845Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_retry_1",
+    "durationMs": 1645.7662539999874
+  },
+  {
+    "timestamp": "2026-10-07T13:28:08.846Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "omission_review_complete",
+    "total": 24,
+    "checked": 24,
+    "flagged": 1,
+    "recovered": 1,
+    "incomplete": 0,
+    "repairFailures": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:08.850Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_color_candidates_loaded",
+    "batch": 4,
+    "colors": [
+      {
+        "index": 0,
+        "color": "Amarela Caterpillar",
+        "db_candidates": 34
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:28:08.890Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_request_start",
+    "batch": 4,
+    "model": "gpt-6-luna",
+    "colors": 1,
+    "candidates": 10
+  },
+  {
+    "timestamp": "2026-10-07T13:28:08.892Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "batch": 4,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:10.650Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "batch": 4,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "durationMs": 1757.602383999998
+  },
+  {
+    "timestamp": "2026-10-07T13:28:10.818Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_usage",
+    "batch": 4,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "serviceTier": "fast",
+    "usage": {
+      "input_tokens": 2005,
+      "input_tokens_details": {
+        "cache_write_tokens": 2002,
+        "cached_tokens": 0
+      },
+      "output_tokens": 160,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 2165,
+      "cached_input_tokens": 0
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:10.818Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "batch": 4,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "durationMs": 1926.2427509999834,
+    "firstContentMs": 1757.602383999998
+  },
+  {
+    "timestamp": "2026-10-07T13:28:10.819Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_matcher_request_complete",
+    "batch": 4,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "selectedRows": 2,
+    "serviceTier": "fast",
+    "usage": {
+      "input_tokens": 2005,
+      "input_tokens_details": {
+        "cache_write_tokens": 2002,
+        "cached_tokens": 0
+      },
+      "output_tokens": 160,
+      "output_tokens_details": {
+        "reasoning_tokens": 131
+      },
+      "total_tokens": 2165,
+      "cached_input_tokens": 0
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:28:10.820Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "database_color_matching_complete",
+    "batch": 4,
+    "colors": 1,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:28:10.858Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "initial_response_ready",
+    "colors": 10,
+    "durationMs": 42515
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.047Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://maza.com.br/produtos",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.048Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://maza.com.br/produtos",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.230Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://www.pjf.mg.gov.br/secretarias/selicon/editais/resultados/2020/dezembro/arquivos/resul_pe165_20.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.233Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://www.pjf.mg.gov.br/secretarias/selicon/editais/resultados/2020/dezembro/arquivos/resul_pe165_20.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.340Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://www.scribd.com/document/180522522/Pinturas-Cat",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.391Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://www.scribd.com/document/180522522/Pinturas-Cat",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.393Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "verification_search_budget_exhausted",
+    "primaryLimit": 6,
+    "followupLimit": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.419Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Yellow Urethane Paint High",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.646Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://maza.com.br/produtos",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.747Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Amarelo Caterpillar 81",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.922Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://blog.randalsrl.com/?bjg=31.524240.2.60",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:13.967Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://blog.randalsrl.com/?bjg=31.524240.2.60",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:14.009Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Caterpillar Yellow High-Gloss Urethane Paint",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:14.906Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_queued",
+    "url": "https://escavadeirinha.com.br/product/28005-116-cat-320-escavadeira-de-controle-de-radio-com-acessorios-de-cacamba-garra-e-martelo/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:14.906Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_start",
+    "url": "https://escavadeirinha.com.br/product/28005-116-cat-320-escavadeira-de-controle-de-radio-com-acessorios-de-cacamba-garra-e-martelo/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:17.172Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://blog.randalsrl.com/?bjg=31.524240.2.60",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:28:17.220Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://www.pjf.mg.gov.br/secretarias/selicon/editais/resultados/2020/dezembro/arquivos/resul_pe165_20.pdf",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "Failed to fetch https://www.pjf.mg.gov.br/secretarias/selicon/editais/resultados/2020/dezembro/arquivos/resul_pe165_20.pdf: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:17.339Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Amarelo Caterpillar",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:17.424Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "final_verification_V9"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:17.425Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "final_verification_V9",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.341Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://www.scribd.com/document/180522522/Pinturas-Cat",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.361Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Yellow Paint High Gloss Water Reducible 3.4 Voc",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.615Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Yellow Paint High Gloss Fast Drying",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.615Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Yellow Paint High Gloss 3.5 Voc",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.615Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Yellow Paint High",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.615Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Hiway Yellow Paint High",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.811Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "final_verification_V5"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.813Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "final_verification_V1"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.816Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "final_verification_V3"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.817Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "final_verification_V5",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.817Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.817Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "final_verification_V3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:18.819Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "final_verification_V9",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1394.430343999993
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.705Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "final_verification_V5",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 888.4729879999941
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.726Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "final_verification_V3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 909.536225000018
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.814Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "page_fetch_complete",
+    "url": "https://escavadeirinha.com.br/product/28005-116-cat-320-escavadeira-de-controle-de-radio-com-acessorios-de-cacamba-garra-e-martelo/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.814Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Amarela Caterpillar",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.877Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1060.460739000002
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.892Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "final_verification_V9",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 2466.6778789999953,
+    "firstContentMs": 1394.430343999993
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.892Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "final_verification_V9",
+    "durationMs": 2468.171390000003
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.893Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_start",
+    "stage": "final_verification_V7"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.894Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "verification_citation",
+    "message": "Amarelo Caterpillar 81: 1 unsupported checks ignored"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:19.894Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_start",
+    "stage": "final_verification_V7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:28:20.490Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "final_verification_V3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1673.5285009999934,
+    "firstContentMs": 909.536225000018
+  },
+  {
+    "timestamp": "2026-10-07T13:28:20.491Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "final_verification_V3",
+    "durationMs": 1675.5183060000127
+  },
+  {
+    "timestamp": "2026-10-07T13:28:20.583Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "final_verification_V5",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1766.1517349999922,
+    "firstContentMs": 888.4729879999941
+  },
+  {
+    "timestamp": "2026-10-07T13:28:20.584Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "final_verification_V5",
+    "durationMs": 1772.8886660000135
+  },
+  {
+    "timestamp": "2026-10-07T13:28:20.712Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1895.3351949999924,
+    "firstContentMs": 1060.460739000002
+  },
+  {
+    "timestamp": "2026-10-07T13:28:20.713Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "final_verification_V1",
+    "durationMs": 1899.720279000001
+  },
+  {
+    "timestamp": "2026-10-07T13:28:20.850Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_first_content",
+    "stage": "final_verification_V7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 955.6433090000064
+  },
+  {
+    "timestamp": "2026-10-07T13:28:21.924Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_route_complete",
+    "stage": "final_verification_V7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 2030.3512470000132,
+    "firstContentMs": 955.6433090000064
+  },
+  {
+    "timestamp": "2026-10-07T13:28:21.925Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "model_request_complete",
+    "stage": "final_verification_V7",
+    "durationMs": 2032.0523589999939
+  },
+  {
+    "timestamp": "2026-10-07T13:28:21.925Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "verification_complete",
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 10,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 10,
+    "queries": 7,
+    "pagesFetched": 5,
+    "searchesSkipped": 8,
+    "pagesReviewed": 7,
+    "catalogRecordsReviewed": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:28:21.925Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "warning",
+    "stage": "verification",
+    "message": "Some final color data remains unverified or conflicting; see each color verification field"
+  },
+  {
+    "timestamp": "2026-10-07T13:28:21.958Z",
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "event": "run_complete",
+    "durationMs": 53583,
+    "colors": 10,
+    "pages": 18,
+    "modelCalls": {
+      "main": 13,
+      "pageAnalysis": 14,
+      "databaseMatcher": 4,
+      "verification": 6
+    },
+    "timing": {
+      "totalMs": 53583,
+      "processingMs": 53583,
+      "capacityWaitMs": 0,
+      "modelRequestMs": 60722,
+      "targetTimeMs": 60000,
+      "deadlineMode": "soft",
+      "overTargetMs": 0,
+      "maxTimeMs": 100000
+    }
+  }
+]

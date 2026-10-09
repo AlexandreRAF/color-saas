@@ -1,0 +1,17 @@
+{
+  "name": "automotive-paint-guarded",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "parse5": "8.0.1",
+    "undici": "8.11.2",
+    "ipaddr.js": "1.9.1"
+  },
+  "scripts": {
+    "test": "node tests/run_suite.js",
+    "test:vehicles": "node evaluate_vehicles.js",
+    "test:non-cars": "node tests/run_live_non_car.js",
+    "test:load": "node evaluate_load.js",
+    "capacity": "node capacity_server.js"
+  }
+}

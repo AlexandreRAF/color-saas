@@ -1,0 +1,298 @@
+{
+  "formatVersion": 3,
+  "runId": "eb6bda8d-2943-4370-8bf7-75aeceef298a",
+  "modelRequests": {
+    "total": 19,
+    "byStage": {
+      "pageAnalysis": 16,
+      "main": 1,
+      "candidateReview": 1,
+      "verification": 1
+    }
+  },
+  "pagePool": {
+    "hits": 1,
+    "inFlightHits": 1,
+    "prefetchScheduled": 1,
+    "prefetchUsed": 1,
+    "retries": 1,
+    "prefetchStarted": 1,
+    "uniqueUrls": 12
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 12,
+    "httpAttempts": 12,
+    "remaining": 8,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 10,
+      "verification": 2
+    }
+  },
+  "serperCost": {
+    "requests": 12,
+    "successfulResponses": 12,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 12,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.012
+  },
+  "totalEstimatedCostUsd": 0.022197,
+  "totalUpperBoundUsd": 0.022197,
+  "totalAdmissionEstimateUsd": 0.022198,
+  "usage": {
+    "inputTokens": 136010,
+    "outputTokens": 687,
+    "totalTokens": 136697,
+    "estimatedCostUsd": 0.010197,
+    "upperBoundUsd": 0.010197,
+    "admissionEstimateUsd": 0.010198,
+    "knownCostUsd": 0.010197,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 18,
+        "inputTokens": 129979,
+        "cachedInputTokens": 0,
+        "outputTokens": 283,
+        "totalTokens": 130262,
+        "estimatedCostUsd": 0.008522,
+        "knownCostUsd": 0.008522
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 1,
+        "inputTokens": 6031,
+        "cachedInputTokens": 1028,
+        "outputTokens": 404,
+        "totalTokens": 6435,
+        "estimatedCostUsd": 0.001675,
+        "knownCostUsd": 0.001675
+      }
+    ]
+  },
+  "timeMs": 38723,
+  "browserUses": {
+    "total": 12,
+    "failed": 0,
+    "serper": 12,
+    "brave": 0,
+    "nameClarification": 0,
+    "finalVerification": 2,
+    "uniqueQueries": 12,
+    "engines": {
+      "serper": 12
+    }
+  },
+  "pageFetchAttempts": 13,
+  "pagesFetched": 9,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 4,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 38723,
+    "processingMs": 38723,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 30033,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "tractor",
+    "make": "Massey Ferguson",
+    "model": "275",
+    "year": 1980,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Vermelho Massey Ferguson",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.tractortem.com.br/produtos/sem-categoria/tinta-vermelho-massey-ferguson-900ml/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 1,
+      "completed": 1,
+      "incomplete": 0
+    },
+    "omissionReview": {
+      "total": 0,
+      "checked": 0,
+      "flagged": 0,
+      "recovered": 0,
+      "incomplete": 0,
+      "repairFailures": 0
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "VERMELHO MASSEY FERGUSON"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": true,
+      "attempted": 0,
+      "recovered": 0
+    },
+    "discoveryCoverage": {
+      "domains": 1,
+      "palettes": 1,
+      "candidates": 1,
+      "needsExpansion": true,
+      "recoveryAttempted": true,
+      "replacementPages": 8,
+      "missingPagesBeforeRecovery": 12
+    },
+    "reviewCoverage": {
+      "total": 1,
+      "reviewed": 1,
+      "unreviewed": 0
+    },
+    "warnings": [
+      {
+        "stage": "extraction",
+        "count": 1,
+        "code": "AI_BUDGET_LIMIT",
+        "targetUsd": 0.065
+      },
+      {
+        "stage": "discovery_coverage",
+        "count": 1
+      },
+      {
+        "stage": "depth",
+        "count": 1
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 1,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 1,
+    "queries": 2,
+    "pagesFetched": 1,
+    "pagesReviewed": 1,
+    "catalogRecordsReviewed": 0
+  },
+  "paletteScope": {
+    "modelCandidates": 0,
+    "manufacturerLeads": 1
+  },
+  "completion": {
+    "status": "partial",
+    "issues": [
+      "no_model_linked_colors",
+      "discovery_incomplete"
+    ]
+  },
+  "billing": {
+    "status": "complete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.010198,
+    "upperBoundUsd": 0.022197,
+    "knownCostUsd": 0.022197
+  },
+  "fetchedPages": [
+    {
+      "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.slideshare.net/slideshow/mf275-14278747/14278747",
+      "status": "ok"
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.slideshare.net/slideshow/1-catlogo-de-peas-trator-massey-ferguson-275pdf/256148939",
+      "status": "ok",
+      "prefetched": true
+    },
+    {
+      "url": "https://paintguide.masseyferguson.com/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.tractortem.com.br/produtos/sem-categoria/tinta-vermelho-massey-ferguson-900ml/",
+      "status": "ok"
+    },
+    {
+      "url": "https://pt.scribd.com/doc/125496116/CATALOGO-DE-PECAS-DO-MF-275",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://pt.scribd.com/doc/125496116/CATALOGO-DE-PECAS-DO-MF-275",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://br.ebay.com/b/Red-Massey-Ferguson-Tractor-Vintage-Manufacture-Diecast-Farm-Vehicles/741/bn_113317661",
+      "status": "error",
+      "error": "Failed to fetch https://br.ebay.com/b/Red-Massey-Ferguson-Tractor-Vintage-Manufacture-Diecast-Farm-Vehicles/741/bn_113317661: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.mercadolivre.com.br/kit-de-adesivos-trator-massey-ferguson-mf-275-advanced-275a-cor-padro/p/MLB24158303",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.magazineluiza.com.br/busca/spray+automotivo+vermelho+massey/",
+      "status": "error",
+      "error": "Failed to fetch https://www.magazineluiza.com.br/busca/spray+automotivo+vermelho+massey/: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    }
+  ]
+}

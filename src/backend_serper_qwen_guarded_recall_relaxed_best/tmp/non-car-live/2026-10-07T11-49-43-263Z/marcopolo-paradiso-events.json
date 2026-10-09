@@ -1,0 +1,954 @@
+[
+  {
+    "timestamp": "2026-10-07T11:49:43.294Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "run_start",
+    "vehicle": {
+      "automobileType": "bus",
+      "brand": "Marcopolo",
+      "manufacturingYear": 2018,
+      "model": "Paradiso 1200 G7",
+      "predominantColor": "branco",
+      "country": "Brazil"
+    },
+    "targetTimeMs": 60000,
+    "maxTimeMs": 100000,
+    "deadlineMode": "soft_target_hard_maximum",
+    "deadlines": {
+      "search": 11000,
+      "fetch": 12000,
+      "extraction": 17000,
+      "recovery": 35000,
+      "nameClarification": 35000,
+      "review": 60000,
+      "repair": 68000,
+      "matching": 82000,
+      "verificationSearch": 88000,
+      "verification": 98000
+    },
+    "maxSearches": 10,
+    "maxPages": 24,
+    "maxBrowserUses": 20
+  },
+  {
+    "timestamp": "2026-10-07T11:49:43.298Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_start",
+    "queries": [
+      "Marcopolo Paradiso 1200 G7 2018 cores branco",
+      "Marcopolo Paradiso 1200 G7 2018 bus cores carroceria pintura original Brazil",
+      "Marcopolo Paradiso 1200 G7 bus coach body paint colours white",
+      "Marcopolo Paradiso 1200 G7 bus carroceria painéis pintados cor",
+      "Marcopolo Paradiso 1200 G7 2018 catálogo PDF cores",
+      "Marcopolo Paradiso 1200 G7 2018 versões cores PDF",
+      "Marcopolo Paradiso 1200 G7 2018 código tinta carroceria",
+      "Marcopolo Paradiso 1200 G7 coach body panel paint code"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.185Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://onibus.marcopolo.com.br/central-de-downloads/materiais-tecnicos",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.187Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://onibus.marcopolo.com.br/central-de-downloads?type=catalogos",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.191Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://gb13.com.br/catalogo/?filter_ano-modelo=2014%2C2015%2C2016%2C2018&query_type_ano-modelo=or&query_type_carroceria-fabricante=or",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.192Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://vendasbus.com.br/veiculo-a-venda/onibus-marcopolo-paradiso-1200-g7/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.194Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://pt.wikipedia.org/wiki/Marcopolo_Paradiso",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.195Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://onibus.marcopolo.com.br/it/prodotti/scarica/paradiso-new-g7-1200/lamina-paradiso-new-g7-1200-420x297mm-portugues-web.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.196Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://onibus.marcopolo.com.br/en/downloads/technical-materials",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.199Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.realonibus.com.br/images/catalogo_real_2020%20.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.200Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/onibusmsc/videos/seis-unidades-dispon%C3%ADveis-marcopolo-paradiso-g7-1200-mercedes-benz-o-500-rsd-42-/382805291497080/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.213Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_queued",
+    "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.219Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 2018 catálogo PDF cores",
+    "received": 10,
+    "indexed": 10,
+    "relevant": 1
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.219Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_start",
+    "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.438Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://onibus.marcopolo.com.br/produtos/rodoviarios/paradiso-new-g7-1200",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.439Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/OnibusMarcopolo/photos/paradiso-1200-g7-reestilizado-modelo-recebeu-mudan%C3%A7as-que-os-tornam-ainda-mais-s/489110507766740/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.439Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://vendasbus.com.br/veiculo-a-venda/paradiso-new-g7/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.448Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_queued",
+    "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.460Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 2018 versões cores PDF",
+    "received": 10,
+    "indexed": 14,
+    "relevant": 2
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.460Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_start",
+    "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.500Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://lista.mercadolivre.com.br/marcopolo-paradiso-g7-1200-4x2",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.500Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=Puss8aR_Eys",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.500Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DYUcYozuRrF/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.501Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=AeECRHckRpA",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.502Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://pt.pinterest.com/ideas/onibus-marcopolo-g7-1200/904417329945/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.502Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://onibus.marcopolo.com.br/it/prodotti/rodoviarios/paradiso-new-g7-1200",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.515Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_queued",
+    "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.529Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 bus carroceria painéis pintados cor",
+    "received": 10,
+    "indexed": 21,
+    "relevant": 3
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.529Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_start",
+    "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.557Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://lista.mercadolivre.com.br/paradiso-1200-g7",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.558Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=hMI_k27_AqU",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.558Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/500435042/lamina-paradiso-new-g7-1200-420x297mm-portugues-web-4",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.562Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_queued",
+    "url": "https://jmutilitarios.com.br/veiculo/marcopolo-paradiso-g7-1200-ano-2012-o500-rsd-jm-cod-1650/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.570Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 2018 cores branco",
+    "received": 10,
+    "indexed": 25,
+    "relevant": 4
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.570Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_start",
+    "url": "https://jmutilitarios.com.br/veiculo/marcopolo-paradiso-g7-1200-ano-2012-o500-rsd-jm-cod-1650/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.573Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://lista.mercadolivre.com.br/onibus-g7-1200-trucado",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.573Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=bvd_cNv7EIM",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.573Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/p/DQctJKtkjxh/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.573Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://jmutilitarios.com.br/categoria/marcopolo-paradiso-1200-g7-trucado-a-venda/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.574Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/onibus.empresas/posts/-a-saritur-segue-repaginando-sua-frota-os-marcopolo-paradiso-g7-1200-mercedes-be/1252080333629341/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.587Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 2018 bus cores carroceria pintura original Brazil",
+    "received": 10,
+    "indexed": 30,
+    "relevant": 4
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.712Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_complete",
+    "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T11:49:44.764Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_start",
+    "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.046Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_complete",
+    "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.053Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_catalog_discovery",
+    "records": 0,
+    "namedEvidenceRows": 0
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.055Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_start",
+    "queries": [
+      "Marcopolo Paradiso 1200 G7 2018 nomes cores originais códigos tinta catálogo Brasil branco"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.084Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_complete",
+    "url": "https://jmutilitarios.com.br/veiculo/marcopolo-paradiso-g7-1200-ano-2012-o500-rsd-jm-cod-1650/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.088Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_start",
+    "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.091Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_start",
+    "url": "https://jmutilitarios.com.br/veiculo/marcopolo-paradiso-g7-1200-ano-2012-o500-rsd-jm-cod-1650/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.092Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_complete",
+    "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.114Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_start",
+    "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.540Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.pinterest.com/ideas/marcopolo-g7-1200/955534924306/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.540Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://en.wikipedia.org/wiki/Marcopolo_Paradiso",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.541Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.scribd.com/document/76151732/G7-Paradiso-1200",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.541Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=WjZBOT8s3SE&xstg=CAMSBhUDze3xHw%3D%3D",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.541Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/groups/1704717509845033/posts/3718391645144266/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.542Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.researchgate.net/figure/Marcopolo-Paradiso-1200-G7-bus-Available-from_fig1_337089869",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.542Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://embed-3dwarehouse-classic.sketchup.com/model/30c34a579410bbf2102055801a18154b/marcopolo-paradiso-g7",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.559Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_queued",
+    "url": "https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.597Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 coach body panel paint code",
+    "received": 10,
+    "indexed": 38,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.597Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_start",
+    "url": "https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:45.957Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_first_content",
+    "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 842.5782860000004
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.005Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_complete",
+    "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 890.4613340000001,
+    "firstContentMs": 842.5782860000004
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.009Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_complete",
+    "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.011Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_first_content",
+    "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1247.4733119999999
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.190Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/61551001257521/videos/revisamos-un-cl%C3%A1sico-bus-de-brasil-marcopolo-g5/1709320456934259/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.191Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/61590301512654/videos/marcopolo-g7-%EF%B8%8F/1125749910136718/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.191Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/playlist?list=PL19WCiAXCPG4hcDymBctXYPBb8nCTm-jn",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.191Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://onibus.marcopolo.com.br/en/products/paradiso-g8",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.192Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.scribd.com/document/753256928/Marcopolo-Bus-Body-Specification",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.245Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 bus coach body paint colours white",
+    "received": 10,
+    "indexed": 43,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.246Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_first_content",
+    "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1158.4680010000002
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.247Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_complete",
+    "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1483.2102629999997,
+    "firstContentMs": 1247.4733119999999
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.248Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_complete",
+    "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.269Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_complete",
+    "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1181.4029930000002,
+    "firstContentMs": 1158.4680010000002
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.270Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_complete",
+    "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.525Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://jmutilitarios.com.br/categoria/marcopolo-paradiso-1200-new-g7-a-venda/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.525Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DR0Ai5TDwAn/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.539Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 2018 nomes cores originais códigos tinta catálogo Brasil branco",
+    "received": 10,
+    "indexed": 45,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.539Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 45
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.569Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_first_content",
+    "url": "https://jmutilitarios.com.br/veiculo/marcopolo-paradiso-g7-1200-ano-2012-o500-rsd-jm-cod-1650/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1478.095781
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.643Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_complete",
+    "url": "https://jmutilitarios.com.br/veiculo/marcopolo-paradiso-g7-1200-ano-2012-o500-rsd-jm-cod-1650/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1552.2220690000004,
+    "firstContentMs": 1478.095781
+  },
+  {
+    "timestamp": "2026-10-07T11:49:46.644Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_complete",
+    "url": "https://jmutilitarios.com.br/veiculo/marcopolo-paradiso-g7-1200-ano-2012-o500-rsd-jm-cod-1650/",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T11:49:47.637Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/p/DXMmXq_mQti/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:47.637Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/groups/280209733427696/posts/1566577571457566/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:47.638Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/629398381/Manual-New-Mega-11308127",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:47.638Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.tiktok.com/discover/manopla-de-c%C3%A2mbio-do-onibus-mercedes",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:47.639Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/466962336/CATALOGO-CADIPECAS-2017-pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:47.639Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/groups/280209733427696/posts/1566617478120242/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:47.693Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 2018 código tinta carroceria",
+    "received": 6,
+    "indexed": 51,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T11:49:47.694Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_complete",
+    "queries": 8,
+    "indexedSources": 51
+  },
+  {
+    "timestamp": "2026-10-07T11:49:48.405Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "page_fetch_complete",
+    "url": "https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "Failed to fetch https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:48.407Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "sparse_discovery_extended",
+    "untilMs": 32000,
+    "coverage": {
+      "domains": 0,
+      "palettes": 0,
+      "candidates": 0,
+      "needsExpansion": true
+    }
+  },
+  {
+    "timestamp": "2026-10-07T11:49:48.407Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "discovery_coverage",
+    "domains": 0,
+    "palettes": 0,
+    "candidates": 0,
+    "needsExpansion": true
+  },
+  {
+    "timestamp": "2026-10-07T11:49:48.437Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_request_start",
+    "stage": "research_plan"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:48.440Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_start",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "timeoutMs": 12000
+  },
+  {
+    "timestamp": "2026-10-07T11:49:51.635Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_first_content",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "durationMs": 3195.0309000000007
+  },
+  {
+    "timestamp": "2026-10-07T11:49:52.417Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_route_complete",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "durationMs": 3977.0752760000005,
+    "firstContentMs": 3195.0309000000007
+  },
+  {
+    "timestamp": "2026-10-07T11:49:52.418Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "model_request_complete",
+    "stage": "research_plan",
+    "durationMs": 3982.388070000001
+  },
+  {
+    "timestamp": "2026-10-07T11:49:52.420Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "name_research_complete",
+    "queries": 0,
+    "leads": 0,
+    "unresolved": []
+  },
+  {
+    "timestamp": "2026-10-07T11:49:52.443Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_start",
+    "queries": [
+      "Marcopolo Paradiso 1200 G7 2018 carroceria tinta código cor pintura"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.457Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://lista.mercadolivre.com.br/marcopolo-paradiso-1200-g7",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.457Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://onibus.marcopolo.com.br/es/productos/interprovinciales/paradiso-new-g7-1200",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.458Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/p/DdJQQmkEf5G/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.458Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://jmutilitarios.com.br/veiculo/onibus-paradiso-new-g7-1200-ano-2020-k310-a-venda-cod-1611/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.459Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_source_rejected",
+    "url": "https://www.maxitintas.com.br/Sistema/buscavazia",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.502Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_sources",
+    "query": "Marcopolo Paradiso 1200 G7 2018 carroceria tinta código cor pintura",
+    "received": 10,
+    "indexed": 56,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.502Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 56
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.515Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "discovery_recovery",
+    "before": {
+      "domains": 0,
+      "palettes": 0,
+      "candidates": 0,
+      "needsExpansion": true
+    },
+    "replacementPages": 0
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.515Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "warning",
+    "stage": "discovery_coverage",
+    "message": "Independent paint-source coverage remains insufficient after recovery"
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.526Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "inventory_budget",
+    "candidates": 0,
+    "spentUsd": 0.002748,
+    "pendingUsd": 0,
+    "omissionReserveUsd": 0.006500000000000001,
+    "availableUsd": 0.062252
+  },
+  {
+    "timestamp": "2026-10-07T11:49:53.527Z",
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "event": "run_error",
+    "error": "No source-grounded named paint candidates found",
+    "durationMs": 10261.4601
+  }
+]

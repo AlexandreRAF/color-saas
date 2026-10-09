@@ -1,0 +1,262 @@
+[
+  {
+    "timestamp": "2026-10-07T12:28:11.289Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "run_start",
+    "vehicle": {
+      "automobileType": "bus",
+      "brand": "Marcopolo",
+      "manufacturingYear": 2018,
+      "model": "Paradiso 1200 G7",
+      "predominantColor": "branco",
+      "country": "Brazil"
+    },
+    "targetTimeMs": 60000,
+    "maxTimeMs": 100000,
+    "deadlineMode": "soft_target_hard_maximum",
+    "deadlines": {
+      "search": 11000,
+      "fetch": 12000,
+      "extraction": 17000,
+      "recovery": 35000,
+      "nameClarification": 35000,
+      "review": 60000,
+      "repair": 68000,
+      "matching": 82000,
+      "verificationSearch": 88000,
+      "verification": 98000
+    },
+    "maxSearches": 10,
+    "maxPages": 24,
+    "maxBrowserUses": 20
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.293Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_start",
+    "queries": [
+      "Marcopolo Paradiso 1200 G7 2018 cores branco",
+      "Marcopolo Paradiso 1200 G7 2018 bus cores carroceria pintura original Brazil",
+      "Marcopolo Paradiso 1200 G7 bus coach body paint colours white",
+      "Marcopolo Paradiso 1200 G7 bus carroceria painéis pintados cor",
+      "Marcopolo Paradiso 1200 G7 2018 catálogo PDF cores",
+      "Marcopolo Paradiso 1200 G7 2018 versões cores PDF",
+      "Marcopolo Paradiso 1200 G7 2018 código tinta carroceria",
+      "Marcopolo Paradiso 1200 G7 coach body panel paint code"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.325Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Marcopolo Paradiso 1200 G7 2018 cores branco",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "fetch failed"
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.326Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Marcopolo Paradiso 1200 G7 2018 bus cores carroceria pintura original Brazil",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "fetch failed"
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.326Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Marcopolo Paradiso 1200 G7 bus coach body paint colours white",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "fetch failed"
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.326Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Marcopolo Paradiso 1200 G7 bus carroceria painéis pintados cor",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "fetch failed"
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.326Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Marcopolo Paradiso 1200 G7 2018 catálogo PDF cores",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "fetch failed"
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.327Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Marcopolo Paradiso 1200 G7 2018 versões cores PDF",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "fetch failed"
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.536Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Marcopolo Paradiso 1200 G7 2018 código tinta carroceria",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "fetch failed"
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.537Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Marcopolo Paradiso 1200 G7 coach body panel paint code",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "fetch failed"
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.740Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "warning",
+    "stage": "search",
+    "message": "Marcopolo Paradiso 1200 G7 2018 cores branco: Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "details": {
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "stage": "search",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.741Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "warning",
+    "stage": "search",
+    "message": "Marcopolo Paradiso 1200 G7 2018 bus cores carroceria pintura original Brazil: Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "details": {
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "stage": "search",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.741Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "warning",
+    "stage": "search",
+    "message": "Marcopolo Paradiso 1200 G7 bus coach body paint colours white: Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "details": {
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "stage": "search",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.741Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "warning",
+    "stage": "search",
+    "message": "Marcopolo Paradiso 1200 G7 bus carroceria painéis pintados cor: Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "details": {
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "stage": "search",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.741Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "warning",
+    "stage": "search",
+    "message": "Marcopolo Paradiso 1200 G7 2018 catálogo PDF cores: Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "details": {
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "stage": "search",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.741Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "warning",
+    "stage": "search",
+    "message": "Marcopolo Paradiso 1200 G7 2018 versões cores PDF: Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "details": {
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "stage": "search",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.741Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "warning",
+    "stage": "search",
+    "message": "Marcopolo Paradiso 1200 G7 2018 código tinta carroceria: Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "details": {
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "stage": "search",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.741Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "warning",
+    "stage": "search",
+    "message": "Marcopolo Paradiso 1200 G7 coach body panel paint code: Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "details": {
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "stage": "search",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.741Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "search_complete",
+    "queries": 8,
+    "indexedSources": 0
+  },
+  {
+    "timestamp": "2026-10-07T12:28:11.742Z",
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "event": "run_error",
+    "error": "Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "durationMs": 480.95290400000005
+  }
+]

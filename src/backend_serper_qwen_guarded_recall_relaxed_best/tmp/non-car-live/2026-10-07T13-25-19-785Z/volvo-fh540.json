@@ -1,0 +1,336 @@
+{
+  "formatVersion": 3,
+  "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+  "modelRequests": {
+    "total": 23,
+    "byStage": {
+      "pageAnalysis": 7,
+      "main": 1,
+      "candidateReview": 10,
+      "verification": 4,
+      "databaseMatcher": 1
+    }
+  },
+  "pagePool": {
+    "hits": 0,
+    "inFlightHits": 0,
+    "prefetchScheduled": 0,
+    "prefetchUsed": 0,
+    "retries": 0,
+    "prefetchStarted": 0,
+    "uniqueUrls": 13
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 16,
+    "httpAttempts": 16,
+    "remaining": 4,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 9,
+      "verification": 7
+    }
+  },
+  "serperCost": {
+    "requests": 16,
+    "successfulResponses": 15,
+    "failedResponses": 0,
+    "unconfirmedRequests": 1,
+    "estimatedCredits": 16,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.016
+  },
+  "totalEstimatedCostUsd": 0.025113,
+  "totalUpperBoundUsd": 0.025113,
+  "totalAdmissionEstimateUsd": 0.02511,
+  "usage": {
+    "inputTokens": 91921,
+    "outputTokens": 5096,
+    "totalTokens": 97017,
+    "estimatedCostUsd": 0.009113,
+    "upperBoundUsd": 0.009113,
+    "admissionEstimateUsd": 0.00911,
+    "knownCostUsd": 0.009113,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 21,
+        "inputTokens": 83268,
+        "cachedInputTokens": 0,
+        "outputTokens": 4454,
+        "totalTokens": 87722,
+        "estimatedCostUsd": 0.00657,
+        "knownCostUsd": 0.00657
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 2,
+        "inputTokens": 8653,
+        "cachedInputTokens": 1142,
+        "outputTokens": 642,
+        "totalTokens": 9295,
+        "estimatedCostUsd": 0.002542,
+        "knownCostUsd": 0.002542
+      }
+    ]
+  },
+  "timeMs": 42852,
+  "browserUses": {
+    "total": 15,
+    "failed": 0,
+    "serper": 15,
+    "brave": 0,
+    "nameClarification": 0,
+    "finalVerification": 4,
+    "uniqueQueries": 15,
+    "engines": {
+      "serper": 15
+    }
+  },
+  "pageFetchAttempts": 13,
+  "pagesFetched": 8,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 5,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 42852,
+    "processingMs": 42852,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 52359,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "truck",
+    "make": "Volvo",
+    "model": "FH 540",
+    "year": 2022,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Ice White",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [
+        "614"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "codes"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "lazzumix",
+          "basf"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Java Pearl",
+      "paintFinish": [
+        "perolizado"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "paintFinish"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 2,
+      "completed": 2,
+      "incomplete": 0
+    },
+    "identityArtifacts": [
+      {
+        "name": "WILD JADE-MET.",
+        "sources": [
+          "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444"
+        ],
+        "reason": "brandwide_promotion"
+      }
+    ],
+    "omissionReview": {
+      "total": 57,
+      "checked": 57,
+      "flagged": 0,
+      "recovered": 0,
+      "incomplete": 0,
+      "repairFailures": 0,
+      "unsupportedFlags": 5
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "JAVA PEARL"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": false,
+      "attempted": 0,
+      "recovered": 0
+    },
+    "discoveryCoverage": {
+      "domains": 3,
+      "palettes": 3,
+      "candidates": 59,
+      "needsExpansion": false
+    },
+    "reviewCoverage": {
+      "total": 59,
+      "reviewed": 59,
+      "unreviewed": 0
+    },
+    "unresolvedNames": [
+      {
+        "name": "Snow",
+        "sources": [
+          "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf"
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "stage": "name_resolution",
+        "count": 1
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 2,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 2,
+    "queries": 4,
+    "pagesFetched": 2,
+    "pagesReviewed": 3,
+    "catalogRecordsReviewed": 2
+  },
+  "paletteScope": {
+    "modelCandidates": 0,
+    "manufacturerLeads": 2
+  },
+  "completion": {
+    "status": "partial",
+    "issues": [
+      "no_model_linked_colors",
+      "names_unresolved"
+    ]
+  },
+  "billing": {
+    "status": "incomplete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.00911,
+    "upperBoundUsd": 0.025113,
+    "knownCostUsd": 0.025113
+  },
+  "fetchedPages": [
+    {
+      "url": "https://www.mercadolivre.com.br/cabine-volvo-fh-540-2023-vo24--amarelo/up/MLBU3512317092",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.olhonocarro.com.br/catalogo/resultado-ficha-tecnica/VOLVO_FH-540_2022_8X4%202P%20(DIESEL)(E5)_dcc819dfa5841d/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.srcaminhoes.com.br/search/cor.Azul/marca.VOLVO/modelo.FH%20540",
+      "status": "ok"
+    },
+    {
+      "url": "https://caminhao.mercadolivre.com.br/MLB-5269527443-volvo-fh-540-2022-_JM",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.coffmantrucks.com/Volvo-Comprehensive-Paint-Selector/",
+      "status": "error",
+      "error": "Failed to fetch https://www.coffmantrucks.com/Volvo-Comprehensive-Paint-Selector/: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://pt.scribd.com/document/422443506/Colores-fh",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.facebook.com/DVORAKTRUCKSSLOVAKIA/posts/volvo-fh-4-13-540-globetrotter-xl-year-122018-mileage-800000km-540-ps-xl-cabin-s/1502622161657884/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.facebook.com/groups/2012850438974047/posts/3201397026786043/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/billyhuttonjnr/posts/ross-wallace-volvo-fm-chassisbody-crane-shotblasted-primed-painetd-verkers-blue-/461963601020056/",
+      "status": "ok"
+    }
+  ]
+}

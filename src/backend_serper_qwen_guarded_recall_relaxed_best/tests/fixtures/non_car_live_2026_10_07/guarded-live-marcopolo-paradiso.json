@@ -1,0 +1,191 @@
+{
+  "formatVersion": 3,
+  "runId": "86587447-4668-454f-b8a2-5c04ff93a2a6",
+  "modelRequests": {
+    "total": 1,
+    "byStage": {
+      "main": 1
+    }
+  },
+  "pagePool": {
+    "hits": 0,
+    "inFlightHits": 0,
+    "prefetchScheduled": 0,
+    "prefetchUsed": 0,
+    "retries": 4,
+    "prefetchStarted": 0,
+    "uniqueUrls": 6
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 10,
+    "httpAttempts": 10,
+    "remaining": 10,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 10,
+      "verification": 0
+    }
+  },
+  "serperCost": {
+    "requests": 10,
+    "successfulResponses": 10,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 10,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.01
+  },
+  "totalEstimatedCostUsd": 0.011497,
+  "totalUpperBoundUsd": 0.011497,
+  "totalAdmissionEstimateUsd": 0.011497,
+  "usage": {
+    "inputTokens": 5801,
+    "outputTokens": 283,
+    "totalTokens": 6084,
+    "estimatedCostUsd": 0.001497,
+    "upperBoundUsd": 0.001497,
+    "admissionEstimateUsd": 0.001497,
+    "knownCostUsd": 0.001497,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 1,
+        "inputTokens": 5801,
+        "cachedInputTokens": 1028,
+        "outputTokens": 283,
+        "totalTokens": 6084,
+        "estimatedCostUsd": 0.001497,
+        "knownCostUsd": 0.001497
+      }
+    ]
+  },
+  "timeMs": 25843,
+  "browserUses": {
+    "total": 10,
+    "failed": 0,
+    "serper": 10,
+    "brave": 0,
+    "nameClarification": 0,
+    "uniqueQueries": 10,
+    "engines": {
+      "serper": 10
+    }
+  },
+  "pageFetchAttempts": 10,
+  "pagesFetched": 0,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 10,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 25843,
+    "processingMs": 25843,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 2322,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "error": "Research pages could not be fetched within the available budget",
+  "errorDetails": {
+    "code": "RESEARCH_FETCH_FAILED",
+    "stage": "fetch",
+    "provider": "serper",
+    "retryable": true,
+    "action": "Check per-engine search events and source fetch outcomes.",
+    "indexedSources": 53,
+    "searchFailures": 0
+  },
+  "warnings": [
+    {
+      "stage": "discovery_coverage",
+      "count": 1
+    }
+  ],
+  "completion": {
+    "status": "failed",
+    "issues": [
+      "run_failed"
+    ]
+  },
+  "billing": {
+    "status": "complete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.001497,
+    "upperBoundUsd": 0.011497,
+    "knownCostUsd": 0.011497
+  },
+  "fetchedPages": [
+    {
+      "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://onibus.marcopolo.com.br/central-de-downloads?type=catalogos",
+      "status": "error",
+      "error": "Failed to fetch https://onibus.marcopolo.com.br/central-de-downloads?type=catalogos: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200",
+      "status": "error",
+      "error": "Failed to fetch https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://onibus.marcopolo.com.br/central-de-downloads/materiais-tecnicos",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://onibus.marcopolo.com.br/it/prodotti/scarica/paradiso-new-g7-1200/lamina-paradiso-new-g7-1200-420x297mm-portugues-web.pdf",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://onibus.marcopolo.com.br/central-de-downloads/materiais-tecnicos",
+      "status": "error",
+      "attempt": 2,
+      "error": "Failed to fetch https://onibus.marcopolo.com.br/central-de-downloads/materiais-tecnicos: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://onibus.marcopolo.com.br/it/prodotti/scarica/paradiso-new-g7-1200/lamina-paradiso-new-g7-1200-420x297mm-portugues-web.pdf",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    }
+  ]
+}

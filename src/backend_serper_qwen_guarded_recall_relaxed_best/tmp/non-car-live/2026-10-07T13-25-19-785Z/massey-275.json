@@ -1,0 +1,446 @@
+{
+  "formatVersion": 3,
+  "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+  "modelRequests": {
+    "total": 27,
+    "byStage": {
+      "pageAnalysis": 17,
+      "main": 1,
+      "candidateReview": 6,
+      "verification": 3
+    }
+  },
+  "pagePool": {
+    "hits": 2,
+    "inFlightHits": 2,
+    "prefetchScheduled": 2,
+    "prefetchUsed": 2,
+    "retries": 0,
+    "prefetchStarted": 2,
+    "uniqueUrls": 27
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 15,
+    "httpAttempts": 15,
+    "remaining": 5,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 10,
+      "verification": 5
+    }
+  },
+  "serperCost": {
+    "requests": 15,
+    "successfulResponses": 15,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 15,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.015
+  },
+  "totalEstimatedCostUsd": 0.02567,
+  "totalUpperBoundUsd": 0.02567,
+  "totalAdmissionEstimateUsd": 0.025671,
+  "usage": {
+    "inputTokens": 136447,
+    "outputTokens": 2593,
+    "totalTokens": 139040,
+    "estimatedCostUsd": 0.01067,
+    "upperBoundUsd": 0.01067,
+    "admissionEstimateUsd": 0.010671,
+    "knownCostUsd": 0.01067,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 26,
+        "inputTokens": 130196,
+        "cachedInputTokens": 0,
+        "outputTokens": 2278,
+        "totalTokens": 132474,
+        "estimatedCostUsd": 0.009055,
+        "knownCostUsd": 0.009055
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 1,
+        "inputTokens": 6251,
+        "cachedInputTokens": 1142,
+        "outputTokens": 315,
+        "totalTokens": 6566,
+        "estimatedCostUsd": 0.001615,
+        "knownCostUsd": 0.001615
+      }
+    ]
+  },
+  "timeMs": 41289,
+  "browserUses": {
+    "total": 15,
+    "failed": 0,
+    "serper": 15,
+    "brave": 0,
+    "nameClarification": 0,
+    "finalVerification": 5,
+    "uniqueQueries": 15,
+    "engines": {
+      "serper": 15
+    }
+  },
+  "pageFetchAttempts": 27,
+  "pagesFetched": 21,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 6,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 41289,
+    "processingMs": 41289,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 45893,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "tractor",
+    "make": "Massey Ferguson",
+    "model": "275",
+    "year": 1980,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Massey Ferguson Red",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "medium",
+      "sources": [
+        "https://www.bareco.com.au/files-masseY2001-mf78",
+        "https://encycolorpedia.pt/be0032",
+        "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Vermelho Massey Ferguson",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "identityType": "manufacturer_paint_lead",
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.copalparafusos.com.br/35805",
+        "https://www.tractortem.com.br/produtos/sem-categoria/tinta-vermelho-massey-ferguson-900ml/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Massey Ferguson Harris Red",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+        "https://www.paragonpaints.co.uk/massey-ferguson-colours.html"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Massey Ferguson Super Red",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.paragonpaints.co.uk/massey-ferguson-colours.html"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 4,
+      "completed": 4,
+      "incomplete": 0
+    },
+    "identityArtifacts": [
+      {
+        "name": "TINTA SPRAY VERMELHO MASSEY FERGUSON AGRICOLA",
+        "sources": [
+          "https://www.copalparafusos.com.br/35805"
+        ],
+        "reason": "retail_product_title"
+      },
+      {
+        "name": "TINTA VERM. MASSEY FERG.",
+        "sources": [
+          "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473"
+        ],
+        "reason": "retail_product_title"
+      }
+    ],
+    "omissionReview": {
+      "total": 16,
+      "checked": 16,
+      "flagged": 0,
+      "recovered": 0,
+      "incomplete": 0,
+      "repairFailures": 0,
+      "unsupportedFlags": 1
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "Massey Ferguson Red",
+        "vermelho massey ferguson",
+        "Massey Ferguson Harris Red",
+        "Massey Ferguson Super Red"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": false,
+      "attempted": 0,
+      "recovered": 0
+    },
+    "discoveryCoverage": {
+      "domains": 9,
+      "palettes": 9,
+      "candidates": 20,
+      "specialistDepth": true,
+      "needsExpansion": false,
+      "recoveryAttempted": true,
+      "replacementPages": 8,
+      "missingPagesBeforeRecovery": 12
+    },
+    "reviewCoverage": {
+      "total": 20,
+      "reviewed": 20,
+      "unreviewed": 0
+    },
+    "warnings": [
+      {
+        "stage": "verification_citation",
+        "count": 1
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 4,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 4,
+    "queries": 5,
+    "pagesFetched": 4,
+    "searchesSkipped": 2,
+    "pagesReviewed": 6,
+    "catalogRecordsReviewed": 0
+  },
+  "paletteScope": {
+    "modelCandidates": 0,
+    "manufacturerLeads": 4
+  },
+  "completion": {
+    "status": "partial",
+    "issues": [
+      "no_model_linked_colors"
+    ]
+  },
+  "billing": {
+    "status": "complete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.010671,
+    "upperBoundUsd": 0.02567,
+    "knownCostUsd": 0.02567
+  },
+  "fetchedPages": [
+    {
+      "url": "https://www.tratoresecolheitadeiras.com.br/venda/trator/massey%20ferguson/mf%20275/modelo/1713?cor=vermelho",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.mfrural.com.br/busca/trator-massey-275-4x2",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.mfrural.com.br/busca/ferguson-275/categoria/44-tratores-agricolas?pg=3",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.slideshare.net/slideshow/mf275-14278747/14278747",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/catalogo-de-pe%C3%A7as-massey-ferguson-275",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.popagro.com.br/catalogo/maquinas-agricolas/tratores/massey-ferguson/mf-275-advanced",
+      "status": "ok",
+      "prefetched": true
+    },
+    {
+      "url": "https://www.slideshare.net/slideshow/1-catlogo-de-peas-trator-massey-ferguson-275pdf/256148939",
+      "status": "error",
+      "prefetched": true,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://paintguide.masseyferguson.com/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.agcopartsandservice.com/uk/en/home/parts/complementary/mf_complementary_products.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.bareco.com.au/files-masseY2001-mf78",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.copalparafusos.com.br/35805",
+      "status": "ok"
+    },
+    {
+      "url": "https://encycolorpedia.pt/be0032",
+      "status": "ok"
+    },
+    {
+      "url": "https://paintman.co.uk/product-tag/massey-ferguson-colours/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.matthys.net/en/paint-for-tractor-massey-ferguson-red-1l-tracteur-8850-mf-1l-1166210",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.mercadaolojista.com.br/produto/tinta-spray-agricola-vermelho-massey-ferguson-400ml-mundial-prime.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.stationaryengineparts.com/massey-ferguson-paint-colours/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.andraort.com.br/6114-tinta-verm-massey-ferg-3-6l-rural-02473",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.paragonpaints.co.uk/massey-ferguson-colours.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.tractortem.com.br/produtos/sem-categoria/tinta-vermelho-massey-ferguson-900ml/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.scribd.com/document/834684600/Tractor-Machinery-June-2024",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://picclick.co.uk/Business-Office-Industrial/Agriculture-Farming/Equipment-Parts-Accessories/Antique-Vintage-Equipment-Parts/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.mercadolivre.com.br/kit-de-adesivos-trator-massey-ferguson-mf-275-advanced-275a-cor-padro/p/MLB24158303",
+      "status": "ok"
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/tinta-para-trator-massey",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.jensales.com/Massey-Ferguson-275-Tractor-Data_p_84437.html",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.ebay.com/b/Massey-Ferguson-Red-Vintage-Manufacture-Diecast-Farm-Vehicles/741/bn_113317116",
+      "status": "error",
+      "error": "Failed to fetch https://www.ebay.com/b/Massey-Ferguson-Red-Vintage-Manufacture-Diecast-Farm-Vehicles/741/bn_113317116: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.magazineluiza.com.br/busca/spray+automotivo+vermelho+massey/",
+      "status": "error",
+      "error": "Failed to fetch https://www.magazineluiza.com.br/busca/spray+automotivo+vermelho+massey/: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.stationaryengineparts.com/sitemap.php",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "label": "marcopolo-paradiso",
+    "vehicle": {
+      "automobileType": "bus",
+      "brand": "Marcopolo",
+      "model": "Paradiso 1200 G7",
+      "manufacturingYear": 2018,
+      "predominantColor": "branco",
+      "country": "Brazil"
+    },
+    "runId": "609ee18b-e277-4c90-ae1a-f392b049dd16",
+    "timeMs": 481,
+    "costUpperBoundUsd": null,
+    "browserUses": {
+      "total": 8,
+      "failed": 8,
+      "serper": 8,
+      "brave": 0,
+      "nameClarification": 0,
+      "uniqueQueries": 8,
+      "engines": {
+        "serper": 8
+      }
+    },
+    "pagesFetched": 0,
+    "fetchErrors": 0,
+    "completion": {
+      "status": "failed",
+      "issues": [
+        "run_failed"
+      ]
+    },
+    "error": "Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+    "checks": {
+      "returnedColor": false,
+      "fetchedResearchPage": false,
+      "didNotFail": false
+    },
+    "passed": false,
+    "colors": []
+  }
+]

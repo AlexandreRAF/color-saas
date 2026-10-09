@@ -1,0 +1,43 @@
+[
+  {
+    "label": "marcopolo-paradiso",
+    "vehicle": {
+      "automobileType": "bus",
+      "brand": "Marcopolo",
+      "model": "Paradiso 1200 G7",
+      "manufacturingYear": 2018,
+      "predominantColor": "branco",
+      "country": "Brazil"
+    },
+    "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+    "timeMs": 10262,
+    "costUpperBoundUsd": 0.012748,
+    "browserUses": {
+      "total": 10,
+      "failed": 0,
+      "serper": 10,
+      "brave": 0,
+      "nameClarification": 0,
+      "uniqueQueries": 10,
+      "engines": {
+        "serper": 10
+      }
+    },
+    "pagesFetched": 4,
+    "fetchErrors": 1,
+    "completion": {
+      "status": "failed",
+      "issues": [
+        "run_failed"
+      ]
+    },
+    "error": "No source-grounded named paint candidates found",
+    "checks": {
+      "returnedColor": false,
+      "fetchedResearchPage": true,
+      "didNotFail": false
+    },
+    "passed": false,
+    "colors": []
+  }
+]

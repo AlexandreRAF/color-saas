@@ -1,0 +1,116 @@
+{
+  "formatVersion": 3,
+  "runId": "09f31945-1caa-413e-9f8f-83e8d3bfe4e0",
+  "modelRequests": {
+    "total": 0,
+    "byStage": {}
+  },
+  "pagePool": {
+    "hits": 0,
+    "inFlightHits": 0,
+    "prefetchScheduled": 0,
+    "prefetchUsed": 0,
+    "retries": 0,
+    "prefetchStarted": 0,
+    "uniqueUrls": 0
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 16,
+    "httpAttempts": 16,
+    "remaining": 4,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 16,
+      "verification": 0
+    }
+  },
+  "serperCost": {
+    "requests": 16,
+    "successfulResponses": 0,
+    "failedResponses": 0,
+    "unconfirmedRequests": 16,
+    "estimatedCredits": 16,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.016
+  },
+  "totalEstimatedCostUsd": null,
+  "totalUpperBoundUsd": null,
+  "totalAdmissionEstimateUsd": 0.016,
+  "usage": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "totalTokens": 0,
+    "estimatedCostUsd": null,
+    "upperBoundUsd": null,
+    "admissionEstimateUsd": 0,
+    "knownCostUsd": 0,
+    "missingUsageCalls": 0,
+    "costComplete": false,
+    "byModel": []
+  },
+  "timeMs": 481,
+  "browserUses": {
+    "total": 8,
+    "failed": 8,
+    "serper": 8,
+    "brave": 0,
+    "nameClarification": 0,
+    "uniqueQueries": 8,
+    "engines": {
+      "serper": 8
+    }
+  },
+  "pageFetchAttempts": 0,
+  "pagesFetched": 0,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 0,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 481,
+    "processingMs": 481,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 0,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "error": "Serper search failed because the service or network is unavailable. Retry shortly; check network connectivity if the problem persists.",
+  "errorDetails": {
+    "code": "SEARCH_UNAVAILABLE",
+    "provider": "serper",
+    "stage": "search",
+    "retryable": true,
+    "action": "Retry shortly; check network connectivity if the problem persists.",
+    "attempts": 2
+  },
+  "warnings": [
+    {
+      "stage": "search",
+      "count": 8,
+      "code": "SEARCH_UNAVAILABLE",
+      "provider": "serper",
+      "retryable": true,
+      "action": "Retry shortly; check network connectivity if the problem persists.",
+      "attempts": 2
+    }
+  ],
+  "completion": {
+    "status": "failed",
+    "issues": [
+      "run_failed"
+    ]
+  },
+  "billing": {
+    "status": "incomplete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0,
+    "upperBoundUsd": null,
+    "knownCostUsd": 0.016
+  },
+  "fetchedPages": []
+}

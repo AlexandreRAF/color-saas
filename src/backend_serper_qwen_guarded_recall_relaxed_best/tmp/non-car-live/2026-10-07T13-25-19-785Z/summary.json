@@ -1,0 +1,502 @@
+[
+  {
+    "label": "honda-cg160",
+    "vehicle": {
+      "automobileType": "motorcycle",
+      "brand": "Honda",
+      "model": "CG 160",
+      "manufacturingYear": 2020,
+      "predominantColor": "vermelho",
+      "country": "Brazil"
+    },
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "timeMs": 24979,
+    "costUpperBoundUsd": 0.021208,
+    "browserUses": {
+      "total": 10,
+      "failed": 0,
+      "serper": 10,
+      "brave": 0,
+      "nameClarification": 0,
+      "codeClarification": 1,
+      "uniqueQueries": 10,
+      "engines": {
+        "serper": 10
+      }
+    },
+    "pagesFetched": 15,
+    "fetchErrors": 5,
+    "completion": {
+      "status": "complete",
+      "issues": []
+    },
+    "checks": {
+      "returnedColor": true,
+      "fetchedResearchPage": true,
+      "didNotFail": true
+    },
+    "passed": true,
+    "colors": [
+      {
+        "name": "Vermelho Perolizado",
+        "codes": [],
+        "paintFinish": [
+          "perolizado"
+        ],
+        "applicabilityScope": "model_display_label"
+      }
+    ]
+  },
+  {
+    "label": "volvo-fh540",
+    "vehicle": {
+      "automobileType": "truck",
+      "brand": "Volvo",
+      "model": "FH 540",
+      "manufacturingYear": 2022,
+      "predominantColor": "branco",
+      "country": "Brazil"
+    },
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "timeMs": 42852,
+    "costUpperBoundUsd": 0.025113,
+    "browserUses": {
+      "total": 15,
+      "failed": 0,
+      "serper": 15,
+      "brave": 0,
+      "nameClarification": 0,
+      "finalVerification": 4,
+      "uniqueQueries": 15,
+      "engines": {
+        "serper": 15
+      }
+    },
+    "pagesFetched": 8,
+    "fetchErrors": 5,
+    "completion": {
+      "status": "partial",
+      "issues": [
+        "no_model_linked_colors",
+        "names_unresolved"
+      ]
+    },
+    "checks": {
+      "returnedColor": true,
+      "fetchedResearchPage": true,
+      "didNotFail": true
+    },
+    "passed": true,
+    "colors": [
+      {
+        "name": "Ice White",
+        "codes": [
+          "614"
+        ],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Java Pearl",
+        "codes": [],
+        "paintFinish": [
+          "perolizado"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      }
+    ]
+  },
+  {
+    "label": "marcopolo-paradiso",
+    "vehicle": {
+      "automobileType": "bus",
+      "brand": "Marcopolo",
+      "model": "Paradiso 1200 G7",
+      "manufacturingYear": 2018,
+      "predominantColor": "branco",
+      "country": "Brazil"
+    },
+    "runId": "356d826b-6609-4eca-9204-d53496853e71",
+    "timeMs": 19347,
+    "costUpperBoundUsd": 0.015173,
+    "browserUses": {
+      "total": 13,
+      "failed": 0,
+      "serper": 13,
+      "brave": 0,
+      "nameClarification": 0,
+      "finalVerification": 2,
+      "uniqueQueries": 13,
+      "engines": {
+        "serper": 13
+      }
+    },
+    "pagesFetched": 3,
+    "fetchErrors": 3,
+    "completion": {
+      "status": "partial",
+      "issues": [
+        "no_model_linked_colors"
+      ]
+    },
+    "checks": {
+      "returnedColor": true,
+      "fetchedResearchPage": true,
+      "didNotFail": true
+    },
+    "passed": true,
+    "colors": [
+      {
+        "name": "Branco Marcopolo Ii",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      }
+    ]
+  },
+  {
+    "label": "massey-275",
+    "vehicle": {
+      "automobileType": "tractor",
+      "brand": "Massey Ferguson",
+      "model": "275",
+      "manufacturingYear": 1980,
+      "predominantColor": "vermelho",
+      "country": "Brazil"
+    },
+    "runId": "6d192ade-371a-40eb-9893-35b9e42ea08e",
+    "timeMs": 41289,
+    "costUpperBoundUsd": 0.02567,
+    "browserUses": {
+      "total": 15,
+      "failed": 0,
+      "serper": 15,
+      "brave": 0,
+      "nameClarification": 0,
+      "finalVerification": 5,
+      "uniqueQueries": 15,
+      "engines": {
+        "serper": 15
+      }
+    },
+    "pagesFetched": 21,
+    "fetchErrors": 6,
+    "completion": {
+      "status": "partial",
+      "issues": [
+        "no_model_linked_colors"
+      ]
+    },
+    "checks": {
+      "returnedColor": true,
+      "fetchedResearchPage": true,
+      "didNotFail": true
+    },
+    "passed": true,
+    "colors": [
+      {
+        "name": "Massey Ferguson Red",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Vermelho Massey Ferguson",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Massey Ferguson Harris Red",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Massey Ferguson Super Red",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      }
+    ]
+  },
+  {
+    "label": "cat-320",
+    "vehicle": {
+      "automobileType": "excavator",
+      "brand": "Caterpillar",
+      "model": "320",
+      "manufacturingYear": 2020,
+      "predominantColor": "amarelo",
+      "country": "Brazil"
+    },
+    "runId": "175b95c2-825e-4a9a-b57e-894f0b6f4e63",
+    "timeMs": 53583,
+    "costUpperBoundUsd": 0.032728,
+    "browserUses": {
+      "total": 17,
+      "failed": 0,
+      "serper": 17,
+      "brave": 0,
+      "nameClarification": 0,
+      "finalVerification": 7,
+      "uniqueQueries": 17,
+      "engines": {
+        "serper": 17
+      }
+    },
+    "pagesFetched": 18,
+    "fetchErrors": 5,
+    "completion": {
+      "status": "partial",
+      "issues": [
+        "no_model_linked_colors"
+      ]
+    },
+    "checks": {
+      "returnedColor": true,
+      "fetchedResearchPage": true,
+      "didNotFail": true
+    },
+    "passed": true,
+    "colors": [
+      {
+        "name": "Caterpillar Yellow High-Gloss Urethane Paint",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Yellow Paint High",
+        "codes": [],
+        "paintFinish": [
+          "brilhante"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Hiway Yellow Paint High",
+        "codes": [],
+        "paintFinish": [
+          "brilhante"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Yellow Paint High Gloss Fast Drying",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Yellow Paint High Gloss 3.5 Voc",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Yellow Urethane Paint High",
+        "codes": [],
+        "paintFinish": [
+          "brilhante"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Yellow Paint High Gloss Water Reducible 3.4 Voc",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Amarela Caterpillar",
+        "codes": [
+          "05460",
+          "06461"
+        ],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Amarelo Caterpillar",
+        "codes": [
+          "05460",
+          "06461"
+        ],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Amarelo Caterpillar 81",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      }
+    ]
+  },
+  {
+    "label": "sprinter-415",
+    "vehicle": {
+      "automobileType": "bus",
+      "brand": "Mercedes-Benz",
+      "model": "Sprinter 415",
+      "manufacturingYear": 2018,
+      "predominantColor": "branco",
+      "country": "Brazil"
+    },
+    "runId": "a204207c-c841-4bd6-84ab-43f2f513242d",
+    "timeMs": 62403,
+    "costUpperBoundUsd": 0.051224,
+    "browserUses": {
+      "total": 20,
+      "failed": 0,
+      "serper": 20,
+      "brave": 0,
+      "nameClarification": 0,
+      "finalVerification": 7,
+      "uniqueQueries": 20,
+      "engines": {
+        "serper": 20
+      }
+    },
+    "pagesFetched": 16,
+    "fetchErrors": 8,
+    "completion": {
+      "status": "partial",
+      "issues": [
+        "no_model_linked_colors"
+      ]
+    },
+    "checks": {
+      "returnedColor": true,
+      "fetchedResearchPage": true,
+      "didNotFail": true
+    },
+    "passed": true,
+    "colors": [
+      {
+        "name": "Branco Artico",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Arktikweiss",
+        "codes": [
+          "147",
+          "9147"
+        ],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Arctic White",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Branco Diamante",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Branco 9070",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Branco Diamond",
+        "codes": [
+          "1243"
+        ],
+        "paintFinish": [
+          "perolizado"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Branco Polar",
+        "codes": [
+          "149"
+        ],
+        "paintFinish": [
+          "sólido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Diamond White",
+        "codes": [],
+        "paintFinish": [
+          "tricamada"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Glacier White",
+        "codes": [
+          "149"
+        ],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "B",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      },
+      {
+        "name": "Hellelfebein",
+        "codes": [],
+        "paintFinish": [
+          "desconhecido"
+        ],
+        "applicabilityScope": "manufacturer_only"
+      }
+    ]
+  }
+]

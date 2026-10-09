@@ -1,0 +1,261 @@
+{
+  "formatVersion": 3,
+  "runId": "356d826b-6609-4eca-9204-d53496853e71",
+  "modelRequests": {
+    "total": 4,
+    "byStage": {
+      "pageAnalysis": 1,
+      "main": 1,
+      "candidateReview": 1,
+      "verification": 1
+    }
+  },
+  "pagePool": {
+    "hits": 0,
+    "inFlightHits": 0,
+    "prefetchScheduled": 0,
+    "prefetchUsed": 0,
+    "retries": 0,
+    "prefetchStarted": 0,
+    "uniqueUrls": 6
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 13,
+    "httpAttempts": 13,
+    "remaining": 7,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 10,
+      "verification": 3
+    }
+  },
+  "serperCost": {
+    "requests": 13,
+    "successfulResponses": 13,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 13,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.013
+  },
+  "totalEstimatedCostUsd": 0.015173,
+  "totalUpperBoundUsd": 0.015173,
+  "totalAdmissionEstimateUsd": 0.015172,
+  "usage": {
+    "inputTokens": 13452,
+    "outputTokens": 477,
+    "totalTokens": 13929,
+    "estimatedCostUsd": 0.002173,
+    "upperBoundUsd": 0.002173,
+    "admissionEstimateUsd": 0.002172,
+    "knownCostUsd": 0.002173,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 3,
+        "inputTokens": 6875,
+        "cachedInputTokens": 0,
+        "outputTokens": 179,
+        "totalTokens": 7054,
+        "estimatedCostUsd": 0.000493,
+        "knownCostUsd": 0.000493
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 1,
+        "inputTokens": 6577,
+        "cachedInputTokens": 1142,
+        "outputTokens": 298,
+        "totalTokens": 6875,
+        "estimatedCostUsd": 0.001679,
+        "knownCostUsd": 0.001679
+      }
+    ]
+  },
+  "timeMs": 19347,
+  "browserUses": {
+    "total": 13,
+    "failed": 0,
+    "serper": 13,
+    "brave": 0,
+    "nameClarification": 0,
+    "finalVerification": 2,
+    "uniqueQueries": 13,
+    "engines": {
+      "serper": 13
+    }
+  },
+  "pageFetchAttempts": 6,
+  "pagesFetched": 3,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 3,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 19347,
+    "processingMs": 19347,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 5637,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "bus",
+    "make": "Marcopolo",
+    "model": "Paradiso 1200 G7",
+    "year": 2018,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Branco Marcopolo Ii",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "identityType": "manufacturer_paint_lead",
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.distribuidoragranderio.com.br/Tinta-PU-Branco-Marcopolo-Ii-675ml--Cat",
+        "https://www.mercadolivre.com.br/tinta-pu-branco-marcopolo-ii-675ml--cat/up/MLBU3262681647"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "unverified",
+        "confirmed": [],
+        "conflicting": [],
+        "unknown": [
+          "name",
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 1,
+      "completed": 1,
+      "incomplete": 0
+    },
+    "omissionReview": {
+      "total": 0,
+      "checked": 0,
+      "flagged": 0,
+      "recovered": 0,
+      "incomplete": 0,
+      "repairFailures": 0
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "Branco Marcopolo Ii"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": false,
+      "attempted": 0,
+      "recovered": 0
+    },
+    "discoveryCoverage": {
+      "domains": 2,
+      "palettes": 2,
+      "candidates": 1,
+      "needsExpansion": false,
+      "recoveryAttempted": true,
+      "replacementPages": 0,
+      "missingPagesBeforeRecovery": 19,
+      "specialistDepth": true
+    },
+    "reviewCoverage": {
+      "total": 1,
+      "reviewed": 1,
+      "unreviewed": 0
+    },
+    "warnings": [
+      {
+        "stage": "discovery_coverage",
+        "count": 1
+      },
+      {
+        "stage": "verification_citation",
+        "count": 1
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 1,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 1,
+    "queries": 2,
+    "pagesFetched": 0,
+    "pagesReviewed": 2,
+    "catalogRecordsReviewed": 0
+  },
+  "paletteScope": {
+    "modelCandidates": 0,
+    "manufacturerLeads": 1
+  },
+  "completion": {
+    "status": "partial",
+    "issues": [
+      "no_model_linked_colors"
+    ]
+  },
+  "billing": {
+    "status": "complete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.002172,
+    "upperBoundUsd": 0.015173,
+    "knownCostUsd": 0.015173
+  },
+  "fetchedPages": [
+    {
+      "url": "https://pt.scribd.com/document/584702842/paradiso-1200-g7-esp-1-1",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+      "status": "ok"
+    },
+    {
+      "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200",
+      "status": "error",
+      "error": "Failed to fetch https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.distribuidoragranderio.com.br/Tinta-PU-Branco-Marcopolo-Ii-675ml--Cat",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.mercadolivre.com.br/tinta-pu-branco-marcopolo-ii-675ml--cat/up/MLBU3262681647",
+      "status": "ok"
+    }
+  ]
+}

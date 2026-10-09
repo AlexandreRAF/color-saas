@@ -1,0 +1,321 @@
+{
+  "formatVersion": 3,
+  "runId": "8993bdb9-44dd-4be6-bb93-7e486804e8dd",
+  "modelRequests": {
+    "total": 28,
+    "byStage": {
+      "pageAnalysis": 21,
+      "recovery": 2,
+      "candidateReview": 3,
+      "verification": 2
+    }
+  },
+  "pagePool": {
+    "hits": 4,
+    "inFlightHits": 3,
+    "prefetchScheduled": 4,
+    "prefetchUsed": 4,
+    "retries": 1,
+    "prefetchStarted": 3,
+    "uniqueUrls": 19
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 10,
+    "httpAttempts": 10,
+    "remaining": 10,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 10,
+      "verification": 0
+    }
+  },
+  "serperCost": {
+    "requests": 10,
+    "successfulResponses": 10,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 10,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.01
+  },
+  "totalEstimatedCostUsd": 0.020831,
+  "totalUpperBoundUsd": 0.020831,
+  "totalAdmissionEstimateUsd": 0.020829,
+  "usage": {
+    "inputTokens": 157315,
+    "outputTokens": 2329,
+    "totalTokens": 159644,
+    "estimatedCostUsd": 0.010831,
+    "upperBoundUsd": 0.010831,
+    "admissionEstimateUsd": 0.010829,
+    "knownCostUsd": 0.010831,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 28,
+        "inputTokens": 157315,
+        "cachedInputTokens": 0,
+        "outputTokens": 2329,
+        "totalTokens": 159644,
+        "estimatedCostUsd": 0.010831,
+        "knownCostUsd": 0.010831
+      }
+    ]
+  },
+  "timeMs": 26118,
+  "browserUses": {
+    "total": 10,
+    "failed": 0,
+    "serper": 10,
+    "brave": 0,
+    "nameClarification": 0,
+    "codeClarification": 1,
+    "uniqueQueries": 10,
+    "engines": {
+      "serper": 10
+    }
+  },
+  "pageFetchAttempts": 20,
+  "pagesFetched": 14,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 6,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 26118,
+    "processingMs": 26118,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 52112,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "motorcycle",
+    "make": "Honda",
+    "model": "CG 160",
+    "year": 2020,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Vermelho Perolizado",
+      "paintFinish": [
+        "perolizado"
+      ],
+      "identityType": "vehicle_display_color",
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "vehicle",
+          "year"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "paintFinish"
+        ]
+      },
+      "applicabilityScope": "model_display_label"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 1,
+      "completed": 1,
+      "incomplete": 0
+    },
+    "identityArtifacts": [
+      {
+        "name": "Titan S",
+        "sources": [
+          "https://www.guarumoto.com.br/noticias/38"
+        ],
+        "reason": "vehicle_version_label"
+      }
+    ],
+    "omissionReview": {
+      "total": 11,
+      "checked": 11,
+      "flagged": 0,
+      "recovered": 0,
+      "incomplete": 0,
+      "repairFailures": 0,
+      "unsupportedFlags": 2
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "vermelho perolizado"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": false,
+      "attempted": 0,
+      "recovered": 0
+    },
+    "discoveryCoverage": {
+      "domains": 7,
+      "palettes": 2,
+      "candidates": 12,
+      "needsExpansion": false
+    },
+    "reviewCoverage": {
+      "total": 12,
+      "reviewed": 12,
+      "unreviewed": 0
+    },
+    "warnings": [
+      {
+        "stage": "extraction",
+        "count": 1
+      },
+      {
+        "stage": "extraction_recovery",
+        "count": 1
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 1,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 1,
+    "queries": 0,
+    "pagesFetched": 0,
+    "pagesReviewed": 2,
+    "catalogRecordsReviewed": 0
+  },
+  "paletteScope": {
+    "modelCandidates": 1,
+    "manufacturerLeads": 0
+  },
+  "completion": {
+    "status": "complete",
+    "issues": []
+  },
+  "billing": {
+    "status": "complete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.010829,
+    "upperBoundUsd": 0.020831,
+    "knownCostUsd": 0.020831
+  },
+  "fetchedPages": [
+    {
+      "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/",
+      "status": "ok"
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/catalogo-pe%C3%A7as-honda-cg-160",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/p/DIAIhKiB-Fs/",
+      "status": "error",
+      "error": "direct fetch returned no extractable text; Reader fallback failed: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://autoesporte.globo.com/motos/noticia/2019/09/honda-cg-160-2020-chega-as-lojas-veja-os-precos.ghtml",
+      "status": "ok"
+    },
+    {
+      "url": "https://motor1.uol.com.br/news/383240/honda-cg-160-titans-lancamento/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.honda.com.br/pos-venda/motos/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-TITAN%20%282023~2024%29%20D2203-MAN-1303_WEB.pdf",
+      "status": "error",
+      "error": "Page response exceeds 10485760 bytes",
+      "errorCode": "PAGE_TOO_LARGE"
+    },
+    {
+      "url": "https://cardosomoto.com.br/novidades/mais-vendida-do-brasil-honda-cg-160-chega-a-linha-2020/",
+      "status": "ok"
+    },
+    {
+      "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+      "status": "ok"
+    },
+    {
+      "url": "https://correiobraziliense.vrum.com.br/app/noticia/noticias/702,19,706,19/2019/09/06/interna_noticias,53162/honda-cg-2020-ganha-novas-cores.shtml",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.guarumoto.com.br/noticias/38",
+      "status": "ok",
+      "prefetched": true
+    },
+    {
+      "url": "https://www.facebook.com/WinnerMotoHonda/posts/cg-160-titan-2020atitude-tem-nomedispon%C3%ADvel-nas-coresazul-escuro-perolizado-verm/3089580911113413/",
+      "status": "error",
+      "prefetched": true,
+      "error": "Failed to fetch https://www.facebook.com/WinnerMotoHonda/posts/cg-160-titan-2020atitude-tem-nomedispon%C3%ADvel-nas-coresazul-escuro-perolizado-verm/3089580911113413/: HTTP 400",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+      "status": "ok",
+      "prefetched": true
+    },
+    {
+      "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.webmotors.com.br/wm1/motos/honda-cg-160-ganha-novas-cores-na-linha-2023",
+      "status": "ok"
+    },
+    {
+      "url": "https://shopee.com.br/Tinta-Tira-Risco-Moto-Honda-CG-160-Titan-Fan-Vermelho-Perolizado-C%C3%B3d-R124CA-i.520627126.15348870107",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ojUxN2mKLBo",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.honda.com.br/motos/street/city/cg-160-fan",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DOEuzvij9H6/?hl=pt-br",
+      "status": "error",
+      "error": "direct fetch returned no extractable text; Reader fallback failed: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://shopee.com.br/Tinta-Tira-Risco-Moto-Honda-CG-160-Titan-Fan-Vermelho-Perolizado-C%C3%B3d-R124CA-i.520627126.15348870107",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    }
+  ]
+}

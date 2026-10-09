@@ -1,0 +1,553 @@
+{
+  "formatVersion": 3,
+  "runId": "3f78ff98-8ea9-484d-9859-e7a63deaa8af",
+  "modelRequests": {
+    "total": 39,
+    "byStage": {
+      "pageAnalysis": 9,
+      "main": 1,
+      "recovery": 1,
+      "candidateReview": 19,
+      "databaseMatcher": 2,
+      "verification": 7
+    }
+  },
+  "pagePool": {
+    "hits": 0,
+    "inFlightHits": 0,
+    "prefetchScheduled": 0,
+    "prefetchUsed": 0,
+    "retries": 5,
+    "prefetchStarted": 0,
+    "uniqueUrls": 19
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 18,
+    "httpAttempts": 18,
+    "remaining": 2,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 11,
+      "verification": 7
+    }
+  },
+  "serperCost": {
+    "requests": 18,
+    "successfulResponses": 17,
+    "failedResponses": 0,
+    "unconfirmedRequests": 1,
+    "estimatedCredits": 18,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.018
+  },
+  "totalEstimatedCostUsd": null,
+  "totalUpperBoundUsd": 0.037593,
+  "totalAdmissionEstimateUsd": 0.036785,
+  "usage": {
+    "inputTokens": 196061,
+    "outputTokens": 7312,
+    "totalTokens": 203373,
+    "estimatedCostUsd": null,
+    "upperBoundUsd": 0.019593,
+    "admissionEstimateUsd": 0.018785,
+    "knownCostUsd": 0.017042,
+    "missingUsageCalls": 1,
+    "costComplete": false,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 36,
+        "inputTokens": 184998,
+        "cachedInputTokens": 0,
+        "outputTokens": 6519,
+        "totalTokens": 191517,
+        "estimatedCostUsd": null,
+        "knownCostUsd": 0.01372,
+        "missingUsage": 1,
+        "upperBoundUsd": 0.005637
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 3,
+        "inputTokens": 11063,
+        "cachedInputTokens": 1028,
+        "outputTokens": 793,
+        "totalTokens": 11856,
+        "estimatedCostUsd": 0.003322,
+        "knownCostUsd": 0.003322
+      }
+    ]
+  },
+  "timeMs": 58014,
+  "browserUses": {
+    "total": 17,
+    "failed": 0,
+    "serper": 17,
+    "brave": 0,
+    "nameClarification": 0,
+    "codeClarification": 1,
+    "finalVerification": 6,
+    "uniqueQueries": 17,
+    "engines": {
+      "serper": 17
+    }
+  },
+  "pageFetchAttempts": 24,
+  "pagesFetched": 14,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 10,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 58014,
+    "processingMs": 58014,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 95678,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "bus",
+    "make": "Mercedes-Benz",
+    "model": "Sprinter 415",
+    "year": 2018,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Arctic White",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [
+        "9147"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2018/sprinter/",
+        "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html",
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2022/sprinter/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "codes"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "name",
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "basf"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Branco Sprinter",
+      "paintFinish": [
+        "sólido"
+      ],
+      "codes": [
+        "9147"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.maxitintas.com.br/tinta-automotiva-pu-branco-sprinter-autoluks/p"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "codes",
+          "paintFinish"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "name",
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "lazzumix"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Branco Ártico",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [
+        "9147"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www2.mercedes-benz.com.br/vans/models/sprinter/cab-chassis/overview.html",
+        "https://www2.mercedes-benz.com.br/vans/models/sprinter/panel-van/overview.html"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "codes"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "basf"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Arktikweiss",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [
+        "147",
+        "9147"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2018/sprinter/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "unverified",
+        "confirmed": [],
+        "conflicting": [],
+        "unknown": [
+          "name",
+          "vehicle",
+          "year",
+          "codes"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Branco Polar",
+      "paintFinish": [
+        "sólido"
+      ],
+      "aliases": [
+        "Polar White"
+      ],
+      "codes": [
+        "149"
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html"
+      ],
+      "catalogSources": [
+        {
+          "catalog": "lazzumix",
+          "recordId": 17143
+        }
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "codes",
+          "paintFinish"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "lazzumix"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Glacier White",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [
+        "149"
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "codes"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "lazzumix",
+          "basf"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Hellelfebein",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2018/sprinter/",
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2022/sprinter/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 7,
+      "completed": 7,
+      "incomplete": 0
+    },
+    "omissionReview": {
+      "total": 67,
+      "checked": 67,
+      "flagged": 2,
+      "recovered": 0,
+      "incomplete": 0,
+      "repairFailures": 0,
+      "unsupportedFlags": 3
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "Hellelfebein"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": false,
+      "attempted": 1,
+      "recovered": 1
+    },
+    "discoveryCoverage": {
+      "domains": 5,
+      "palettes": 5,
+      "candidates": 74,
+      "specialistDepth": true,
+      "needsExpansion": false,
+      "recoveryAttempted": true,
+      "replacementPages": 4,
+      "missingPagesBeforeRecovery": 15
+    },
+    "reviewCoverage": {
+      "total": 74,
+      "reviewed": 74,
+      "unreviewed": 0
+    },
+    "warnings": [
+      {
+        "stage": "extraction",
+        "count": 1,
+        "code": "AI_BUDGET_LIMIT",
+        "targetUsd": 0.065
+      },
+      {
+        "stage": "verification_citation",
+        "count": 3
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 7,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 7,
+    "queries": 6,
+    "pagesFetched": 5,
+    "searchesSkipped": 5,
+    "pagesReviewed": 6,
+    "catalogRecordsReviewed": 9
+  },
+  "paletteScope": {
+    "modelCandidates": 0,
+    "manufacturerLeads": 7
+  },
+  "completion": {
+    "status": "partial",
+    "issues": [
+      "no_model_linked_colors"
+    ]
+  },
+  "billing": {
+    "status": "incomplete",
+    "missingUsageCalls": 1,
+    "admissionEstimateUsd": 0.018785,
+    "upperBoundUsd": 0.037593,
+    "knownCostUsd": 0.035042
+  },
+  "fetchedPages": [
+    {
+      "url": "https://www.carexpert.co.nz/mercedes-benz/sprinter/415/exterior-and-dimensions",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2018/sprinter/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www2.mercedes-benz.com.br/resources/files/documentos/sprinter/van/dados-tecnicos/Sprinter-Van-Passageiro-set-2018.pdf",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.sherwin-auto.com.br/wp-content/uploads/2020/01/14302055-03_Catalogo-de-Produtos-Nacionais-2020.pdf",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www2.mercedes-benz.com.br/vans/models/sprinter/cab-chassis/overview.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://www2.mercedes-benz.com.br/vans/models/sprinter/panel-van/overview.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://www2.mercedes-benz.com.br/resources/files/documentos/sprinter/van/dados-tecnicos/Sprinter-Van-Passageiro-set-2018.pdf",
+      "status": "ok",
+      "attempt": 2
+    },
+    {
+      "url": "https://www.sherwin-auto.com.br/wp-content/uploads/2020/01/14302055-03_Catalogo-de-Produtos-Nacionais-2020.pdf",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.maxitintas.com.br/tinta-automotiva-pu-branco-sprinter-autoluks/p",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://touchupdirect.com/touch-up-paint/mercedes-benz/sprinter/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2022/sprinter/",
+      "status": "ok"
+    },
+    {
+      "url": "https://touchupdirect.com/touch-up-paint/mercedes-benz/sprinter/",
+      "status": "ok",
+      "attempt": 2
+    },
+    {
+      "url": "https://lista.mercadolivre.com.br/tinta-branca-sprinter",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.dovecamperconversions.com.au/storage/2023/10/Mercedes-Benz-Vans-Sprinter-Technical-Data-Brochure-Feb-2022-1.pdf",
+      "status": "error",
+      "error": "Page response exceeds 10485760 bytes",
+      "errorCode": "PAGE_TOO_LARGE"
+    },
+    {
+      "url": "https://www.scribd.com/document/411571789/Sprinter-Brochure",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.mercadolivre.com.br/capa-de-cobrir-carro-premium-sprinter-415-furgao-curto-2018/up/MLBU5263634179",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.ebay.com/itm/377233425101",
+      "status": "error",
+      "error": "Failed to fetch https://www.ebay.com/itm/377233425101: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.traversautomotivegroup.com/vcp/used/mercedes-benz/sprinter-passenger-van",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/groups/1846502645415297/posts/28146017898370413/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.mercedes-benz-vans.ca/en/sprinter/cargo-van",
+      "status": "ok"
+    },
+    {
+      "url": "https://www2.mercedes-benz.com.br/vans/models/sprinter/passenger-van/overview.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.scribd.com/document/411571789/Sprinter-Brochure",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.facebook.com/groups/1846502645415297/posts/28146017898370413/",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    }
+  ]
+}

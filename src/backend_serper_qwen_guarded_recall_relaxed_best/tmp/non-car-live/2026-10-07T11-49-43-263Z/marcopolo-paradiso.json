@@ -1,0 +1,152 @@
+{
+  "formatVersion": 3,
+  "runId": "31125aad-9fa8-4b5b-8ae7-f5d677d97695",
+  "modelRequests": {
+    "total": 5,
+    "byStage": {
+      "pageAnalysis": 4,
+      "main": 1
+    }
+  },
+  "pagePool": {
+    "hits": 0,
+    "inFlightHits": 0,
+    "prefetchScheduled": 0,
+    "prefetchUsed": 0,
+    "retries": 0,
+    "prefetchStarted": 0,
+    "uniqueUrls": 5
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 10,
+    "httpAttempts": 10,
+    "remaining": 10,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 10,
+      "verification": 0
+    }
+  },
+  "serperCost": {
+    "requests": 10,
+    "successfulResponses": 10,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 10,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.01
+  },
+  "totalEstimatedCostUsd": 0.012748,
+  "totalUpperBoundUsd": 0.012748,
+  "totalAdmissionEstimateUsd": 0.012748,
+  "usage": {
+    "inputTokens": 21368,
+    "outputTokens": 335,
+    "totalTokens": 21703,
+    "estimatedCostUsd": 0.002748,
+    "upperBoundUsd": 0.002748,
+    "admissionEstimateUsd": 0.002748,
+    "knownCostUsd": 0.002748,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 4,
+        "inputTokens": 15728,
+        "cachedInputTokens": 0,
+        "outputTokens": 26,
+        "totalTokens": 15754,
+        "estimatedCostUsd": 0.001029,
+        "knownCostUsd": 0.001029
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 1,
+        "inputTokens": 5640,
+        "cachedInputTokens": 0,
+        "outputTokens": 309,
+        "totalTokens": 5949,
+        "estimatedCostUsd": 0.001719,
+        "knownCostUsd": 0.001719
+      }
+    ]
+  },
+  "timeMs": 10262,
+  "browserUses": {
+    "total": 10,
+    "failed": 0,
+    "serper": 10,
+    "brave": 0,
+    "nameClarification": 0,
+    "uniqueQueries": 10,
+    "engines": {
+      "serper": 10
+    }
+  },
+  "pageFetchAttempts": 5,
+  "pagesFetched": 4,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 1,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 10262,
+    "processingMs": 10262,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 9087,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "error": "No source-grounded named paint candidates found",
+  "warnings": [
+    {
+      "stage": "discovery_coverage",
+      "count": 1
+    }
+  ],
+  "completion": {
+    "status": "failed",
+    "issues": [
+      "run_failed"
+    ]
+  },
+  "billing": {
+    "status": "complete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.002748,
+    "upperBoundUsd": 0.012748,
+    "knownCostUsd": 0.012748
+  },
+  "fetchedPages": [
+    {
+      "url": "https://pt.scribd.com/document/864093771/Paradiso-1200-G7",
+      "status": "ok"
+    },
+    {
+      "url": "https://br.pinterest.com/pin/marcopolo-paradiso-new-g7-1200--451767406384166038/",
+      "status": "ok"
+    },
+    {
+      "url": "https://pt.scribd.com/document/562591480/A-001-Catalogo-Tecnico-de-Pecas-Paradiso-1200-g7",
+      "status": "ok"
+    },
+    {
+      "url": "https://jmutilitarios.com.br/veiculo/marcopolo-paradiso-g7-1200-ano-2012-o500-rsd-jm-cod-1650/",
+      "status": "ok"
+    },
+    {
+      "url": "https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200",
+      "status": "error",
+      "error": "Failed to fetch https://onibus.marcopolo.com.br/en/products/dautobus/paradiso-new-g7-1200: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    }
+  ]
+}

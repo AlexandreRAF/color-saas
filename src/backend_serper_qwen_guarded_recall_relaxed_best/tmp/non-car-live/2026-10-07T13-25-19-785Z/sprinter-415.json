@@ -1,0 +1,793 @@
+{
+  "formatVersion": 3,
+  "runId": "a204207c-c841-4bd6-84ab-43f2f513242d",
+  "modelRequests": {
+    "total": 62,
+    "byStage": {
+      "pageAnalysis": 20,
+      "main": 1,
+      "candidateReview": 26,
+      "databaseMatcher": 3,
+      "verification": 12
+    }
+  },
+  "pagePool": {
+    "hits": 0,
+    "inFlightHits": 0,
+    "prefetchScheduled": 0,
+    "prefetchUsed": 0,
+    "retries": 0,
+    "prefetchStarted": 0,
+    "uniqueUrls": 24
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 20,
+    "httpAttempts": 20,
+    "remaining": 0,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 10,
+      "verification": 10
+    }
+  },
+  "serperCost": {
+    "requests": 20,
+    "successfulResponses": 20,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 20,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.02
+  },
+  "totalEstimatedCostUsd": null,
+  "totalUpperBoundUsd": 0.051224,
+  "totalAdmissionEstimateUsd": 0.049398,
+  "usage": {
+    "inputTokens": 289064,
+    "outputTokens": 13405,
+    "totalTokens": 302469,
+    "estimatedCostUsd": null,
+    "upperBoundUsd": 0.031224,
+    "admissionEstimateUsd": 0.029398,
+    "knownCostUsd": 0.025621,
+    "missingUsageCalls": 3,
+    "costComplete": false,
+    "byModel": [
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 58,
+        "inputTokens": 274782,
+        "cachedInputTokens": 0,
+        "outputTokens": 12097,
+        "totalTokens": 286879,
+        "estimatedCostUsd": null,
+        "knownCostUsd": 0.021006,
+        "missingUsage": 3,
+        "upperBoundUsd": 0.010786
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 4,
+        "inputTokens": 14282,
+        "cachedInputTokens": 1142,
+        "outputTokens": 1308,
+        "totalTokens": 15590,
+        "estimatedCostUsd": 0.004615,
+        "knownCostUsd": 0.004615
+      }
+    ]
+  },
+  "timeMs": 62403,
+  "browserUses": {
+    "total": 20,
+    "failed": 0,
+    "serper": 20,
+    "brave": 0,
+    "nameClarification": 0,
+    "finalVerification": 7,
+    "uniqueQueries": 20,
+    "engines": {
+      "serper": 20
+    }
+  },
+  "pageFetchAttempts": 24,
+  "pagesFetched": 16,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 8,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 62403,
+    "processingMs": 62403,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 162967,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 2403,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "bus",
+    "make": "Mercedes-Benz",
+    "model": "Sprinter 415",
+    "year": 2018,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Branco Artico",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "high",
+      "sources": [
+        "https://www2.mercedes-benz.com.br/vans/models/sprinter/cab-chassis/overview.html",
+        "https://www2.mercedes-benz.com.br/vans/models/sprinter/panel-van/overview.html",
+        "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Arktikweiss",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [
+        "147",
+        "9147"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2018/sprinter/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "codes"
+        ],
+        "catalogs": [
+          "basf"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Arctic White",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "medium",
+      "sources": [
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2018/sprinter/",
+        "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Branco Diamante",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "medium",
+      "sources": [
+        "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Branco 9070",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Branco Diamond",
+      "paintFinish": [
+        "perolizado"
+      ],
+      "codes": [
+        "1243"
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "codes"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "paintFinish"
+        ],
+        "catalogs": [
+          "basf"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Branco Polar",
+      "paintFinish": [
+        "sólido"
+      ],
+      "aliases": [
+        "Polar White"
+      ],
+      "codes": [
+        "149"
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html"
+      ],
+      "catalogSources": [
+        {
+          "catalog": "lazzumix",
+          "recordId": 17143
+        }
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "codes",
+          "paintFinish"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "lazzumix"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Diamond White",
+      "paintFinish": [
+        "tricamada"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "paintFinish"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Glacier White",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [
+        "149"
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "codes"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "basf"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "B",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "unverified",
+        "confirmed": [],
+        "conflicting": [],
+        "unknown": [
+          "name",
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Hellelfebein",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2018/sprinter/",
+        "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2022/sprinter/"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 11,
+      "completed": 11,
+      "incomplete": 0
+    },
+    "identityArtifacts": [
+      {
+        "name": "AMARELO 1250",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "AMARELO 1438",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "AMARELO 1370",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "AMARELO OURO",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "AZUL 5546",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "AZUL 5558",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "AZUL MB 5938/2005",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "AZUL 5484",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "BRANCO ALABASTRO",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "AMARELO INDIANAPOLIS",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "BRANCO POLAR",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "LARANJA BOREAL",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "VERDE 500 ANOS",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "VERDE BANDEIRA",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "VERMELHO PIMENTA",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "VERMELHO SCANIA",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "VERMELHO MANDARIM",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "VERMELHO MILENIO",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "BRANCO INVERNO 2000",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      },
+      {
+        "name": "BRANCO 2000",
+        "sources": [
+          "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf"
+        ],
+        "reason": "documented_other_year"
+      }
+    ],
+    "omissionReview": {
+      "total": 122,
+      "checked": 122,
+      "flagged": 5,
+      "recovered": 0,
+      "incomplete": 0,
+      "repairFailures": 0,
+      "unsupportedFlags": 12
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "Branco Ártico",
+        "Arctic White",
+        "BRANCO DIAMANTE",
+        "BRANCO 9070",
+        "Diamond White",
+        "B",
+        "Hellelfebein"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": false,
+      "attempted": 1,
+      "recovered": 1
+    },
+    "discoveryCoverage": {
+      "domains": 5,
+      "palettes": 5,
+      "candidates": 133,
+      "specialistDepth": true,
+      "needsExpansion": false,
+      "recoveryAttempted": true,
+      "replacementPages": 7,
+      "missingPagesBeforeRecovery": 15
+    },
+    "reviewCoverage": {
+      "total": 133,
+      "reviewed": 133,
+      "unreviewed": 0
+    },
+    "warnings": [
+      {
+        "stage": "extraction",
+        "count": 3
+      },
+      {
+        "stage": "extraction_recovery",
+        "count": 3,
+        "code": "AI_BUDGET_LIMIT",
+        "targetUsd": 0.065
+      },
+      {
+        "stage": "extraction_recovery",
+        "count": 1
+      },
+      {
+        "stage": "review",
+        "count": 1
+      },
+      {
+        "stage": "name_resolution",
+        "count": 1
+      },
+      {
+        "stage": "verification_citation",
+        "count": 1
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 11,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 11,
+    "queries": 7,
+    "pagesFetched": 5,
+    "searchesSkipped": 9,
+    "pagesReviewed": 7,
+    "catalogRecordsReviewed": 6
+  },
+  "paletteScope": {
+    "modelCandidates": 0,
+    "manufacturerLeads": 11
+  },
+  "completion": {
+    "status": "partial",
+    "issues": [
+      "no_model_linked_colors"
+    ]
+  },
+  "billing": {
+    "status": "incomplete",
+    "missingUsageCalls": 3,
+    "admissionEstimateUsd": 0.029398,
+    "upperBoundUsd": 0.051224,
+    "knownCostUsd": 0.045621
+  },
+  "fetchedPages": [
+    {
+      "url": "https://www.carexpert.co.nz/mercedes-benz/sprinter/415/features-and-specs",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.automotivetouchup.com/touch_up_paint/mercedes-benz/2018/sprinter/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.maxitintas.com.br/tinta-automotiva-pu-branco-sprinter-autoluks/p",
+      "status": "ok"
+    },
+    {
+      "url": "https://www2.mercedes-benz.com.br/vans/models/sprinter/cab-chassis/overview.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://www2.mercedes-benz.com.br/vans/models/sprinter/panel-van/overview.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2018/sprinter/",
+      "status": "ok"
+    },
+    {
+      "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.paintscratch.com/touch_up_paint/Mercedes-Benz/Sprinter.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://touchupdirect.com/touch-up-paint/mercedes-benz/sprinter/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://thetouchuppaint.com/touch-up-paint/mercedes-benz/sprinter",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.automotivetouchup.com/touch-up-paint/mercedes-benz/2022/sprinter/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pH_nQaN2RMc",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.mercadolivre.com.br/porta-traseira-direita-nissan-kicks-2024-cdetalhe/up/MLBU4070013418",
+      "status": "ok"
+    },
+    {
+      "url": "https://hdpaintcode.com/2020-paint-code-list/",
+      "status": "ok"
+    },
+    {
+      "url": "https://pt.scribd.com/document/193526/GuiadoSAC",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.mercadolivre.com.br/capa-de-carro-premium-mercedes-benz-sprinter-415-furgao-2018/up/MLBU5182444053",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.traversautomotivegroup.com/vcp/used/mercedes-benz/sprinter-passenger-van",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.bannerfordofmonroe.com/vcp/used/mercedes-benz/sprinter-passenger-van?isredirect=1&isselectingbody=true&isselectingmodel=false&isselectingtrim=false&models=%2C0&modeltrims=%2C0%600&page=1&vehiclebodystandardbodystyles=%2C4%600",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/61573428866048/posts/-price-218900-slightly-negotiable-mercedes-benz-sprinter-415-cdi-carthago-chic-e/122181131018780962/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.tiktok.com/@centervansemicros/video/7541403470247775544",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.dovecamperconversions.com.au/storage/2023/10/Mercedes-Benz-Vans-Sprinter-Technical-Data-Brochure-Feb-2022-1.pdf",
+      "status": "error",
+      "error": "Page response exceeds 10485760 bytes",
+      "errorCode": "PAGE_TOO_LARGE"
+    },
+    {
+      "url": "https://www.facebook.com/groups/1846502645415297/posts/28146017898370413/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.mercedes-benz-vans.ca/en/sprinter/cargo-van",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/groups/1233152654368745/posts/1538954557121885/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    }
+  ]
+}

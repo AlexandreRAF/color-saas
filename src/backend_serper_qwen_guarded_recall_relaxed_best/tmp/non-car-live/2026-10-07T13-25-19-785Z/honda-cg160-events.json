@@ -1,0 +1,2669 @@
+[
+  {
+    "timestamp": "2026-10-07T13:25:19.816Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "run_start",
+    "vehicle": {
+      "automobileType": "motorcycle",
+      "brand": "Honda",
+      "manufacturingYear": 2020,
+      "model": "CG 160",
+      "predominantColor": "vermelho",
+      "country": "Brazil"
+    },
+    "targetTimeMs": 60000,
+    "maxTimeMs": 100000,
+    "deadlineMode": "soft_target_hard_maximum",
+    "deadlines": {
+      "search": 11000,
+      "fetch": 12000,
+      "extraction": 17000,
+      "recovery": 35000,
+      "nameClarification": 35000,
+      "review": 60000,
+      "repair": 68000,
+      "matching": 82000,
+      "verificationSearch": 88000,
+      "verification": 98000
+    },
+    "maxSearches": 10,
+    "maxPages": 24,
+    "maxBrowserUses": 20
+  },
+  {
+    "timestamp": "2026-10-07T13:25:19.820Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_start",
+    "queries": [
+      "Honda CG 160 2020 cores vermelho",
+      "Honda CG 160 2020 motorcycle cores versões pintura original Brazil",
+      "Honda CG 160 motorcycle paint colour codes red",
+      "Honda CG 160 motorcycle carenagem tanque peças pintadas cor",
+      "Honda CG 160 2020 catálogo PDF cores",
+      "Honda CG 160 2020 versões cores PDF",
+      "Honda CG 160 2020 código cor tinta moto",
+      "Honda CG 160 fairing fuel tank paint code"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.754Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-titan",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.755Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.olx.com.br/autos-e-pecas/motos/honda/cg/2020",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.756Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=_Xpbnu7IEIc&xstg=CAMSBhUDzO3xHw%3D%3D",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.759Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.webmotors.com.br/motos/estoque/honda/cg-160-titan-s/de.2020",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.760Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.primemotosrs.com.br/detalhes/13983713/0/honda-cg-160-20202020-vermelha-r-1790000",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.761Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=CDK9Cr5l1qM&xstg=CAMSBhUDzO3xHw%3D%3D",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.778Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.778Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.guarumoto.com.br/noticias/38",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.779Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://carros.ig.com.br/motos/2019-09-02/honda-cg-160-chega-a-linha-2020-mais-cara-e-com-novos-grafismos.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.780Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.facebook.com/WinnerMotoHonda/posts/cg-160-titan-2020atitude-tem-nomedispon%C3%ADvel-nas-coresazul-escuro-perolizado-verm/3089580911113413/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.791Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 2020 cores vermelho",
+    "received": 10,
+    "indexed": 10,
+    "relevant": 4
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.791Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.792Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.guarumoto.com.br/noticias/38",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.792Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://carros.ig.com.br/motos/2019-09-02/honda-cg-160-chega-a-linha-2020-mais-cara-e-com-novos-grafismos.html",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.792Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.facebook.com/WinnerMotoHonda/posts/cg-160-titan-2020atitude-tem-nomedispon%C3%ADvel-nas-coresazul-escuro-perolizado-verm/3089580911113413/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.857Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.moto-pecas-honda.com/honda-motociclos/160-MOTO/CG/2020",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.857Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.honda.com.br/pos-venda/automoveis/sites/customer_service/files/2024-07/C%C3%B3digo%20de%20Cor_City.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.858Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=_Xpbnu7IEIc",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.858Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/880766372/Familia-CG160-2025",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.861Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.861Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://lista.mercadolivre.com.br/catalogo-pe%C3%A7as-honda-cg-160",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.861Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.instagram.com/p/DIAIhKiB-Fs/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.866Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 2020 catálogo PDF cores",
+    "received": 10,
+    "indexed": 17,
+    "relevant": 7
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.867Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.867Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://lista.mercadolivre.com.br/catalogo-pe%C3%A7as-honda-cg-160",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.867Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.instagram.com/p/DIAIhKiB-Fs/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.873Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=_Xpbnu7IEIc&xstg=CAMSBhUD_LL2Hw%3D%3D",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.873Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://taozinhomotos.com.br/noticias/21",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.874Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.olhonocarro.com.br/catalogo/resultado-ficha-tecnica/HONDA_CG_2020_160%20TITAN%20S%20FLEX_d1c81edfa58c1c/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.874Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://portallubes.com.br/2019/09/honda-cg-2020/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.878Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.mobiauto.com.br/catalogo/motos/honda/cg-160/2020",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.879Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://autoesporte.globo.com/motos/noticia/2019/09/honda-cg-160-2020-chega-as-lojas-veja-os-precos.ghtml",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.879Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://motor1.uol.com.br/news/383240/honda-cg-160-titans-lancamento/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.891Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 2020 versões cores PDF",
+    "received": 10,
+    "indexed": 25,
+    "relevant": 11
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.891Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.honda.com.br/pos-venda/motos/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-TITAN%20%282023~2024%29%20D2203-MAN-1303_WEB.pdf",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.891Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.mobiauto.com.br/catalogo/motos/honda/cg-160/2020",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.891Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://autoesporte.globo.com/motos/noticia/2019/09/honda-cg-160-2020-chega-as-lojas-veja-os-precos.ghtml",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.891Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://motor1.uol.com.br/news/383240/honda-cg-160-titans-lancamento/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.894Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.honda.com.br/pos-venda/motos/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-TITAN%20%282023~2024%29%20D2203-MAN-1303_WEB.pdf",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.897Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.honda.com.br/motos/blog/honda-cg-titan-series-especiais",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.897Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=FBA5hS_9XE8&xstg=CAMSBhUDzO3xHw%3D%3D",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.897Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.honda.com.br/motos/street/city/cg-50-anos",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.898Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-cargo",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.914Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 2020 motorcycle cores versões pintura original Brazil",
+    "received": 10,
+    "indexed": 33,
+    "relevant": 15
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.914Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://cardosomoto.com.br/novidades/mais-vendida-do-brasil-honda-cg-160-chega-a-linha-2020/",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.914Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://cardosomoto.com.br/novidades/mais-vendida-do-brasil-honda-cg-160-chega-a-linha-2020/",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:20.976Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.014Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.047Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://motor1.uol.com.br/news/383240/honda-cg-160-titans-lancamento/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.058Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://loja.motoclubehonda.com.br/acessorios-moto/acessorios-scam/protetor-de-carenagem/carenagem-direita-do-tanque-cg160-cargo-2022-a-2024-original-honda-branco",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.058Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.megamotosonline.com.br/carenagem-tanque-direita-original-honda-cg-160-fan-cinza/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.059Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://produto.mercadolivre.com.br/MLB-7057728412-par-carenagem-tanque-capa-cg-titan-160-fan-160-2025-cores-_JM",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.059Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.motomatsuo.com.br/carenagem-esquerda-do-tanque-cg-160-titan-ex-2025-2026-para-moto-vermelha-e-preta-original-honda.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.059Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DaXyXQ6hMyC/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.059Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.sportbay.com.br/carenagens-moto-honda-titan-160",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.059Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://shopee.com.br/Kit-Carenagem-Tanque-Completa-Cg-160-Titan-Original-Honda-i.602027773.58265979458",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.060Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/brmotohonda/videos/-inova%C3%A7%C3%A3o-na-nova-linha-cgvoc%C3%AA-sabia-que-a-carenagem-do-tanque-em-pl%C3%A1stico-%C3%A9-um-/363975693473156/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.060Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://loja.endomoto.com.br/produto/carenagem-esquerda-tanque-cg-160-titan-original-honda/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.060Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DX77Fmptltp/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.082Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 motorcycle carenagem tanque peças pintadas cor",
+    "received": 10,
+    "indexed": 43,
+    "relevant": 15
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.084Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://motor1.uol.com.br/news/383240/honda-cg-160-titans-lancamento/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.108Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.mobiauto.com.br/catalogo/motos/honda/cg-160/2020",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.153Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.guarumoto.com.br/noticias/38",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.170Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.mobiauto.com.br/catalogo/motos/honda/cg-160/2020",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.173Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.honda.com.br/pos-venda/motos/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-TITAN%20%282023~2024%29%20D2203-MAN-1303_WEB.pdf",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": true,
+    "attempt": 1,
+    "error": "Page response exceeds 10485760 bytes",
+    "errorCode": "PAGE_TOO_LARGE"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.173Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.173Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.177Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.guarumoto.com.br/noticias/38",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.329Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://autoesporte.globo.com/motos/noticia/2019/09/honda-cg-160-2020-chega-as-lojas-veja-os-precos.ghtml",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.349Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://autoesporte.globo.com/motos/noticia/2019/08/harley-davidson-low-rider-s-e-confirmada-para-o-brasil.ghtml",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.349Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/groups/1689304681350865/posts/3897680820513229/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.350Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.carross.eu/en/paint-honda-motorcycles-b53",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.350Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://it.scribd.com/document/891013285/Honda-Paint-Names",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.350Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.dotheton.com/threads/vintage-honda-paint-codes-or-modern-color-name-equivalents.34153/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.350Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://mail52.mkt.econeteditora.com.br/econeteditora-news/honda-cg-160-2021-red-your-complete-guide-1767647104",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.350Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.paintscratch.com/touch_up_paint/Honda-Motorcycle/All-Models.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.350Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.specialistpaints.com/products/honda-motorcycle-red-paint-code-r345c",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.351Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=SGxE90jgPlg",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.351Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.cartouchuppaint.com.au/honda-motorcycle-paint-colour/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.351Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://nutjobparts.com/pdf/COLOUR-CODE.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.373Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 motorcycle paint colour codes red",
+    "received": 10,
+    "indexed": 54,
+    "relevant": 15
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.375Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://autoesporte.globo.com/motos/noticia/2019/09/honda-cg-160-2020-chega-as-lojas-veja-os-precos.ghtml",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.397Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://carros.ig.com.br/motos/2019-09-02/honda-cg-160-chega-a-linha-2020-mais-cara-e-com-novos-grafismos.html",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.441Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://carros.ig.com.br/motos/2019-09-02/honda-cg-160-chega-a-linha-2020-mais-cara-e-com-novos-grafismos.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.572Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_catalog_discovery",
+    "records": 0,
+    "namedEvidenceRows": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.573Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_start",
+    "queries": [
+      "Honda CG 160 2020 nomes cores originais códigos tinta catálogo Brasil vermelho"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.641Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.instagram.com/p/DIAIhKiB-Fs/",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "direct fetch returned no extractable text; Reader fallback failed: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.873Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20TITAN%20S%20%282020%29%20D2203-MAN-1227_WEB_0.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.873Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadolivre.com.br/tinta-p-moto-honda-titan-160-ano-2020-vermelho-perol--225ml/up/MLBU1414700195",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.874Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=_Xpbnu7IEIc&xstg=CAMSBhUDze3xHw%3D%3D",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.896Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 2020 código cor tinta moto",
+    "received": 10,
+    "indexed": 60,
+    "relevant": 18
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.908Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": true,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.908Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://motor1.uol.com.br/news/514460/honda-cg-160-2022-lancamento/",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.908Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://motor1.uol.com.br/news/514460/honda-cg-160-2022-lancamento/",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.910Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/groups/714370655427813/posts/2530418053823055/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.910Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=Yt0ZjvCGgt8",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.910Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://au.pinterest.com/ben_wilson84/fuel-tank-paint/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.911Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.reddit.com/r/motorcycle/comments/s799bk/does_anyone_know_the_paint_code_for_this_strip_of/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.911Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.tiktok.com/@waqarpakbike/video/7634950604753800480",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.911Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=5_l2Bgnolf0",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.911Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://il.ebay.com/b/Honda-OEM-Paint-Silver-Gas-Tanks/35563/bn_117155827",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.911Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DXqeDHhiQRI/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.935Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 fairing fuel tank paint code",
+    "received": 10,
+    "indexed": 70,
+    "relevant": 20
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.936Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_complete",
+    "queries": 8,
+    "indexedSources": 70
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.969Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://motor1.uol.com.br/news/514460/honda-cg-160-2022-lancamento/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": true,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.969Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.instagram.com/reel/CwkKLWpI0rc/",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:21.970Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.instagram.com/reel/CwkKLWpI0rc/",
+    "prefetched": true,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:22.015Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.mobiauto.com.br/catalogo/motos/honda/cg-160/2020",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 844.9783649999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:22.067Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.mobiauto.com.br/catalogo/motos/honda/cg-160/2020",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 896.7184039999997,
+    "firstContentMs": 844.9783649999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:22.069Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://www.mobiauto.com.br/catalogo/motos/honda/cg-160/2020",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:22.122Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1108.0917899999997
+  },
+  {
+    "timestamp": "2026-10-07T13:25:23.950Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.076Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.081Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.guarumoto.com.br/noticias/38",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2903.427258
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.082Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.guarumoto.com.br/noticias/38",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2905.1150860000002,
+    "firstContentMs": 2903.427258
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.096Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://www.guarumoto.com.br/noticias/38",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.108Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 3094.248012,
+    "firstContentMs": 1108.0917899999997
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.109Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.123Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://motor1.uol.com.br/news/368482/honda-cg-2020-precos/",
+    "candidates": 2,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.125Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://motor1.uol.com.br/news/383240/honda-cg-160-titans-lancamento/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 3041.023909
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.126Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://motor1.uol.com.br/news/383240/honda-cg-160-titans-lancamento/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 3042.085799,
+    "firstContentMs": 3041.023909
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.129Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://motor1.uol.com.br/news/383240/honda-cg-160-titans-lancamento/",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.130Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://autoesporte.globo.com/motos/noticia/2019/09/honda-cg-160-2020-chega-as-lojas-veja-os-precos.ghtml",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2754.4928860000005
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.132Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://autoesporte.globo.com/motos/noticia/2019/09/honda-cg-160-2020-chega-as-lojas-veja-os-precos.ghtml",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2756.8034170000005,
+    "firstContentMs": 2754.4928860000005
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.133Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.138Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://autoesporte.globo.com/motos/noticia/2019/09/honda-cg-160-2020-chega-as-lojas-veja-os-precos.ghtml",
+    "candidates": 2,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.138Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://carros.ig.com.br/motos/2019-09-02/honda-cg-160-chega-a-linha-2020-mais-cara-e-com-novos-grafismos.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2697.563465
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.141Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://carros.ig.com.br/motos/2019-09-02/honda-cg-160-chega-a-linha-2020-mais-cara-e-com-novos-grafismos.html",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2699.8876119999995,
+    "firstContentMs": 2697.563465
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.144Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://carros.ig.com.br/motos/2019-09-02/honda-cg-160-chega-a-linha-2020-mais-cara-e-com-novos-grafismos.html",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.146Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.honda.com.br/pecas/motos/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.149Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.149Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.webmotors.com.br/wm1/motos/honda-cg-160-ganha-novas-cores-na-linha-2023",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.169Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 2020 nomes cores originais códigos tinta catálogo Brasil vermelho",
+    "received": 10,
+    "indexed": 72,
+    "relevant": 19
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.169Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.169Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.webmotors.com.br/wm1/motos/honda-cg-160-ganha-novas-cores-na-linha-2023",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.171Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 72
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.182Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.182Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_pool_reused",
+    "url": "https://cardosomoto.com.br/novidades/mais-vendida-do-brasil-honda-cg-160-chega-a-linha-2020/",
+    "pending": true
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.182Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://shopee.com.br/Tinta-Tira-Risco-Moto-Honda-CG-160-Titan-Fan-Vermelho-Perolizado-C%C3%B3d-R124CA-i.520627126.15348870107",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.183Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_pool_reused",
+    "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+    "pending": false
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.183Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_queued",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-fan",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.183Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_pool_reused",
+    "url": "https://motor1.uol.com.br/news/514460/honda-cg-160-2022-lancamento/",
+    "pending": false
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.183Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.183Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://shopee.com.br/Tinta-Tira-Risco-Moto-Honda-CG-160-Titan-Fan-Vermelho-Perolizado-C%C3%B3d-R124CA-i.520627126.15348870107",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.183Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_start",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-fan",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.210Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "azul escuro",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 43,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.210Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "vermelho perolizado",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 6,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.227Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "branco e preto",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 48,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.229Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://lista.mercadolivre.com.br/catalogo-pe%C3%A7as-honda-cg-160",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.237Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://cardosomoto.com.br/novidades/mais-vendida-do-brasil-honda-cg-160-chega-a-linha-2020/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": true,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.240Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "azul perolizado",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 2,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.247Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "azul-escuro",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 43,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.264Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-fan",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:24.672Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.instagram.com/reel/CwkKLWpI0rc/",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": true,
+    "attempt": 1,
+    "error": "direct fetch returned no extractable text; Reader fallback failed: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:25.502Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.webmotors.com.br/wm1/motos/honda-cg-160-ganha-novas-cores-na-linha-2023",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:25.519Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1410.3159810000006
+  },
+  {
+    "timestamp": "2026-10-07T13:25:25.574Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:25.633Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1556.673847
+  },
+  {
+    "timestamp": "2026-10-07T13:25:25.696Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1619.3632319999997,
+    "firstContentMs": 1556.673847
+  },
+  {
+    "timestamp": "2026-10-07T13:25:25.697Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8590
+  },
+  {
+    "timestamp": "2026-10-07T13:25:25.781Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.facebook.com/WinnerMotoHonda/posts/cg-160-titan-2020atitude-tem-nomedispon%C3%ADvel-nas-coresazul-escuro-perolizado-verm/3089580911113413/",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:26.003Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:26.119Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1986.2469839999994
+  },
+  {
+    "timestamp": "2026-10-07T13:25:26.157Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2048.2463400000006,
+    "firstContentMs": 1410.3159810000006
+  },
+  {
+    "timestamp": "2026-10-07T13:25:26.158Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:26.185Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2052.4771869999995,
+    "firstContentMs": 1986.2469839999994
+  },
+  {
+    "timestamp": "2026-10-07T13:25:26.186Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://motor1.uol.com.br/news/514460/honda-cg-160-2022-lancamento/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:26.188Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.webmotors.com.br/wm1/motos/honda-cg-160-ganha-novas-cores-na-linha-2023",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:27.115Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1417.679505
+  },
+  {
+    "timestamp": "2026-10-07T13:25:27.165Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1468.5278429999998,
+    "firstContentMs": 1417.679505
+  },
+  {
+    "timestamp": "2026-10-07T13:25:27.166Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://lista.mercadolivre.com.br/catalogo-pe%C3%A7as-honda-cg-160",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 7121
+  },
+  {
+    "timestamp": "2026-10-07T13:25:27.176Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:27.333Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1175.0628099999994
+  },
+  {
+    "timestamp": "2026-10-07T13:25:27.508Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://motor1.uol.com.br/news/514460/honda-cg-160-2022-lancamento/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1321.3202950000004
+  },
+  {
+    "timestamp": "2026-10-07T13:25:27.589Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.webmotors.com.br/wm1/motos/honda-cg-160-ganha-novas-cores-na-linha-2023",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1400.8985519999997
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.080Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.webmotors.com.br/wm1/motos/honda-cg-160-ganha-novas-cores-na-linha-2023",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1892.5179699999999,
+    "firstContentMs": 1400.8985519999997
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.088Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://www.webmotors.com.br/wm1/motos/honda-cg-160-ganha-novas-cores-na-linha-2023",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.090Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.284Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://lista.mercadolivre.com.br/catalogo-pe%C3%A7as-honda-cg-160",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1117.775971
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.541Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2382.7905409999994,
+    "firstContentMs": 1175.0628099999994
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.542Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-fan",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 5745
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.549Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://mobilidade.estadao.com.br/meios-de-transporte/honda-cg-160-2024-chega-com-novas-cores-e-mais-cara-veja-detalhes-e-precos/",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.550Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.757Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://motor1.uol.com.br/news/514460/honda-cg-160-2022-lancamento/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2570.4314210000002,
+    "firstContentMs": 1321.3202950000004
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.757Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 5530
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.764Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://motor1.uol.com.br/news/514460/honda-cg-160-2022-lancamento/",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:28.766Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.183Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_fetch_complete",
+    "url": "https://shopee.com.br/Tinta-Tira-Risco-Moto-Honda-CG-160-Titan-Fan-Vermelho-Perolizado-C%C3%B3d-R124CA-i.520627126.15348870107",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.365Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://lista.mercadolivre.com.br/catalogo-pe%C3%A7as-honda-cg-160",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2198.9258290000007,
+    "firstContentMs": 1117.775971
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.367Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 4920
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.382Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://lista.mercadolivre.com.br/catalogo-pe%C3%A7as-honda-cg-160",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.384Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://cardosomoto.com.br/novidades/mais-vendida-do-brasil-honda-cg-160-chega-a-linha-2020/",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.386Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.388Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "azul escura",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.873Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-fan",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1330.8628480000007
+  },
+  {
+    "timestamp": "2026-10-07T13:25:29.965Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1207.2790480000003
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.559Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1192.535753
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.604Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1236.5996450000002,
+    "firstContentMs": 1192.535753
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.612Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://www.bike-parts-honda.com/honda-motorcycle/160-MOTO/CG/2020/CG160EXL/Frame/MARK--EX-/104886/F_50_2/2/43263",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.613Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.641Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-fan",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 2098.746597000001,
+    "firstContentMs": 1330.8628480000007
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.642Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 3687
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.659Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://www.honda.com.br/motos/street/city/cg-160-fan",
+    "candidates": 3,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.660Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "Iron Nail Silver",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 1,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.661Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "Infinite Black",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 2,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:30.661Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "Pearl Marrakesh Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.871Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1228.628759000001
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.920Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1278.0011870000017,
+    "firstContentMs": 1228.628759000001
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.921Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 2919
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.963Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.966Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 3208.403898999999,
+    "firstContentMs": 1207.2790480000003
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.987Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://www.estadao.com.br/jornal-do-carro/motos/honda-cg-160-chega-ao-modelo-2026-com-novas-cores-e-precos-veja-detalhes-e-fotos/",
+    "candidates": 5,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.989Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "Pearl Stark Gray",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 1,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.989Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "Beduin Orange",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.989Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "Pearl Spencer Blue",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:31.990Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_candidate_checked",
+    "name": "Supernova White",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 4,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:33.102Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1180.519601
+  },
+  {
+    "timestamp": "2026-10-07T13:25:33.160Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1238.4915010000004,
+    "firstContentMs": 1180.519601
+  },
+  {
+    "timestamp": "2026-10-07T13:25:33.161Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 3626
+  },
+  {
+    "timestamp": "2026-10-07T13:25:33.203Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:34.548Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1386.1432089999998
+  },
+  {
+    "timestamp": "2026-10-07T13:25:34.628Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1466.7088430000003,
+    "firstContentMs": 1386.1432089999998
+  },
+  {
+    "timestamp": "2026-10-07T13:25:34.630Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 2158
+  },
+  {
+    "timestamp": "2026-10-07T13:25:34.671Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_skipped",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "kind": "pageAnalysis",
+    "reason": "AI cost target reached; cannot admit pageAnalysis without using reserved mandatory-stage funds"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:35.959Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1329.068369999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:36.022Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1392.0592000000015,
+    "firstContentMs": 1329.068369999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:36.100Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "warning",
+    "stage": "extraction",
+    "message": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf: 10 incomplete passes; Insufficient stage time to start another model attempt"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:36.101Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "candidates": 0,
+    "segments": 18,
+    "requests": 8
+  },
+  {
+    "timestamp": "2026-10-07T13:25:36.113Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "discovery_coverage",
+    "domains": 7,
+    "palettes": 2,
+    "candidates": 12,
+    "needsExpansion": false
+  },
+  {
+    "timestamp": "2026-10-07T13:25:36.141Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "name_research_complete",
+    "queries": 0,
+    "leads": 0,
+    "unresolved": []
+  },
+  {
+    "timestamp": "2026-10-07T13:25:36.161Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "code_clarification_search",
+    "name": "vermelho perolizado",
+    "competingCodes": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:25:36.161Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_start",
+    "queries": [
+      "Honda CG 160 2020 \"vermelho perolizado\" código da cor tinta"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:25:37.133Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/C8elanZutkx/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:37.133Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_source_rejected",
+    "url": "https://www.mercadolivre.com.br/hidratante-para-couro-alcance-uso-em-estetica-automotiva/up/MLBU5158001884",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:37.193Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_sources",
+    "query": "Honda CG 160 2020 \"vermelho perolizado\" código da cor tinta",
+    "received": 10,
+    "indexed": 80,
+    "relevant": 24
+  },
+  {
+    "timestamp": "2026-10-07T13:25:37.193Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 80
+  },
+  {
+    "timestamp": "2026-10-07T13:25:37.236Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_start",
+    "stage": "recover_P5_18"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:37.237Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "stage": "recover_P5_18",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "timeoutMs": 4482
+  },
+  {
+    "timestamp": "2026-10-07T13:25:38.317Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "stage": "recover_P5_18",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "durationMs": 1079.9635269999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:38.388Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "stage": "recover_P5_18",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "durationMs": 1150.6740930000014,
+    "firstContentMs": 1079.9635269999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:38.388Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_complete",
+    "stage": "recover_P5_18",
+    "durationMs": 1153.1257790000018
+  },
+  {
+    "timestamp": "2026-10-07T13:25:38.423Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_recovery_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "segment": 18,
+    "candidates": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:25:38.424Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_start",
+    "stage": "recover_P5_15"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:38.428Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "stage": "recover_P5_15",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "timeoutMs": 3474
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.610Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "stage": "recover_P5_15",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "durationMs": 1181.3003439999993
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.669Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "stage": "recover_P5_15",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "recovery",
+    "durationMs": 1240.2225419999995,
+    "firstContentMs": 1181.3003439999993
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.670Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_complete",
+    "stage": "recover_P5_15",
+    "durationMs": 1246.2844069999992
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.693Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "page_recovery_complete",
+    "url": "https://www.honda.com.br/pos-venda/sites/customer_service_motos/files/manuais/MP%20CG%20160%20FAN-CG%20160%20TITAN%20%282019~2020%29%20D2203-MAN-1185_WEB_0.pdf",
+    "segment": 15,
+    "candidates": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.693Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "warning",
+    "stage": "extraction_recovery",
+    "message": "Some source segments remain unextracted after the bounded recovery pass"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.818Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "inventory_budget",
+    "candidates": 12,
+    "spentUsd": 0.009808,
+    "pendingUsd": 0,
+    "omissionReserveUsd": 0.006500000000000001,
+    "availableUsd": 0.055192000000000005
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.826Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "catalog_review_groups",
+    "candidates": 12,
+    "groups": 12
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.849Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_start",
+    "stage": "research_review_batch_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.850Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.855Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:39.856Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:40.862Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1011.6377090000024
+  },
+  {
+    "timestamp": "2026-10-07T13:25:40.949Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1092.582284
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.326Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1476.0712050000002,
+    "firstContentMs": 1011.6377090000024
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.327Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_1",
+    "durationMs": 1478.243004
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.440Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "database_color_candidates_loaded",
+    "batch": 1,
+    "colors": [
+      {
+        "index": 0,
+        "color": "vermelho perolizado",
+        "db_candidates": 6
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.440Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "database_matcher_local",
+    "batch": 1,
+    "colors": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.442Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "database_color_matching_complete",
+    "batch": 1,
+    "colors": 1,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.598Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1741.860893000001,
+    "firstContentMs": 1092.582284
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.599Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_1",
+    "durationMs": 1744.2867609999994
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.603Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "completion_review",
+    "attempted": 0,
+    "recovered": 0,
+    "remaining": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.607Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_start",
+    "stage": "final_verification_omissions_ready_1_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:41.609Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:42.476Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 867.1100320000005
+  },
+  {
+    "timestamp": "2026-10-07T13:25:42.981Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1372.4537060000002,
+    "firstContentMs": 867.1100320000005
+  },
+  {
+    "timestamp": "2026-10-07T13:25:42.982Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_complete",
+    "stage": "final_verification_omissions_ready_1_1",
+    "durationMs": 1375.688807999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:42.983Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "omission_flag_unsupported",
+    "candidate": "Iron Nail Silver",
+    "issue": "hue"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:42.983Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "omission_flag_unsupported",
+    "candidate": "Pearl Stark Gray",
+    "issue": "hue"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:42.983Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "omission_review_complete",
+    "total": 11,
+    "checked": 11,
+    "flagged": 0,
+    "recovered": 0,
+    "incomplete": 0,
+    "repairFailures": 0,
+    "unsupportedFlags": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:25:43.014Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "initial_response_ready",
+    "colors": 1,
+    "durationMs": 23226
+  },
+  {
+    "timestamp": "2026-10-07T13:25:43.167Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_start",
+    "stage": "final_verification_V1"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:43.167Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_start",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:44.206Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_first_content",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1039.019930999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:44.764Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_route_complete",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1596.2848649999978,
+    "firstContentMs": 1039.019930999999
+  },
+  {
+    "timestamp": "2026-10-07T13:25:44.764Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "model_request_complete",
+    "stage": "final_verification_V1",
+    "durationMs": 1597.8904690000018
+  },
+  {
+    "timestamp": "2026-10-07T13:25:44.766Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "verification_complete",
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 1,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 1,
+    "queries": 0,
+    "pagesFetched": 0,
+    "pagesReviewed": 2,
+    "catalogRecordsReviewed": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:25:44.766Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "warning",
+    "stage": "verification",
+    "message": "Some final color data remains unverified or conflicting; see each color verification field"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:44.768Z",
+    "runId": "dc674481-7d43-4959-ad45-005a6d31bd9a",
+    "event": "run_complete",
+    "durationMs": 24979,
+    "colors": 1,
+    "pages": 15,
+    "modelCalls": {
+      "main": 4,
+      "pageAnalysis": 21,
+      "databaseMatcher": 1,
+      "verification": 2
+    },
+    "timing": {
+      "totalMs": 24979,
+      "processingMs": 24979,
+      "capacityWaitMs": 0,
+      "modelRequestMs": 52132,
+      "targetTimeMs": 60000,
+      "deadlineMode": "soft",
+      "overTargetMs": 0,
+      "maxTimeMs": 100000
+    }
+  }
+]

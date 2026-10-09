@@ -1,0 +1,3045 @@
+[
+  {
+    "timestamp": "2026-10-07T13:25:44.788Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "run_start",
+    "vehicle": {
+      "automobileType": "truck",
+      "brand": "Volvo",
+      "manufacturingYear": 2022,
+      "model": "FH 540",
+      "predominantColor": "branco",
+      "country": "Brazil"
+    },
+    "targetTimeMs": 60000,
+    "maxTimeMs": 100000,
+    "deadlineMode": "soft_target_hard_maximum",
+    "deadlines": {
+      "search": 11000,
+      "fetch": 12000,
+      "extraction": 17000,
+      "recovery": 35000,
+      "nameClarification": 35000,
+      "review": 60000,
+      "repair": 68000,
+      "matching": 82000,
+      "verificationSearch": 88000,
+      "verification": 98000
+    },
+    "maxSearches": 10,
+    "maxPages": 24,
+    "maxBrowserUses": 20
+  },
+  {
+    "timestamp": "2026-10-07T13:25:44.788Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_start",
+    "queries": [
+      "Volvo FH 540 2022 cores branco",
+      "Volvo FH 540 2022 truck cores cabine pintura original Brazil",
+      "Volvo FH 540 truck cab paint colour codes white",
+      "Volvo FH 540 truck cabine peças pintadas cor",
+      "Volvo FH 540 2022 catálogo PDF cores",
+      "Volvo FH 540 2022 versões cores PDF",
+      "Volvo FH 540 2022 código tinta cabine",
+      "Volvo FH 540 cab body panels paint code"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.656Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DElOFrRJEz2/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.656Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/igfibras/videos/nem-toda-pintura-sai-exatamente-igual-nesse-processo-mostramos-na-pr%C3%A1tica-como-f/2770171843351738/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.657Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.volvotrucks.com.br/pt-br/trucks/models/volvo-fh.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.657Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=yEG7HHCnn8g",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.657Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/dipesulvolvo/videos/azul-royal-azul-performace-edition-nardo-grey-e-branco-essas-s%C3%A3o-as-cores-dos-no/1543150653866594/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.657Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://loja.brtruckpecas.com.br/loja/pecas-de-linha-pesada/pecas-de-cabine-pecas-de-linha-pesada/acabamento-interior-l-esquerdo-cabine-volvo-fh-540-213-vn44/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.658Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://clicars.com.br/loja/acessorios-de-linha-pesada/acessorios-de-interior/acabamento-lateral-cabine-volvo-new-fh-fh540-2023-detalhe/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.658Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.658Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.autopecasg3.com.br/acabamentos-internos-cabine-volvo",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.660Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.mercadolivre.com.br/cabine-volvo-fh-540-2023-vo24--amarelo/up/MLBU3512317092",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.664Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 truck cabine peças pintadas cor",
+    "received": 10,
+    "indexed": 10,
+    "relevant": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.664Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.mercadolivre.com.br/cabine-volvo-fh-540-2023-vo24--amarelo/up/MLBU3512317092",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.729Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.volvotrucks.com.br/content/dam/volvo-trucks/markets/brazil/truck/fichas-fh/Ficha%20T%C3%A9cnica%20FH%206x4T.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.729Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.729Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=jmgT4XhIA5I",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.729Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.volvogroup.com/br/news-and-media/news/2022/jan/volvo-lanca-manual-do-motorista-100-digital-para-seus-caminhoes.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.730Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DQt0hh3j5FG/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.730Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.5001caminhoes.com.br/b//cor/branco/cor/branco/ano/2022/marcas/volvo/ano/2022?imprimir=true",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.730Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=90S1fJuvL8w",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.735Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.olhonocarro.com.br/catalogo/resultado-ficha-tecnica/VOLVO_FH-540_2022_8X4%202P%20(DIESEL)(E5)_dcc819dfa5841d/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.742Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 2022 catálogo PDF cores",
+    "received": 10,
+    "indexed": 18,
+    "relevant": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.742Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.olhonocarro.com.br/catalogo/resultado-ficha-tecnica/VOLVO_FH-540_2022_8X4%202P%20(DIESEL)(E5)_dcc819dfa5841d/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.889Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "http://www.anfavea.com.br/Emissoes/diesel/TABELAEMISSOESDIESELVOLVO.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.889Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=jmgT4XhIA5I&xstg=CAMSBhUD-7L2Hw%3D%3D",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.889Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DZNBQu2xJYR/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.889Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/637058809/Untitled",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.889Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=AftSRr9uhTg&xstg=CAMSBhUD-7L2Hw%3D%3D",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.890Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.volvotrucks.com.br/content/dam/volvo-trucks/markets/brazil/truck/2025-14_Limits_Smoke_Noise_APy.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.890Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/p/DZNBK6EkZck/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.901Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 2022 versões cores PDF",
+    "received": 10,
+    "indexed": 25,
+    "relevant": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.903Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.carross.eu/en/paint-volvo-trucks-b149",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.903Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.904Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/344520161/VOLVO-TRUCKS-Color-Information",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.904Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.paintscratch.com/touch_up_paint/Volvo/Truck.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.905Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://colorndrive.com/en/touch-up-paint/volvo-truck",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.905Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=2G-Y_SpmDyg",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.907Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.coffmantrucks.com/Volvo-Comprehensive-Paint-Selector/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.908Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.volvoclub.org.uk/paint_colour_codes.shtml",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.908Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://thetouchuppaint.com/touch-up-paint/volvo/truck",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.920Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.932Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 truck cab paint colour codes white",
+    "received": 10,
+    "indexed": 35,
+    "relevant": 3
+  },
+  {
+    "timestamp": "2026-10-07T13:25:45.932Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.029Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/vendatruck/videos/cavalo-mec%C3%A2nico-volvo-fh-540-6x4-2022cab-globetrotterpacote-sckm-404000tra%C3%A7%C3%A3o-6x/26444784545151327/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.030Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.5001caminhoes.com.br/b//cor/branco/tipo/caminhao/marcas/volvo/tipo/caminhao?imprimir=true",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.030Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DQablaVETH_/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.030Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://pt.scribd.com/document/422443506/Colores-fh",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.038Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.srcaminhoes.com.br/search/cor.Azul/marca.VOLVO/modelo.FH%20540",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.038Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://caminhao.mercadolivre.com.br/MLB-5269527443-volvo-fh-540-2022-_JM",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.053Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 2022 cores branco",
+    "received": 9,
+    "indexed": 41,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.053Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.srcaminhoes.com.br/search/cor.Azul/marca.VOLVO/modelo.FH%20540",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.053Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://caminhao.mercadolivre.com.br/MLB-5269527443-volvo-fh-540-2022-_JM",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.325Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.srcaminhoes.com.br/search/cor.Azul/marca.VOLVO/modelo.FH%20540",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.349Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "url": "https://www.srcaminhoes.com.br/search/cor.Azul/marca.VOLVO/modelo.FH%20540",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.500Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_catalog_discovery",
+    "records": 0,
+    "namedEvidenceRows": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.502Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_start",
+    "queries": [
+      "Volvo FH 540 2022 nomes cores originais códigos tinta catálogo Brasil branco"
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.795Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.819Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "url": "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.853Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.youtube.com/watch?v=AftSRr9uhTg",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.853Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/colorimetriaautomotiva/posts/cores-caminh%C3%B5es-volvo-parte-2colorimetriaautomotiva-cor-corescolor-colors-axalta/1451936541635604/?locale=pt_BR",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.854Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/lelocaminhoes/videos/qual-cor-de-volvo-fh-540-6x4-bug-leve-mola-euro-5-com-cabine-globetrotter-voc%C3%AA-e/754008016704370/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.854Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DZGCqy2KnGn/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.855Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.volvocars.com/br/support/car/ex30/article/f306f406f54b04f3c0a8b08a77b7a383-7b460945d481f938c0a8cc377f1fa2b8-8664b2fa77a7e089c0a8296870d1a409/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.893Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 2022 código tinta cabine",
+    "received": 10,
+    "indexed": 46,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.894Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://iautokrasas.lv/en/how-to-find-the-paint-code-of-your-volvo-vehicle/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.894Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.tiktok.com/@aglomeradodigital/video/7667257409223576852",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.895Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://stpi.it.volvo.com/STPIFiles/Volvo/FactSheet/EXTL-BAS,EXTL-EN2,EXTL-BA2_Eng_010_333502138.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.896Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.paintscratch.com/touch_up_paint/Volvo/2027-Volvo-Truck.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.896Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.facebook.com/Mchaleautobody/posts/few-bits-painted-on-a-new-volvo-fh-and-volvo-fm-fh-cab-painted-logo-panel-and-co/1243960984195006/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.896Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.j4uk.co.uk/volvo-body-panels/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.918Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 cab body panels paint code",
+    "received": 10,
+    "indexed": 52,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:25:46.982Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "url": "https://www.srcaminhoes.com.br/search/cor.Azul/marca.VOLVO/modelo.FH%20540",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 633.4556300000004
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.066Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "url": "https://www.srcaminhoes.com.br/search/cor.Azul/marca.VOLVO/modelo.FH%20540",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 717.4440040000009,
+    "firstContentMs": 633.4556300000004
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.067Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_complete",
+    "url": "https://www.srcaminhoes.com.br/search/cor.Azul/marca.VOLVO/modelo.FH%20540",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.402Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://tecnicatintas.com.br/downloads/downloads_12_1715715159.pdf",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.403Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.volvotrucks.com.br/pt-br/services/parts-accessories/parts/parts-catalogue.html",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.403Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DX96K04vX2A/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.430Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 2022 nomes cores originais códigos tinta catálogo Brasil branco",
+    "received": 10,
+    "indexed": 55,
+    "relevant": 5
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.430Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_complete",
+    "queries": 1,
+    "indexedSources": 55
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.493Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://www.instagram.com/reel/DaQP-LEoF9m/",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.494Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://lista.mercadolivre.com.br/volvo-fh-540-2022",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.494Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_source_rejected",
+    "url": "https://guiadotrc.com.br/publicacao/volvo-fh-540-e-o-caminhao-mais-vendido-do-brasil-em-2022/37679",
+    "reason": "Missing model or paint context for the initial source filter"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.502Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.518Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_sources",
+    "query": "Volvo FH 540 2022 truck cores cabine pintura original Brazil",
+    "received": 10,
+    "indexed": 58,
+    "relevant": 6
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.518Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.521Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_complete",
+    "queries": 8,
+    "indexedSources": 58
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.644Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.667Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:47.669Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "url": "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 849.9799060000005
+  },
+  {
+    "timestamp": "2026-10-07T13:25:48.064Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "url": "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1244.9163800000024,
+    "firstContentMs": 849.9799060000005
+  },
+  {
+    "timestamp": "2026-10-07T13:25:48.074Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_complete",
+    "url": "https://www.carross.eu/en/paint-volvo-trucks-fh540-m3444",
+    "candidates": 1,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:48.440Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 772.6767570000011
+  },
+  {
+    "timestamp": "2026-10-07T13:25:48.496Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 829.1805190000014,
+    "firstContentMs": 772.6767570000011
+  },
+  {
+    "timestamp": "2026-10-07T13:25:48.498Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_complete",
+    "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:48.539Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.mercadolivre.com.br/cabine-volvo-fh-540-2023-vo24--amarelo/up/MLBU3512317092",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:48.560Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "url": "https://www.mercadolivre.com.br/cabine-volvo-fh-540-2023-vo24--amarelo/up/MLBU3512317092",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:49.161Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "url": "https://www.mercadolivre.com.br/cabine-volvo-fh-540-2023-vo24--amarelo/up/MLBU3512317092",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 600.5059020000008
+  },
+  {
+    "timestamp": "2026-10-07T13:25:49.210Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "url": "https://www.mercadolivre.com.br/cabine-volvo-fh-540-2023-vo24--amarelo/up/MLBU3512317092",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 649.3432890000004,
+    "firstContentMs": 600.5059020000008
+  },
+  {
+    "timestamp": "2026-10-07T13:25:49.211Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_complete",
+    "url": "https://www.mercadolivre.com.br/cabine-volvo-fh-540-2023-vo24--amarelo/up/MLBU3512317092",
+    "candidates": 0,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:25:50.737Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.olhonocarro.com.br/catalogo/resultado-ficha-tecnica/VOLVO_FH-540_2022_8X4%202P%20(DIESEL)(E5)_dcc819dfa5841d/",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:51.039Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://caminhao.mercadolivre.com.br/MLB-5269527443-volvo-fh-540-2022-_JM",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:51.042Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "sparse_discovery_extended",
+    "untilMs": 32000,
+    "coverage": {
+      "domains": 1,
+      "palettes": 1,
+      "candidates": 0,
+      "needsExpansion": true
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:25:51.042Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "discovery_coverage",
+    "domains": 1,
+    "palettes": 1,
+    "candidates": 0,
+    "needsExpansion": true
+  },
+  {
+    "timestamp": "2026-10-07T13:25:51.075Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_plan"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:51.077Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "timeoutMs": 12000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:53.470Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "durationMs": 2393.0139219999983
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.101Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_plan",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "main",
+    "durationMs": 4023.7105530000044,
+    "firstContentMs": 2393.0139219999983
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.102Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_plan",
+    "durationMs": 4027.376546000003
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.105Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "name_research_complete",
+    "queries": 0,
+    "leads": 0,
+    "unresolved": []
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.130Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.130Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.131Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.coffmantrucks.com/Volvo-Comprehensive-Paint-Selector/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.131Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://pt.scribd.com/document/422443506/Colores-fh",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.132Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.132Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.132Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.coffmantrucks.com/Volvo-Comprehensive-Paint-Selector/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.132Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://pt.scribd.com/document/422443506/Colores-fh",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.808Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.829Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:55.873Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.coffmantrucks.com/Volvo-Comprehensive-Paint-Selector/",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": "Failed to fetch https://www.coffmantrucks.com/Volvo-Comprehensive-Paint-Selector/: HTTP 403",
+    "errorCode": "PAGE_FETCH_FAILED"
+  },
+  {
+    "timestamp": "2026-10-07T13:25:56.832Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:25:56.855Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:56.857Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:25:56.894Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 1064.9172000000035
+  },
+  {
+    "timestamp": "2026-10-07T13:25:57.580Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 724.2336920000016
+  },
+  {
+    "timestamp": "2026-10-07T13:25:57.835Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 977.7380179999964
+  },
+  {
+    "timestamp": "2026-10-07T13:25:59.971Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 3114.3519489999962,
+    "firstContentMs": 977.7380179999964
+  },
+  {
+    "timestamp": "2026-10-07T13:25:59.999Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "DEHLI RED",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 2,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.002Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "AGRA RED",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 7,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.006Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "NARDO GREY",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 8,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.008Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "GOLDEN FLEECE",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 5,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.017Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "BEGE JÚPITER",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 12,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.018Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "MIDAS TOUCH",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 2,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.032Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "JAVA PEARL",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 50,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.033Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "CONGER BLACK",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 6,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.033Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "PURPUR VIOLET",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 2,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.033Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "ROSA ESPECIAL",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.033Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "LARANJA MBB2241",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:00.132Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://pt.scribd.com/document/422443506/Colores-fh",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.320Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 5464.281921000002,
+    "firstContentMs": 724.2336920000016
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.399Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_complete",
+    "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+    "candidates": 27,
+    "segments": 2,
+    "requests": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.511Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "VERMELHO CORDOBA",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 57,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.512Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "DARK NIGHT",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 6,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.528Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "ROYAL BLUE",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 122,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.536Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "BLUE MISTRAL",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 32,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.537Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "AZUL CITROEN",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 9,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.539Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "AZUL FUN",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 15,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.540Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "AZUL ULTRAMARINO",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 9,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.543Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "AZUL PANTONE",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 30,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.550Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "VERDE JADE",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 53,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.785Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "VERDE SAVAGE",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 48,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.787Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "GREEN TIBESTI",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 11,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.788Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "AMARELO DESERTO",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 9,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.788Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "PRATA NÓRDICO",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.789Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "CINZA BLUET",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 9,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.796Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "PRATA STEEL",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 50,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.796Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "ICED MERCURY",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 3,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.797Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "pageAnalysis",
+    "durationMs": 6968.003764000001,
+    "firstContentMs": 1064.9172000000035
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.880Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_complete",
+    "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+    "candidates": 32,
+    "segments": 1,
+    "requests": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.978Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Snow",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 49,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:02.990Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Glacier White",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 68,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.001Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Ice White",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 62,
+    "selected": 2,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.003Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Off White",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 20,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.006Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Stardust Gold",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 13,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.009Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Fawn Metallic",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 28,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.009Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Premium Sunshine",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 1,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.009Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Premium School Bus Yellow",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.012Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Premium Orange",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 16,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.012Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Desert Dusk Orange",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.013Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Medium Walnut",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 9,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.016Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Viper Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 29,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.017Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Strong Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 2,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.030Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Medium Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 91,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.044Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Flame Red",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 111,
+    "selected": 2,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.045Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Medium Aubergine",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 3,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.050Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Dark Purple",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 44,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.051Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Dark Rich Blue",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 5,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.051Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Smoky Mountain Blue",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.053Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Space Blue",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 22,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.057Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Canyon Blue",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 30,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.112Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Dark Blue",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 429,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.119Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Vivid Blue",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 36,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.119Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Sea Surf Blue",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.123Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Electric Green",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 31,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.132Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Teal",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 68,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.139Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Bright Green",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 55,
+    "selected": 1,
+    "status": "matched"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.141Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Irish Green",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 15,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.141Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Sparkle Jade",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 0,
+    "selected": 0,
+    "status": "no_match"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.149Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Sable Metallic",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 60,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.159Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Gunmetal Gray",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 42,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.164Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_candidate_checked",
+    "name": "Galaxy Silver",
+    "catalogs": [
+      "lazzumix",
+      "basf",
+      "basf_models"
+    ],
+    "rows": 32,
+    "selected": 0,
+    "status": "unreviewed"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:03.343Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "manufacturer_paint_search_start",
+    "query": "\"Volvo\" tinta PU branco cor automotiva"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:04.612Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "manufacturer_paint_search_complete",
+    "query": "\"Volvo\" tinta PU branco cor automotiva",
+    "indexedSources": 10
+  },
+  {
+    "timestamp": "2026-10-07T13:26:04.612Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "manufacturer_paint_search_start",
+    "query": "\"Volvo\" paint color branco bodywork"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:05.866Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "manufacturer_paint_search_complete",
+    "query": "\"Volvo\" paint color branco bodywork",
+    "indexedSources": 10
+  },
+  {
+    "timestamp": "2026-10-07T13:26:05.977Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "inventory_budget",
+    "candidates": 59,
+    "spentUsd": 0.003729,
+    "pendingUsd": 0,
+    "omissionReserveUsd": 0.006500000000000001,
+    "availableUsd": 0.061271
+  },
+  {
+    "timestamp": "2026-10-07T13:26:05.986Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "catalog_review_groups",
+    "candidates": 59,
+    "groups": 59
+  },
+  {
+    "timestamp": "2026-10-07T13:26:06.000Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:06.006Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_2"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:06.014Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:06.014Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:06.018Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:06.019Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:06.873Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 854.6598109999977
+  },
+  {
+    "timestamp": "2026-10-07T13:26:07.216Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1201.6013340000063
+  },
+  {
+    "timestamp": "2026-10-07T13:26:07.335Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1321.0331030000016
+  },
+  {
+    "timestamp": "2026-10-07T13:26:07.411Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1391.884192999998,
+    "firstContentMs": 854.6598109999977
+  },
+  {
+    "timestamp": "2026-10-07T13:26:07.411Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_1",
+    "durationMs": 1394.0147640000068
+  },
+  {
+    "timestamp": "2026-10-07T13:26:07.515Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "database_color_candidates_loaded",
+    "batch": 1,
+    "colors": [
+      {
+        "index": 0,
+        "color": "Ice White",
+        "db_candidates": 62
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:26:07.516Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "database_matcher_local",
+    "batch": 1,
+    "colors": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:26:07.518Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "database_color_matching_complete",
+    "batch": 1,
+    "colors": 1,
+    "matchedCodes": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.324Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2310.002711000001,
+    "firstContentMs": 1201.6013340000063
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.325Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_2",
+    "durationMs": 2319.245573
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.337Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_3"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.340Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.345Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_2"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.348Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.530Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2515.784360999998,
+    "firstContentMs": 1321.0331030000016
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.531Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_1",
+    "durationMs": 2531.439846999994
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.543Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_3"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.545Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.550Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_4"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.552Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.555Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_4"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:08.557Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 10000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:09.108Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 760.9626859999989
+  },
+  {
+    "timestamp": "2026-10-07T13:26:09.499Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1159.1746570000032
+  },
+  {
+    "timestamp": "2026-10-07T13:26:09.555Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1002.2827480000051
+  },
+  {
+    "timestamp": "2026-10-07T13:26:09.723Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_2",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1375.3391360000023,
+    "firstContentMs": 760.9626859999989
+  },
+  {
+    "timestamp": "2026-10-07T13:26:09.723Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_2",
+    "durationMs": 1378.9663549999968
+  },
+  {
+    "timestamp": "2026-10-07T13:26:09.741Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_hue_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:09.742Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_hue_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:09.827Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1282.523509999999
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.100Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1543.3815480000048
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.261Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1708.3064410000006,
+    "firstContentMs": 1002.2827480000051
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.261Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_4",
+    "durationMs": 1711.3679849999971
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.268Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "research_review_batch_other_5"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.270Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "research_review_batch_other_5",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.273Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "final_verification_omissions_ready_1_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.276Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.380Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_4",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1823.9104420000003,
+    "firstContentMs": 1543.3815480000048
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.381Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_4",
+    "durationMs": 1826.1368729999958
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.682Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_hue_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 939.2387929999968
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.904Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2563.9932810000028,
+    "firstContentMs": 1159.1746570000032
+  },
+  {
+    "timestamp": "2026-10-07T13:26:10.905Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_3",
+    "durationMs": 2568.7322540000023
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.155Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_3",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2609.862212,
+    "firstContentMs": 1282.523509999999
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.156Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_3",
+    "durationMs": 2613.0080249999955
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.194Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "final_verification_omissions_ready_2_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.197Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "final_verification_omissions_ready_2_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.199Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "database_color_candidates_loaded",
+    "batch": 2,
+    "colors": [
+      {
+        "index": 0,
+        "color": "JAVA PEARL",
+        "db_candidates": 50
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.202Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 926.2164130000019
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.243Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "database_matcher_request_start",
+    "batch": 2,
+    "model": "gpt-6-luna",
+    "colors": 1,
+    "candidates": 10
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.246Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "batch": 2,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "timeoutMs": 8000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.722Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "research_review_batch_other_5",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 1452.044455999996
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.881Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "final_verification_omissions_ready_1_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1605.7154200000004,
+    "firstContentMs": 926.2164130000019
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.882Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "final_verification_omissions_ready_1_1",
+    "durationMs": 1609.985609999996
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.882Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "omission_flag_unsupported",
+    "candidate": "Galaxy Silver",
+    "issue": "hue"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:11.882Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "omission_review_complete",
+    "total": 24,
+    "checked": 24,
+    "flagged": 0,
+    "recovered": 0,
+    "incomplete": 0,
+    "repairFailures": 0,
+    "unsupportedFlags": 1
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.286Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_batch_other_5",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2016.391542999998,
+    "firstContentMs": 1452.044455999996
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.287Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_batch_other_5",
+    "durationMs": 2020.1872799999983
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.299Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "research_review_hue_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "candidateReview",
+    "durationMs": 2556.613462000001,
+    "firstContentMs": 939.2387929999968
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.299Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "research_review_hue_1",
+    "durationMs": 2558.6194490000053
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.302Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "warning",
+    "stage": "name_resolution",
+    "message": "1 paint names still need clarification"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.305Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "completion_review",
+    "attempted": 0,
+    "recovered": 0,
+    "remaining": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.309Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "final_verification_omissions_ready_3_1"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.310Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "final_verification_omissions_ready_3_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.332Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "final_verification_omissions_ready_2_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1134.6166349999985
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.542Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "batch": 2,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "durationMs": 1295.8180159999974
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.720Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "database_matcher_usage",
+    "batch": 2,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "serviceTier": "fast",
+    "usage": {
+      "input_tokens": 1994,
+      "input_tokens_details": {
+        "cache_write_tokens": 1991,
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 2099,
+      "cached_input_tokens": 0
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.721Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "batch": 2,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "kind": "databaseMatcher",
+    "durationMs": 1474.9806039999967,
+    "firstContentMs": 1295.8180159999974
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.722Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "database_matcher_request_complete",
+    "batch": 2,
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "selectedRows": 0,
+    "serviceTier": "fast",
+    "usage": {
+      "input_tokens": 1994,
+      "input_tokens_details": {
+        "cache_write_tokens": 1991,
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 81
+      },
+      "total_tokens": 2099,
+      "cached_input_tokens": 0
+    }
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.724Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "database_color_matching_complete",
+    "batch": 2,
+    "colors": 1,
+    "matchedCodes": 0
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.823Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "final_verification_omissions_ready_2_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1625.5509380000003,
+    "firstContentMs": 1134.6166349999985
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.824Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "final_verification_omissions_ready_2_1",
+    "durationMs": 1630.331760000001
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.824Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "omission_flag_unsupported",
+    "candidate": "ICED MERCURY",
+    "issue": "hue"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.824Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "omission_flag_unsupported",
+    "candidate": "MIDAS TOUCH",
+    "issue": "hue"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:12.824Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "omission_review_complete",
+    "total": 24,
+    "checked": 24,
+    "flagged": 0,
+    "recovered": 0,
+    "incomplete": 0,
+    "repairFailures": 0,
+    "unsupportedFlags": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:26:13.502Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "final_verification_omissions_ready_3_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1191.2490670000043
+  },
+  {
+    "timestamp": "2026-10-07T13:26:14.183Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "final_verification_omissions_ready_3_1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1872.9009710000028,
+    "firstContentMs": 1191.2490670000043
+  },
+  {
+    "timestamp": "2026-10-07T13:26:14.184Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "final_verification_omissions_ready_3_1",
+    "durationMs": 1875.7500450000007
+  },
+  {
+    "timestamp": "2026-10-07T13:26:14.184Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "omission_flag_unsupported",
+    "candidate": "PRATA STEEL",
+    "issue": "hue"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:14.184Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "omission_flag_unsupported",
+    "candidate": "NARDO GREY",
+    "issue": "hue"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:14.184Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "omission_review_complete",
+    "total": 9,
+    "checked": 9,
+    "flagged": 0,
+    "recovered": 0,
+    "incomplete": 0,
+    "repairFailures": 0,
+    "unsupportedFlags": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:26:14.222Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "initial_response_ready",
+    "colors": 2,
+    "durationMs": 29452
+  },
+  {
+    "timestamp": "2026-10-07T13:26:15.909Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.facebook.com/DVORAKTRUCKSSLOVAKIA/posts/volvo-fh-4-13-540-globetrotter-xl-year-122018-mileage-800000km-540-ps-xl-cabin-s/1502622161657884/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:15.918Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.facebook.com/DVORAKTRUCKSSLOVAKIA/posts/volvo-fh-4-13-540-globetrotter-xl-year-122018-mileage-800000km-540-ps-xl-cabin-s/1502622161657884/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:16.197Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "search_engine_retry",
+    "engine": "serper",
+    "query": "Volvo FH 540 \"Ice White\" (paint OR pintura OR tinta) (color OR cor OR acabamento)",
+    "attempt": 1,
+    "waitMs": 200,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:17.000Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Java Pearl",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:26:19.750Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.facebook.com/groups/2012850438974047/posts/3201397026786043/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:19.750Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.facebook.com/groups/2012850438974047/posts/3201397026786043/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:20.910Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.facebook.com/DVORAKTRUCKSSLOVAKIA/posts/volvo-fh-4-13-540-globetrotter-xl-year-122018-mileage-800000km-540-ps-xl-cabin-s/1502622161657884/",
+    "status": "error",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "text": "",
+    "error": "The operation was aborted due to timeout",
+    "errorCode": "PAGE_TIMEOUT"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:22.143Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_queued",
+    "url": "https://www.facebook.com/billyhuttonjnr/posts/ross-wallace-volvo-fm-chassisbody-crane-shotblasted-primed-painetd-verkers-blue-/461963601020056/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:22.143Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_start",
+    "url": "https://www.facebook.com/billyhuttonjnr/posts/ross-wallace-volvo-fm-chassisbody-crane-shotblasted-primed-painetd-verkers-blue-/461963601020056/",
+    "prefetched": false,
+    "attempt": 1,
+    "budgetMs": 5000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:23.438Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.facebook.com/groups/2012850438974047/posts/3201397026786043/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:26:25.695Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "page_fetch_complete",
+    "url": "https://www.facebook.com/billyhuttonjnr/posts/ross-wallace-volvo-fm-chassisbody-crane-shotblasted-primed-painetd-verkers-blue-/461963601020056/",
+    "status": "ok",
+    "fetchStarted": true,
+    "prefetched": false,
+    "attempt": 1,
+    "error": null
+  },
+  {
+    "timestamp": "2026-10-07T13:26:25.695Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "grouped_search_coverage",
+    "stage": "verification",
+    "name": "Ice White",
+    "identity": true,
+    "finish": true
+  },
+  {
+    "timestamp": "2026-10-07T13:26:25.727Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_start",
+    "stage": "final_verification_V1"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:25.728Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_start",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "timeoutMs": 6000
+  },
+  {
+    "timestamp": "2026-10-07T13:26:26.528Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_first_content",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 799.4226579999959
+  },
+  {
+    "timestamp": "2026-10-07T13:26:27.619Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_route_complete",
+    "stage": "final_verification_V1",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.5-flash-02-23",
+    "kind": "verification",
+    "durationMs": 1890.4831709999999,
+    "firstContentMs": 799.4226579999959
+  },
+  {
+    "timestamp": "2026-10-07T13:26:27.619Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "model_request_complete",
+    "stage": "final_verification_V1",
+    "durationMs": 1893.76626199999
+  },
+  {
+    "timestamp": "2026-10-07T13:26:27.621Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "verification_complete",
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 2,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 2,
+    "queries": 4,
+    "pagesFetched": 2,
+    "pagesReviewed": 3,
+    "catalogRecordsReviewed": 2
+  },
+  {
+    "timestamp": "2026-10-07T13:26:27.622Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "warning",
+    "stage": "verification",
+    "message": "Some final color data remains unverified or conflicting; see each color verification field"
+  },
+  {
+    "timestamp": "2026-10-07T13:26:27.633Z",
+    "runId": "568f40df-16c1-4ec9-811b-0a1b23d54142",
+    "event": "run_complete",
+    "durationMs": 42852,
+    "colors": 2,
+    "pages": 8,
+    "modelCalls": {
+      "main": 11,
+      "pageAnalysis": 7,
+      "databaseMatcher": 2,
+      "verification": 4
+    },
+    "timing": {
+      "totalMs": 42852,
+      "processingMs": 42852,
+      "capacityWaitMs": 0,
+      "modelRequestMs": 52359,
+      "targetTimeMs": 60000,
+      "deadlineMode": "soft",
+      "overTargetMs": 0,
+      "maxTimeMs": 100000
+    }
+  }
+]

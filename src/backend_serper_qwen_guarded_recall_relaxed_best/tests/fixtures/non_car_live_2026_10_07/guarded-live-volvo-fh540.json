@@ -1,0 +1,391 @@
+{
+  "formatVersion": 3,
+  "runId": "f1ed1307-782c-4cd3-a2c4-4619ee2a0e4d",
+  "modelRequests": {
+    "total": 23,
+    "byStage": {
+      "main": 1,
+      "pageAnalysis": 6,
+      "candidateReview": 10,
+      "verification": 5,
+      "databaseMatcher": 1
+    }
+  },
+  "pagePool": {
+    "hits": 0,
+    "inFlightHits": 0,
+    "prefetchScheduled": 0,
+    "prefetchUsed": 0,
+    "retries": 2,
+    "prefetchStarted": 0,
+    "uniqueUrls": 9
+  },
+  "searchBudget": {
+    "limit": 20,
+    "slotsUsed": 14,
+    "httpAttempts": 14,
+    "remaining": 6,
+    "skipped": 0,
+    "verificationReserve": 4,
+    "byPhase": {
+      "research": 9,
+      "verification": 5
+    }
+  },
+  "serperCost": {
+    "requests": 14,
+    "successfulResponses": 14,
+    "failedResponses": 0,
+    "unconfirmedRequests": 0,
+    "estimatedCredits": 14,
+    "costPer1000CreditsUsd": 1,
+    "estimatedCostUsd": 0.014
+  },
+  "totalEstimatedCostUsd": 0.023349,
+  "totalUpperBoundUsd": 0.023349,
+  "totalAdmissionEstimateUsd": 0.023349,
+  "usage": {
+    "inputTokens": 92012,
+    "outputTokens": 5261,
+    "totalTokens": 97273,
+    "estimatedCostUsd": 0.009349,
+    "upperBoundUsd": 0.009349,
+    "admissionEstimateUsd": 0.009349,
+    "knownCostUsd": 0.009349,
+    "missingUsageCalls": 0,
+    "costComplete": true,
+    "byModel": [
+      {
+        "provider": "openai",
+        "model": "gpt-6-luna",
+        "calls": 2,
+        "inputTokens": 8327,
+        "cachedInputTokens": 0,
+        "outputTokens": 622,
+        "totalTokens": 8949,
+        "estimatedCostUsd": 0.002703,
+        "knownCostUsd": 0.002703
+      },
+      {
+        "provider": "openrouter",
+        "model": "qwen/qwen3.5-flash-02-23",
+        "calls": 21,
+        "inputTokens": 83685,
+        "cachedInputTokens": 0,
+        "outputTokens": 4639,
+        "totalTokens": 88324,
+        "estimatedCostUsd": 0.006646,
+        "knownCostUsd": 0.006646
+      }
+    ]
+  },
+  "timeMs": 47481,
+  "browserUses": {
+    "total": 14,
+    "failed": 0,
+    "serper": 14,
+    "brave": 0,
+    "nameClarification": 0,
+    "finalVerification": 5,
+    "uniqueQueries": 14,
+    "engines": {
+      "serper": 14
+    }
+  },
+  "pageFetchAttempts": 11,
+  "pagesFetched": 6,
+  "pagesCancelled": 0,
+  "pagesSkipped": 0,
+  "fetchErrors": 5,
+  "pagesWithoutText": 0,
+  "pagesPending": 0,
+  "timing": {
+    "totalMs": 47481,
+    "processingMs": 47481,
+    "capacityWaitMs": 0,
+    "modelRequestMs": 54530,
+    "targetTimeMs": 60000,
+    "deadlineMode": "soft",
+    "overTargetMs": 0,
+    "maxTimeMs": 100000
+  },
+  "vehicle": {
+    "automobileType": "truck",
+    "make": "Volvo",
+    "model": "FH 540",
+    "year": 2022,
+    "market": "Brazil"
+  },
+  "colors": [
+    {
+      "name": "Ice White",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [
+        "614"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name",
+          "codes"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ],
+        "catalogs": [
+          "lazzumix",
+          "basf"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Glacier White",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "unverified",
+        "confirmed": [],
+        "conflicting": [],
+        "unknown": [
+          "name",
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Off White",
+      "paintFinish": [
+        "desconhecido"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    },
+    {
+      "name": "Java Pearl",
+      "paintFinish": [
+        "perolizado"
+      ],
+      "codes": [],
+      "confidence": "low",
+      "sources": [
+        "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf"
+      ],
+      "verification": {
+        "reviewed": true,
+        "status": "partial",
+        "confirmed": [
+          "name"
+        ],
+        "conflicting": [],
+        "unknown": [
+          "vehicle",
+          "year",
+          "paintFinish"
+        ]
+      },
+      "applicabilityScope": "manufacturer_only"
+    }
+  ],
+  "research": {
+    "status": "partial",
+    "matchingCoverage": {
+      "total": 4,
+      "completed": 4,
+      "incomplete": 0
+    },
+    "identityArtifacts": [
+      {
+        "name": "SIGNAL WHITE RAL9003",
+        "sources": [
+          "https://carross.eu/en/paint-volvo-trucks-b149"
+        ],
+        "reason": "brandwide_promotion"
+      },
+      {
+        "name": "WINTERWHITE",
+        "sources": [
+          "https://carross.eu/en/paint-volvo-trucks-b149"
+        ],
+        "reason": "brandwide_promotion"
+      }
+    ],
+    "omissionReview": {
+      "total": 55,
+      "checked": 55,
+      "flagged": 0,
+      "recovered": 0,
+      "incomplete": 0,
+      "repairFailures": 0,
+      "unsupportedFlags": 2
+    },
+    "completionReview": {
+      "restoredAfterMatching": [],
+      "unresolvedCodes": [
+        "Glacier White",
+        "Off White",
+        "JAVA PEARL"
+      ],
+      "unreviewedCandidates": 0,
+      "discoveryIncomplete": false,
+      "attempted": 0,
+      "recovered": 0
+    },
+    "discoveryCoverage": {
+      "domains": 3,
+      "palettes": 3,
+      "candidates": 59,
+      "needsExpansion": false
+    },
+    "reviewCoverage": {
+      "total": 59,
+      "reviewed": 59,
+      "unreviewed": 0
+    },
+    "unresolvedNames": [
+      {
+        "name": "Snow",
+        "sources": [
+          "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf"
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "stage": "name_resolution",
+        "count": 1
+      },
+      {
+        "stage": "verification_citation",
+        "count": 1
+      },
+      {
+        "stage": "verification",
+        "count": 1
+      }
+    ]
+  },
+  "verification": {
+    "status": "partial",
+    "coverage": "complete",
+    "colorsChecked": 4,
+    "colorsUnchecked": 0,
+    "colorsConfirmed": 0,
+    "colorsTotal": 4,
+    "queries": 5,
+    "pagesFetched": 1,
+    "searchesSkipped": 2,
+    "pagesReviewed": 2,
+    "catalogRecordsReviewed": 2
+  },
+  "paletteScope": {
+    "modelCandidates": 0,
+    "manufacturerLeads": 4
+  },
+  "completion": {
+    "status": "partial",
+    "issues": [
+      "no_model_linked_colors",
+      "names_unresolved"
+    ]
+  },
+  "billing": {
+    "status": "complete",
+    "missingUsageCalls": 0,
+    "admissionEstimateUsd": 0.009349,
+    "upperBoundUsd": 0.023349,
+    "knownCostUsd": 0.023349
+  },
+  "fetchedPages": [
+    {
+      "url": "https://www.olhonocarro.com.br/catalogo/resultado-ficha-tecnica/VOLVO_FH-540_2022_8X4%202P%20(DIESEL)(E5)_dcc819dfa5841d/",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.olhonocarro.com.br/catalogo/resultado-ficha-tecnica/VOLVO_FH-540_2022_8X4%202P%20(DIESEL)(E5)_dcc819dfa5841d/",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.volvotrucks.us/media/vtna/files/en-us/5783-volvo-paint-sample-brochure-for-pdf-english.pdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://it.nibol.com.bo/imagenes_crm/camiones_construccion_ficha/VO/Catalogo_de_Colores_FH.pdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://pt.scribd.com/document/839415412/Cores-Padroes-Volvo",
+      "status": "ok"
+    },
+    {
+      "url": "https://carross.eu/en/paint-volvo-trucks-b149",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.volvotrucks.com.br/pt-br/trucks/models/volvo-fh.html",
+      "status": "ok"
+    },
+    {
+      "url": "https://truck-simulator.fandom.com/wiki/Volvo",
+      "status": "error",
+      "error": "Failed to fetch https://truck-simulator.fandom.com/wiki/Volvo: HTTP 403",
+      "errorCode": "PAGE_FETCH_FAILED"
+    },
+    {
+      "url": "https://www.facebook.com/DVORAKTRUCKSSLOVAKIA/posts/volvo-fh-4-13-540-globetrotter-xl-year-122018-mileage-800000km-540-ps-xl-cabin-s/1502622161657884/",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.scribd.com/document/355406588/INTERNATIONALPAINT-RAL-COLOUR-LIST-pdf",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    },
+    {
+      "url": "https://www.scribd.com/document/355406588/INTERNATIONALPAINT-RAL-COLOUR-LIST-pdf",
+      "status": "error",
+      "attempt": 2,
+      "error": "The operation was aborted due to timeout",
+      "errorCode": "PAGE_TIMEOUT"
+    }
+  ]
+}

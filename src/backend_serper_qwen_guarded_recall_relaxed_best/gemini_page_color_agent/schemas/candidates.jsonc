@@ -1,0 +1,32 @@
+{
+  "type": "json_schema",
+  "name": "page_paint_candidates",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "candidates": {
+        "type": "array",
+        "description": "Every distinct, complete exterior paint name explicitly found in the supplied page text or segment and potentially relevant to the requested vehicle. Inspect all rows and list items; there is no candidate-count limit. Empty when none are supported.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Complete distinguishing paint name as printed, without an appended code. Broad hues alone or with only a generic finish are not candidates."
+            },
+            "evidence": {
+              "type": "array",
+              "description": "Verbatim name passage plus separate page passages for model, year/range, and limiting or conflicting context when present. Different years remain leads.",
+              "items": { "type": "string" }
+            }
+          },
+          "required": ["name", "evidence"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["candidates"],
+    "additionalProperties": false
+  }
+}
