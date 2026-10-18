@@ -1,0 +1,12 @@
+.git
+.env
+.env.*
+node_modules
+dist
+coverage
+.aws
+.codex
+.agents
+src/agentic_researcher/tmp
+src/agentic_researcher/tests
+src/agentic_researcher/docs
